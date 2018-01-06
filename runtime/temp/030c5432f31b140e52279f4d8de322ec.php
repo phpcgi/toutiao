@@ -1,0 +1,214 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"D:\www\toutiaodata\public/../application/index\view\toutiao\ggzzc.html";i:1515128380;}*/ ?>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="__CDN__/assets/css/index/ggzzc.css" />
+		<style>
+			@media  screen and (min-width: 1000px) {
+				#content{
+					height: 1020px;
+					
+				}
+					body{
+					height: 1257px;
+				}
+			}
+			/*@media  screen and (min-width: 710px) {
+				#content{
+					height: 1020px;
+				}
+				body{
+					height: 1257px;
+				}
+			}
+			@media  screen and (min-width: 1280px) {
+				#content{
+				height: 675px;
+				}
+				.content{
+					width: 650px;
+				}
+				.content_h{
+					line-height: 20px;
+				}
+				.yzm{
+					font-size: 12px;
+				}
+				body{
+					height: 675px;
+										
+				}
+				.tong{
+						font-size: 10px;
+					}
+				.tou{
+					font-size: 8px;
+				}
+				.name{
+					font-size: 8px;
+				}
+				.yl{
+					font-size: 8px;
+				}*/
+			}
+		</style>
+	</head>
+	<body>
+		<div id="head">
+			<div class="head1">
+				<div class="head_l">
+					<img src="__CDN__/assets/img/shouye/logo1.png" />
+				</div>
+				<div class="head_c"></div>
+				<div class="head_r">
+					<p class="yiyou msdeng">已有账号，马上登录 <br/></p>
+					<p class="fanhui"> | 返回首页</p>
+				</div>
+			</div>
+		</div>
+		<div id="content">
+			<div class="content">
+				<div class="content_h">
+					<p class="llz">广告主注册</p>
+				</div>
+				<div class="content_c">
+					<!--<p class="name">头条号名称</p>-->
+					<div class="content_n">
+						<div class="name_k">
+							<p class="name">公司／单位名称</p>
+						</div>
+						<input class="name_s username" type="text" />
+					</div>
+					<div class="content_n ct">
+						<div class="name_k">
+							<p class="name">官方网站(可选填)</p>
+						</div>
+						<input class="name_s wangz" type="text" />
+					</div>
+					
+					<div class="content_n ct">
+						<div class="name_k">
+							<p class="name">邮箱</p>
+							<p class="name you">(请输入正确的邮箱)</p>
+						</div>
+						<input class="name_s youx" type="text"/>
+					</div>
+					<div class="content_n ct">
+						<div class="name_k">
+							<p class="name">密码</p>
+							<p class="name tmima1">(密码应不少于六位)</p>
+						</div>
+						
+							<input class="name_s mima1" type="password"/>
+							<div class="zhan">
+								<img src="__CDN__/assets/img/denglu/zmmbkj.png" />
+							</div>
+						
+					</div>
+					<div class="content_n ct">
+						<div class="name_k">
+							<p class="name">确认密码</p>
+							<p class="name tmima">(请确保两次密码输入相同)</p>
+						</div>
+						<input class="name_s mima2" type="password" />
+						<div class="zhan1">
+								<img src="__CDN__/assets/img/denglu/zmmbkj.png" />
+							</div>
+					</div>
+					<div class="content_n ct">
+						<div class="name_k">
+							<p class="name">手机</p>
+							<p class="name tphone">(请输入正确的手机号)</p>
+						</div>
+						<div class="name_i tt">
+							<input type="text" class="tel phone"/>
+							<input type="button" id="nn" class="yzm"  value="免费获取验证码"/>
+						</div> 
+					</div>
+					<div class="content_n ct">
+						<div class="name_k">
+							<p class="name">验证码</p>
+						</div>
+						<div class="name_i tt">
+							<input type="text" class="tel yzma"/>
+						</div> 
+					</div>
+					<div class="content_n ct">
+						<div class="name_k">
+							<div class="xz">
+								
+							</div>
+							<p class="tong">我已阅读并同意</p>
+							<a href="Xieyi" target="_blank"><p class="tou">《头条易用户服务协议》</p></a>
+						</div>
+					</div>
+					<div class="zc">注册</div>
+				</div>
+					
+			</div>
+		</div>
+		<div id="footer">
+			<p class="foot">北京头条易科技有限公司|京ICP备16042456号-1</p>
+		</div>
+		<div class="ze1">
+			<img src="__CDN__/assets/img/denglu/62BB3E32A509FB6CC698408E497AA55A.jpg" />
+		</div>
+		<div class="ze2">
+			<img src="__CDN__/assets/img/denglu/30671DFE240AA871FC4E62CF56551E38.jpg" />
+		</div>
+	</body>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+	<script type="text/javascript" src="__CDN__/assets/js/index/js/regaste.js" ></script>
+	<script>
+		var a=true;
+		
+		$('.zhan').click(function(){
+			if(a){
+			$('.mima1').attr("type","text")
+			$('.zhan img').attr("src","__CDN__/assets/img/denglu/zmmkj.png")
+			}else{
+				$('.mima1').attr("type","password")
+				$('.zhan img').attr("src","__CDN__/assets/img/denglu/zmmbkj.png")
+			}
+			a=!a;
+		})
+		var b=true;
+		
+		$('.zhan1').click(function(){
+			if(b){
+			$('.mima2').attr("type","text")
+			$('.zhan1 img').attr("src","__CDN__/assets/img/denglu/zmmkj.png")
+			}else{
+				$('.mima2').attr("type","password")
+				$('.zhan1 img').attr("src","__CDN__/assets/img/denglu/zmmbkj.png")
+			}
+			b=!b;
+		})
+		</script>
+	<script type="text/javascript">  
+var wait=60;  
+function time(o) {  
+        if (wait == 0) {  
+        		 o.style.backgroundColor = "#dc3932";
+            o.removeAttribute("disabled");            
+            o.value="免费获取验证码";  
+            o.style.color = "#fff";
+            
+            wait = 60;  
+        } else { 
+            o.setAttribute("disabled", true);  
+            o.value="重新发送(" + wait + ")";  
+         	 o.style.backgroundColor = "#efefef"
+         	 o.style.color = "#000";
+            wait--;  
+            setTimeout(function() {  
+                time(o)  
+            },  
+            1000)  
+        }  
+    }  
+document.getElementById("nn").onclick=function(){time(this);}  
+</script>  
+</html>

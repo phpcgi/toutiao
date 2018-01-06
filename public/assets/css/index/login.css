@@ -1,0 +1,273 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, em, p, font, img, small, strong, center, dl, dt, dd, ol, ul, li, form, label, table, caption, tbody, tr, th, td {margin:0;padding:0;border:0;outline:0;font-size:12px;vertical-align:baseline} 
+ol, ul {list-style:none} :focus {outline:none; } 
+table {border-collapse:collapse;border-spacing: 0} 
+caption, th, td { text-align: left; font-weight: normal} 
+strong {font-weight:600} 
+a{font:12px Arial;text-decoration:none;color:#404040;cursor:pointer;} 
+a:hover{text-decoration:underline;color:#FF3300} 
+h1{font-size:16px;font-weight:600;color:#666} .left{float:left} .right{float:right} .clear{clear:both}
+i{font-style: normal;}
+body{
+	height: 100%;
+}
+body{
+	background: url(../../img/denglu/dl.png) no-repeat;
+	background-size: 100% 100%;
+}
+#login_con{
+	height: 183px;
+	width: 100%;
+}
+#head{
+	height: 32px;
+	line-height: 32px;
+	width: 100%;
+	/*margin-top: 60px;*/
+	margin-top: 10px;
+}
+#head .return{
+	font-size: 16px;
+	color: #dc3932;
+	float: right;
+	margin-right: 198px;
+	cursor: pointer;
+}
+#login_con .login_b{
+	/*height: 243px;*/
+	height: 143px;
+	width: 348px;
+	margin: 0 auto;
+	background: url(../../img/denglu/logobjjh.png) no-repeat;
+}
+.tty{
+	height: 150px;
+	width: 460px;
+	/*margin-top: 78px;*/
+	float: left;
+	margin-left: -56px;
+	/*background: url(../img/denglu/头条易动图.gif) no-repeat fixed top;
+	background-size: 460px 90px;*/
+}
+.tty img{
+	height: 150px;
+	width: 460px;
+}
+#con{
+	height: 510px;
+	width: 100%;
+}
+.con_c{
+	height: 485px;
+	width: 1000px;
+	background: url(../../img/denglu/wjmmhsbj.png) no-repeat;
+	background-size: 1000px 485px;
+	margin: 0 auto;
+}
+.con_head{
+	height: 44px;
+	width: 100%;
+	margin-top: 17px;
+	float: left;
+	line-height: 44px;
+	text-align: center;
+}
+.llzdl{
+	font-size: 22px;
+	color: #ffffff;
+	font-family: "microsoft yahei";
+}
+.con_name{
+	height: 54px;
+	width: 100%;
+	float: left;
+	margin-top: 41px;
+}
+.name{
+	height: 53px;
+	width: 450px;
+	margin: 0 auto;
+	border-bottom: 1px solid #CCCCCC;
+}
+.name_l{
+	height: 53px;
+	width: 61px;
+	float: left;
+}
+.name_l img{
+	height: 18px;
+	width: 25px;
+	margin-left: 18px;
+	margin-top: 18px;
+}
+.name_c{
+	width: 80px;
+	height: 53px;
+	float: left;
+}
+.name_c .yx{
+	font-size: 16px;
+	color: #FFFFFF;
+	font-family: "microsoft sans serif";
+	line-height: 53px;
+}
+.name_r{
+	width: 200px;
+	height: 53px;
+	float: left;
+	/*margin-left: 5px;*/
+}
+.name_r input{
+	height: 51px;
+	width: 200px;
+	border: 0;
+	background: 0;
+	color: #FFFFFF;
+	float: left;
+	-webkit-box-shadow: 0 0 0 1000px #f97570 inset;
+}
+.zhan{
+	height: 53px;
+	width: 50px;
+	/*background: pink;*/
+	float: left;
+	line-height: 53px;
+	text-align: center;
+	margin-left: 30px;
+}
+.zhan img{
+	height: 10px;
+	width: 21px;
+}
+.namee img{
+	height: 23px;
+	margin-top: 16px;
+}
+.wangj{
+	height: 44px;
+	width: 100%;
+	float: left;
+}
+.wj{
+	font-size: 16px;
+	color: #FFFFFF;
+	float:right;
+	margin-top: 12px;
+	margin-right: 285px;
+	cursor: pointer;
+	width: 80px;
+	height: 22px;
+}
+.zs{
+	height: 40px;
+	width: 100%;
+	float: left;
+}
+.zzs{
+	width: 340px;
+	height: 40px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 14px;
+	color: #ffd6d6;
+}
+.denglu{
+	height: 40px;
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+}
+.dl{
+	height: 40px;
+	width: 280px;
+	background: #DC3932;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 4px;
+	font-size: 18px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.meiyou{
+	height: 28px;
+	width: 100%;
+	float: left;
+	margin-top: 6px;
+}
+.my{
+	text-decoration:underline;
+	text-align: center;
+	font-size: 14px;
+	color: #FFD6D6;
+	cursor: pointer;
+}
+#footer{
+	height: 55px;
+	width: 100%;
+	background: #222123;
+	margin-top: 230px;
+}
+.foot{
+	text-align: center;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 55px;
+}
+.name_r input{
+	font-size: 16px;
+}
+.tank{
+	width: 100%;
+	height: 100%;
+	/*background: rgba(0,0,0,0.5);*/
+	position: fixed;
+	top: 0;
+	display: none;
+	
+	/*z-index: 9;*/
+}
+.tank_k{
+	height: 180px;
+	width: 300px;
+	/*background: pink;*/
+	margin: 0 auto;
+	box-shadow: 0 0 15px #000000;
+}
+.tan_h{
+	height: 30px;
+	width: 100%;
+	background: #EFEFEF;
+	text-align: center;
+	line-height: 30px
+}
+.tank_c{
+	height: 100px;
+	width: 100%;
+	background: #FFFFFF;
+	float: left;
+}
+.tan_con{
+	/*background: pink;*/
+	margin-top: 20px;
+	text-align: center;
+}
+.tan_b{
+	height: 50px;
+	width: 100%;
+	background: #FFFFFF;
+	float: left;
+}
+.niu{
+	height: 20px;
+	width: 40px;
+	background: #EFEFEF;
+	float: left;
+	border-radius: 4px;
+	margin-left: 130px;
+	/*margin: 0 auto;*/
+	text-align: center;
+	line-height: 20px;
+	border: 1px solid #666;
+	
+}

@@ -1,0 +1,246 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, em, p, font, img, small, strong, center, dl, dt, dd, ol, ul, li, form, label, table, caption, tbody, tr, th, td {margin:0;padding:0;border:0;outline:0;font-size:12px;vertical-align:baseline} 
+ol, ul {list-style:none} :focus {outline:none; } 
+table {border-collapse:collapse;border-spacing: 0} 
+caption, th, td { text-align: left; font-weight: normal} 
+strong {font-weight:600} 
+a{font:12px Arial;text-decoration:none;color:#404040;cursor:pointer;} 
+a:hover{text-decoration:underline;color:#FF3300} 
+h1{font-size:16px;font-weight:600;color:#666} .left{float:left} .right{float:right} .clear{clear:both}
+i{font-style: normal;}
+#container{
+	width: 100%;
+	background: #F0F0F0;
+}
+#nav{
+	width: 1200px;
+	/*background: red;*/
+	height: 56px;
+	margin: 0 auto;
+	position: relative;
+}
+.n_conmment{
+	height: 100%;
+	float: left;
+}
+.nav_l{
+	width: 90px;
+}
+.nav_c{
+	width: 903px;
+}
+.nav_r{
+	width: 207px;
+}
+.nav_l img{
+	height: 36px;
+	width: 90px;
+	margin-top: 12px;
+}
+.nav_cc{
+	margin-left: 236px;
+}
+.nav_cc li{
+	float: left;
+	margin-right: 60px;
+	height: 56px;
+	line-height: 56px;
+	font-size: 16px;
+	color: #211E1E;
+}
+.nav_r p{
+	float: left;
+	font-size: 16px;
+	margin-right: 20px;
+	margin-left: 8px;
+	line-height: 56px;
+}
+.nav_r .deng{
+	margin-left: 60px;
+	
+}
+.z_nav{
+	height: 152px;
+	width: 120px;
+	position: absolute;
+	left: 370px;
+	z-index: 9;
+	display: none;
+}
+.z_top{
+	height: 15px;
+	width: 100%;
+	margin-top: 41px;
+}
+.z_top img{
+	height: 8px;
+	width: 11px;
+	margin-left: 47%;
+}
+.z_bottom{
+	height: 95px;
+	width: 100%;
+}
+.tw1{
+	width: 100%;
+	background: #f85959;
+	height: 47.5px;
+	text-align: center;
+	line-height: 47.5px;
+	font-size: 16px;
+	color: #370808;
+}
+.tw1:hover{
+	color: #FFFFFF;
+}
+.z_nav2{
+	height: 247px;
+	width: 120px;
+	position: absolute;
+	left: 713px;
+	z-index: 9;
+	display: none;
+}
+.z_nav3{
+	height: 210px;
+	width: 120px;
+	position: absolute;
+	top: 0px;
+	left: 1013px;
+	z-index: 9;
+	display: none;
+}
+.table{
+	height: 20px;
+	line-height: 20px;
+	width: 1200px;
+	/*background: yellow;*/
+	margin: 0 auto;
+	margin-top: 30px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.shu{
+	float: left;
+	font-size: 18px;
+	font-weight: bolder;
+	color: #F85959;
+	margin-right: 20px;
+}
+.table li{
+	float: left;
+	font-size: 18px;
+	color: #211E1E;
+	margin-right: 70px;
+}
+.table .tive{
+	color: #F85959;
+}
+.twk{
+	width: 1200px;
+	margin: 0 auto;
+	/*background: pink;*/
+	height: 750px;
+}
+.pic{
+	width: 560px;
+	height: 210px;
+	/*background: yellowgreen;*/
+	float: left;
+	margin-top: 40px;
+	
+}
+.pic:nth-of-type(odd){
+	margin-right: 79px;
+}
+.pic_l{
+	height: 100%;
+	width: 300px;
+	float: left;
+	/*background: salmon;*/
+}
+.pic_r{
+	width: 240px;
+	height: 100%;
+	float: left;
+	/*background: seagreen;*/
+	padding-left: 20px;
+}
+.pic_l img{
+	height: 210px;
+	width: 300px;
+}
+.titl{
+	font-size: 17px;
+	color: #333333;
+	text-align: right;
+	width: 100%;
+	float: left;
+	/*background: red;*/
+	margin-top: 8px;
+}
+.nei{
+	font-size: 13px;
+	color: #666666;
+	margin-top: 8px;
+	/*text-align: right;*/
+	float: left;
+	height: 120px;
+	/*background: yellow;*/
+	width: 100%;
+	line-height: 19px
+}
+.cha{
+	font-size: 15px;
+	color: #DC3932;
+	/*background: indigo;*/
+	float: left;
+	width: 100%;
+	text-align: right;
+	text-decoration: underline;
+	/*cursor: pointer;*/
+	cursor: pointer;
+	margin-top: 20px;
+}
+#bot{
+/*	height: 58px;
+*/	width: 100%;
+	float:left;
+	background: #FFFFFF;
+}
+.bot{
+	width: 100%;
+	height: 58px;
+	background: #222123;
+	text-align: center;
+	line-height: 58px;
+	margin-top: 150px;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+.M-box1{
+	float: left;
+	margin-left:450px;
+	/*margin: 0 auto;*/
+	height: 30px;
+	width: 580px;
+	/*background: red;*/
+	
+}
+.f_kuang{
+	height: 30px;
+	width: 1040px;
+	/*float: left;*/
+	margin: 0 auto;
+	margin-top: 70px;
+}
+.chao{
+	display: -webkit-box; /*将对象作为弹性伸缩盒子模型显示*/
+    overflow: hidden;
+
+    white-space: normal !important;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+
+    -webkit-line-clamp: 6; /*限制在一个块元素显示的文本的行数*/
+    -webkit-box-orient: vertical;
+}

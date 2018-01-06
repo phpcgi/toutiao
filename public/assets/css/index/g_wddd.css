@@ -1,0 +1,403 @@
+.wddd{
+	color: #F85959;
+}
+
+
+
+#gaikuang{
+	width: 1132px;
+	height: 770px;
+	/*background: yellow;*/
+	margin: 0 auto;
+}
+.ddgl{
+	/*height: 238px;*/
+	width: 1132px;
+	float: left;
+}
+.ddgl_t{
+	height: 58px;
+	width: 1100px;
+	/*background: yellowgreen;*/
+	margin-top: 10px;
+	float: left;
+	border: 1px solid #E5E5E5;
+	background: #f3f2f1;
+	padding: 0 15px;
+}
+.ddgl_t2{
+	height: 58px;
+	width: 1132px;
+	/*background: yellowgreen;*/
+	/*margin-top: 10px;*/
+	float: left;
+	border: 1px solid #f3f2f1;
+}
+.ddgl_l{
+	font-size: 16px;
+	color: #211E1E;
+	line-height: 58px;
+	/*background: yellow;*/
+	float: left;		
+}
+/*.ddgl_l2{
+	margin-left: 40px;
+}*/
+.ddgl_l3{
+	float: left;
+	font-size: 16px;
+	color: #211E1E;
+	/*line-height: 58px;*/
+	/*background: yellow;*/
+	/*float: left;*/
+	width: 100%;
+	margin-top: 3px;
+	margin-left: 20px;
+}
+.se{
+	color: #F85959;
+}
+.ddgl_c{
+	font-size: 16px;
+	color: #04975a;
+	line-height: 58px;
+	/*background: yellow;*/
+	float: right;
+	margin-right:40px ;
+}
+.ddgl_c a{
+	font-size: 16px;
+}
+.ddgl_r{
+	width: 100px;
+	height: 58px;
+	/*background: yellow;*/
+	float: right;
+	cursor: pointer;
+}
+.cha{
+	height: 22px;
+	width: 22px;
+	float: left;
+	/*background: red;*/
+	margin-top: 16px;
+	margin-right: 12px;
+}
+.cha img{
+	height: 22px;
+	width: 22px;
+}
+.xiangq{
+	font-size: 16px;
+	color: #211E1E;
+	line-height: 58px;
+	/*background: yellow;*/
+	float: left;
+}
+.ddgl_cc{
+	height: 50px;
+	width: 1132px;
+	/*background: seagreen;*/
+	float: left;
+}
+.tthn{
+	float: left;
+	width: 170px;
+	background: #F85959;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 12px;
+	line-height: 50px;
+}
+.tthn1{
+	width: 309px;
+	border-right: 1px solid #CCCCCC;
+}
+.tthn2{
+	width: 169px;
+	border-right: 1px solid #CCCCCC;
+}
+.tthn3{
+	width: 89px;
+	border-right: 1px solid #CCCCCC;
+}
+.tthn4{
+	width: 209px;
+	border-right: 1px solid #CCCCCC;
+}
+.tthn5{
+	width: 209px;
+	border-right: 1px solid #CCCCCC;
+}
+.tthn6{
+	width: 79px;
+	border-right: 1px solid #CCCCCC;
+}
+.tthn7{
+	width: 62px;
+}
+.ddgl_c2{
+	height: 59px;
+	width: 1130px;
+	background: seagreen;
+	float: left;
+	background: url(../../img/xmtxy/wdddline.png) no-repeat left center;
+	/*background-repeat-x:32px;*/
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+}
+.tth_c{
+	height: 59px;
+	width: 310px;
+	text-align: center;
+	line-height: 59px;
+	float: left;
+}
+.tth_pic{
+	height: 59px;
+	width: 40px;
+	/*background: seagreen;*/
+	float: left;
+	margin-left: 16px;
+}
+.tth_pic img{
+	height: 40px;
+	width: 40px;
+	margin-top: 10px;
+	border-radius: 4px;
+}
+.tth_picr{
+	height: 59px;
+	width: 224px;
+	/*background: sandybrown;*/
+	float: left;
+	line-height: 59px;
+	text-align: center;
+	font-size: 13px;
+	color: #222123;
+}
+.tth_p{
+	height: 59px;
+	width: 110px;
+	color: #222123;
+	line-height: 59px;
+	text-align: center;
+	float: left;
+	font-size: 13px;
+}
+.shiti{
+	width: 170px;
+}
+
+.c1{
+	width: 170px;
+	/*background: yellow;*/
+}
+.c2{
+	width: 90px;
+	/*background: saddlebrown;*/
+}
+.p1{
+	width: 90px;
+}
+.c3{
+	width: 210px;
+	/*background: palegreen;*/
+}
+.tth_p.p2{
+	height: 35px;
+	width: 200px;
+	line-height: 18px;
+	/*background: yellow;*/
+	margin-top: 11px;
+	border: 0;
+	resize: none;
+}
+.xiu{
+	width: 20px;
+	height: 39px;
+	float: left;
+	/*background: salmon;*/
+	font-size: 13px;
+	color: #F85959;
+	line-height: 20px;
+	margin-top: 11px;
+	margin-left: 7px;
+}
+.c4{
+	width: 210px;
+	/*background: yellow;*/
+}
+.c5{
+	width: 79px;
+	/*background: red;*/
+	margin-left: 1px;
+}
+.c6{
+	width: 59px;
+	/*background: salmon;*/
+	cursor: pointer;
+}
+.qi{
+	height: 30px;
+	width: 100%;
+	font-size: 13px;
+	color: #F85959;
+	/*background: seagreen;*/
+	line-height: 30px;
+	margin: 0 auto;
+	margin-top: 15px;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.g_wd{
+	width: 1200px;
+	height: 38px;
+	/*background: seagreen;*/
+	margin: 0 auto;
+	margin-top: 20px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.table{
+	width: 600px;
+	height: 38px;
+	/*background: sienna;*/
+	margin-left: 68px;
+	
+}
+.table li{
+	float: left;
+	line-height: 20px;
+	/*background: deepskyblue;*/
+	font-size: 16px;
+	width: 119px;
+	text-align: center;
+	height: 20px;
+	margin-top: 9px;
+	border-right: 1px solid #CCCCCC;
+	cursor: pointer;
+}
+.table li:last-of-type{
+	border-right: 0;
+}
+.table li:hover{
+	color: #F85959;
+}
+.k1{
+	text-decoration: underline;
+	color: #F85959;
+	cursor: pointer;
+}
+.k2{
+	color: #ffac00;
+}
+.sige.zhan{
+	display: block;
+}
+.sige{
+	display: none;
+}
+.M-box1{
+	float: left;
+	margin-left:450px;
+	/*margin: 0 auto;*/
+	height: 30px;
+	width: 580px;
+	/*background: red;*/
+	
+}
+.fenn{
+	color: #F85959;
+}
+.chao{
+	display: -webkit-box; /*将对象作为弹性伸缩盒子模型显示*/
+    overflow: hidden;
+
+    white-space: normal !important;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+
+    -webkit-line-clamp: 1; /*限制在一个块元素显示的文本的行数*/
+    -webkit-box-orient: vertical;
+}
+
+.chao1{
+	display: -webkit-box; /*将对象作为弹性伸缩盒子模型显示*/
+    overflow: hidden;
+
+    white-space: normal !important;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+
+    -webkit-line-clamp: 2; /*限制在一个块元素显示的文本的行数*/
+    -webkit-box-orient: vertical;
+}
+.ddgl_l2.dd{
+	float: right;
+	margin-right: 40px;
+}
+.f_kuang{
+	height: 30px;
+	width: 1040px;
+	/*float: left;*/
+	margin: 0 auto;
+	margin-top: 170px;
+}
+
+
+
+.tank{
+	width: 100%;
+	height: 100%;
+	/*background: rgba(0,0,0,0.5);*/
+	position: fixed;
+	top: 0;
+	display: none;
+	
+	/*z-index: 9;*/
+}
+.tank_k{
+	height: 180px;
+	width: 300px;
+	/*background: pink;*/
+	margin: 0 auto;
+	box-shadow: 0 0 15px #000000;
+}
+.tan_h{
+	height: 30px;
+	width: 100%;
+	background: #EFEFEF;
+	text-align: center;
+	line-height: 30px
+}
+.tank_c{
+	height: 100px;
+	width: 100%;
+	background: #FFFFFF;
+	float: left;
+}
+.tan_con{
+	/*background: pink;*/
+	margin-top: 20px;
+	text-align: center;
+}
+.tan_b{
+	height: 50px;
+	width: 100%;
+	background: #FFFFFF;
+	float: left;
+}
+.niu{
+	height: 20px;
+	width: 40px;
+	background: #EFEFEF;
+	float: left;
+	border-radius: 4px;
+	margin-left: 80px;
+	/*margin: 0 auto;*/
+	text-align: center;
+	line-height: 20px;
+	border: 1px solid #666;
+	cursor: pointer;
+}

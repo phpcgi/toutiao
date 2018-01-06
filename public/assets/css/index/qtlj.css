@@ -1,0 +1,106 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, em, p, font, img, small, strong, center, dl, dt, dd, ol, ul, li, form, label, table, caption, tbody, tr, th, td {margin:0;padding:0;border:0;outline:0;font-size:12px;vertical-align:baseline} 
+ol, ul {list-style:none} :focus {outline:none; } 
+li{list-style: none;}
+table {border-collapse:collapse;border-spacing: 0} 
+caption, th, td { text-align: left; font-weight: normal} 
+strong {font-weight:600} 
+a{font:12px Arial;text-decoration:none;color:#404040;cursor:pointer;} 
+a:hover{text-decoration:underline;color:#FF3300} 
+h1{font-size:16px;font-weight:600;color:#666} .left{float:left} .right{float:right} .clear{clear:both}
+i{font-style: normal;}
+#gaikuang{
+	width: 990px;
+	height: 770px;
+	background:#FFFFFF;
+	float: left;
+	
+}
+.qtlj_k{
+	width: 900px;
+	padding-left: 40px;
+	/*background: #F85959;*/
+}
+.head{
+	font-size: 16px;
+	color: #211E1E;
+	width: 100%;
+	height: 64px;
+	line-height: 64px;
+	text-align: center;
+	/*background: #F85959;*/
+}
+.tjlj{
+	height: 56px;
+	width: 860px;
+	padding-left: 40px;
+	/*background: pink;*/
+	margin-top: 3px;
+	padding-bottom: 10px;
+}
+.tjlj_l{
+	line-height: 56px;
+	float: left;
+	/*background: darkblue;*/
+	font-size: 16px;
+	color: #211E1E;
+}
+.tjlj_c{
+	width: 640px;
+	height: 50px;
+	/*background: cyan;*/
+	float: left;
+	border: 0;
+	border-top: 1px solid #C0C0C0;
+	border-left: 1px solid #C0C0C0;
+	border-bottom: 1px solid #C0C0C0;
+	margin-left: 30px;
+}
+.tjlj_r{
+	height: 52px;
+	width: 56px;
+	float: left;
+	/*background: salmon;*/
+	border-top: 1px solid #C0C0C0;
+	border-right: 1px solid #C0C0C0;
+	border-bottom: 1px solid #C0C0C0;
+	text-align: center;
+	line-height: 64px;
+}
+.lijie{
+	height: 53px;
+	width: 860px;
+	/*background: salmon;*/
+	padding-left: 40px;
+	float: left;
+}
+.qt_shu{
+	font-size: 16px;
+	font-weight: bolder;
+	color: #F85959;
+	float: left;
+	line-height: 53px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.linj{
+	font-size: 13px;
+	color: #211E1E;
+	line-height: 53px;
+	float: left;width: 747px;
+	/*background: forestgreen;*/
+	padding-left: 10px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.lianjie{
+	width: 900px;
+	height: 636px;
+	/*overflow: scroll;*/
+}
+.tu{
+	height: 53px;
+	width: 53px;
+	/*background: pink;*/
+	float: left;
+	border-bottom: 1px solid #CCCCCC;
+	text-align: center;
+	line-height: 53px;
+}

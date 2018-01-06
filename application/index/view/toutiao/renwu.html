@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="__CDN__/assets/css/index/renwu.css" />
+	</head>
+	<body>
+		<div id="gaikuang">
+			<div class="ddgl">
+				<ul class="ddgl_cc">
+					<li class="tthn tthn1">项目名称</li>
+					<li class="tthn tthn2">头条号名称</li>
+					<li class="tthn tthn3">计划投放时间</li>
+					<li class="tthn tthn4">当前状态</li>
+					
+					<li class="tthn tthn6">操作</li>
+				</ul>
+				<div class="renwu_con">
+				<!--<ul class="ddgl_c2">
+					<li class="tth_c c1">
+						<p class="tth_p">2017-07-06</p>
+					</li>
+					<li class="tth_c c2">
+						<div class="tth_pic">
+							<img src="img/shouye/头像.png" />
+						</div>
+						<p class="tth_picr">微说世界</p>
+					</li>
+					<li class="tth_c c3">
+						<p class="tth_p">2017-07-06</p>
+					</li>
+					<li class="tth_c c4">
+						<p class="tth_p">待上传</p>
+					</li>
+					<li class="tth_c c5">
+						<p class="tth_p p3">待上传</p>
+					</li>
+				</ul>
+				<ul class="ddgl_c2">
+					<li class="tth_c c1">
+						<p class="tth_p">2017-07-06</p>
+					</li>
+					<li class="tth_c c2">
+						<div class="tth_pic">
+							<img src="img/shouye/头像.png" />
+						</div>
+						<p class="tth_picr">微说世界</p>
+					</li>
+					<li class="tth_c c3">
+						<p class="tth_p">2017-07-06</p>
+					</li>
+					<li class="tth_c c4">
+						<p class="tth_p">待上传</p>
+					</li>
+					<li class="tth_c c5">
+						<p class="tth_p p3">待上传</p>
+					</li>
+				</ul>
+				<ul class="ddgl_c2">
+					<li class="tth_c c1">
+						<p class="tth_p">2017-07-06</p>
+					</li>
+					<li class="tth_c c2">
+						<div class="tth_pic">
+							<img src="img/shouye/头像.png" />
+						</div>
+						<p class="tth_picr">微说世界</p>
+					</li>
+					<li class="tth_c c3">
+						<p class="tth_p">2017-07-06</p>
+					</li>
+					<li class="tth_c c4">
+						<p class="tth_p">待上传</p>
+					</li>
+					<li class="tth_c c5">
+						<p class="tth_p p3">处理</p>
+					</li>
+				</ul>-->
+			</div>
+			
+			</div>
+		</div>
+		<div id="gaikuang1">
+			<div class="cg">
+				<img src="__CDN__/assets/img/xmtxy/close.png" />
+			</div>
+			<div class="shu_k1">
+				<p class="sc_shu">|</p>
+				<p class="biaoti">标题</p>
+				<input type="text" class="gshu1 btt" placeholder="请输入文章标题"/>
+			</div>
+			<div class="shu_k1">
+				<p class="sc_shu">|</p>
+				<p class="biaoti">链接</p>
+				<input type="text" class="gshu1 ltt" placeholder="请输入文章链接"/>
+			</div>
+			<div class="tij1">提交</div>
+		</div>
+		<div  id="gaikuang2">
+			<div class="cg">
+				<img src="__CDN__/assets/img/xmtxy/close.png" />
+			</div>
+			<!--<div class="shu_k2">
+				<p class="sc_shu1">|</p>
+				<p class="biaoti1">项目名称：zuke手机</p>
+			</div>-->
+			<form id="form1" runat="server" method="post" enctype="multipart/form-data"> 
+			<div class="shu_k1">
+				<p class="sc_shu"></p>
+				<p class="biaoti">稿件上传</p>
+				<div class="gshu2">
+					<!--<div class="sdf" style="height: 52px;width: 60px;background: red;float: left;position: absolute;z-index: 1000;"></div>-->
+					<div class="cbg"></div>
+					<form id="form1" enctype="multipart/form-data">
+						<input class="name_s chuan"  name="file" type="file" placeholder="本地上传"  />
+					</form>
+					<!--<input type="file" class="io" placeholder="请输入文章链接" style="float: left;height: 52px;width: 300px;margin-top: 20px;" />-->
+				</div>
+			</div>
+			<div class="tishi">
+				<p class="tishi_p">(提示：文件上传格式为zip或rar)</p>
+			</div>
+			<div class="shu_k3">
+				<p class="sc_shu"></p>
+				<p class="biaoti">备注</p>
+				<div class="gshu3">
+					<textarea class="sd"></textarea>
+				</div>
+			</div>
+			<div class="xiazai">
+				<div class="xiazai_l">下载稿件</div>
+				<div class="xiazaia">
+					
+					<div class="wenjian">
+						<img src="__CDN__/assets/img/xmtxy/yasuo.png" />
+					</div>
+					<div class="dianji">
+						<a href="">下载</a>
+					</div>
+				</div>
+			</div>
+			<div class="tij">提交</div>
+			<div class="tij1">提交</div>
+		</div>
+		</form>
+	</body>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+	<script type="text/javascript" src="__CDN__/assets/js/index/js/renwu.js" ></script>
+	<script>
+//		$(".tij").click(function(){  
+//          $("#form1").submit();  
+//      }) 		
+		$('.sdf').click(function(){
+			$('.io').click()
+		})
+		$('.tth_p').click(function(){
+			if($('.shangc').html()=="待上传"){
+			$('#gaikuang1').css({"display":"block","position":"absolute","top":"0"})
+			}else if($('.shangc').html()=="待修改"){
+				$('#gaikuang2').css({"display":"block","position":"absolute","top":"0"})
+			}
+		})
+		$('.cg img').click(function(){
+			$('#gaikuang1').css("display","none")
+			
+		})
+		$('.cg img').click(function(){
+			$('#gaikuang2').css("display","none")
+			
+		})
+//		$('.tij').click(function(){
+//			$('#gaikuang1').css("display","none")
+//			$('#gaikuang2').css("display","none")
+//		})
+				
+	</script>
+</html>

@@ -1,0 +1,198 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, em, p, font, img, small, strong, center, dl, dt, dd, ol, ul, li, form, label, table, caption, tbody, tr, th, td {margin:0;padding:0;border:0;outline:0;font-size:12px;vertical-align:baseline} 
+ol, ul {list-style:none} :focus {outline:none; } 
+li{list-style: none;}
+table {border-collapse:collapse;border-spacing: 0} 
+caption, th, td { text-align: left; font-weight: normal} 
+strong {font-weight:600} 
+a{font:12px Arial;text-decoration:none;color:#404040;cursor:pointer;} 
+a:hover{text-decoration:underline;color:#FF3300} 
+h1{font-size:16px;font-weight:600;color:#666} .left{float:left} .right{float:right} .clear{clear:both}
+i{font-style: normal;}
+#container{
+	width: 100%;
+	background: pink;
+}
+#nav{
+	width: 1200px;
+	/*background: red;*/
+	height: 56px;
+	margin: 0 auto;
+	position: relative;
+}
+.n_conmment{
+	height: 100%;
+	float: left;
+}
+.nav_l{
+	width: 90px;
+	background: yellowgreen;
+}
+.nav_c{
+	width: 903px;
+	background: yellow;
+}
+.nav_r{
+	width: 207px;
+	background: olive;
+}
+.nav_l img{
+	height: 36px;
+	width: 90px;
+	margin-top: 12px;
+}
+.nav_cc{
+	margin-left: 236px;
+}
+.nav_cc li{
+	float: left;
+	margin-right: 60px;
+	height: 56px;
+	line-height: 56px;
+	background: deepskyblue;
+	font-size: 16px;
+	color: #211E1E;
+}
+.nav_r p{
+	float: left;
+	font-size: 16px;
+	margin-right: 20px;
+	margin-left: 8px;
+	line-height: 56px;
+}
+.nav_r .deng{
+	margin-left: 60px;
+	
+}
+.z_nav{
+	height: 110px;
+	width: 120px;
+	background: olive;
+	position: absolute;
+	top: 46px;
+	left: 370px;
+	z-index: 9;
+	display: none;
+}
+.z_top{
+	height: 15px;
+	width: 100%;
+	background: seagreen;
+}
+.z_top img{
+	height: 8px;
+	width: 11px;
+	margin-left: 47%;
+}
+.z_bottom{
+	height: 95px;
+	width: 100%;
+	background: red;
+}
+.tw1{
+	width: 100%;
+	background: #f85959;
+	height: 47.5px;
+	text-align: center;
+	line-height: 47.5px;
+	font-size: 16px;
+	color: #370808;
+}
+.tw1:hover{
+	color: #FFFFFF;
+}
+.z_nav2{
+	height: 205px;
+	width: 120px;
+	background: olive;
+	position: absolute;
+	top: 46px;
+	left: 713px;
+	z-index: 9;
+	display: none;
+}
+#gcon{
+	height: 808px;
+	width: 1200px;
+	background: pink;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.gcon_l{
+	height: 808px;
+	width: 220px;
+	background: yellow;
+	float: left;
+}
+.gcon_r{
+	height: 808px;
+	width: 950px;
+	margin-left: 30px;
+	float: left;
+	background: yellowgreen;
+}
+.gconl{
+	height: 250px;
+	width: 140px;
+	background: pink;
+	float: left;
+	margin: 30px 0 0 37px;
+}
+.gconl_t{
+	height: 40px;
+	width: 140px;
+	background: #F85959;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+.gconl_b{
+	width: 122px;
+	height: 180px;
+	background: deepskyblue;
+	margin-left: 18px;
+	margin-top: 30px;
+	background: url(../img/xmtxy/cebianlan.png) no-repeat left top 6px;
+}
+.wfen{
+	font-size: 16px;
+	color: #211E1E;
+	background: red;
+	margin-left: 25px;
+	margin-top: 23px;
+}
+.wfen:hover{
+	color: #F85959;
+}
+.gr_t{
+	height: 240px;
+	width: 950px;
+	background: seagreen;
+}
+.gr_t img{
+	height: 240px;
+	width: 950px;
+}
+.gr_b{
+	padding: 40px 40px;
+	font-size: 18px;
+	color: #211E1E;
+	background: cyan;
+}
+#bot{
+/*	height: 58px;
+*/	width: 100%;
+	/*background: pink;*/
+	float:left;
+}
+.bot{
+	width: 100%;
+	height: 58px;
+	background: #222123;
+	text-align: center;
+	line-height: 58px;
+	margin-top: 130px;
+	font-size: 14px;
+	color: #FFFFFF;
+}

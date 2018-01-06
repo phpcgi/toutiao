@@ -1,0 +1,75 @@
+
+
+<form id="update-form" role="form" data-toggle="validator" method="POST" action="{:url('/admin/userflux/flux/update')}">
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>头条id</th>
+            <th>头条名称</th>
+            <th>主页链接</th>
+            <th>管理截图</th>
+            <th>概况</th>
+            <th>性别比例</th>
+            <th>年龄分布</th>
+            <th>地域比例</th>
+            <th>终端分布</th>
+            <th>权限</th>
+            <th>多平台</th>
+            <th>发文</th>
+            <th>是否支持撰稿</th>
+            <th>是否通过审核</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        {volist name="row" id="vo"  }
+            <tr>
+                <td>{$vo.kol_id}</td>
+                <td>{$vo.username}</td>
+                <td>{$vo.link}</td>
+                <td><a href="{$vo.pic}"><img src="{$vo.pic}" alt="" height="40" width="40"></a></td>
+                <td><a href="{$vo.overview}"><img src="{$vo.overview}" alt="" height="40" width="40"></a></td>
+                <td><a href="{$vo.seximg}"><img src="{$vo.seximg}" alt="" height="40" width="40"></a></td>
+                <td><a href="{$vo.ageimg}"><img src="{$vo.ageimg}" alt="" height="40" width="40"></a></td>
+                <td><a href="{$vo.regionimg}"><img src="{$vo.regionimg}" alt="" height="40" width="40"></a></td>
+                <td><a href="{$vo.appimg}"><img src="{$vo.appimg}" alt="" height="40" width="40"></a></td>
+                <td>{$vo.auth}</td>
+                <td>{$vo.from}</td>
+                <td>{$vo.num}</td>
+                <td>
+                    {$vo.is_dg==1? '是' : '否'}
+                </td>
+                <td>
+
+                    {if $vo.status==0}
+                    未审核
+                    {elseif $vo.status==1/}
+                    通过
+                    {elseif $vo.status==2/}
+                    未通过
+                    {/if}
+                </td>
+                <td>
+                    <div class="form-group">
+                        <div class="col-xs-12 col-sm-8">
+                            通过：
+                            <input type="radio" checked="checked" name="radio[{$vo.id}]" value="1" />
+                            <br />
+                            拒绝：
+                            <input type="radio" name="radio[{$vo.id}]" value="2" />
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        <input type="hidden" name="id[]" value="{$vo.id}">
+        {/volist}
+    </tbody>
+</table>
+<div class="hide layer-footer">
+    <label class="control-label col-xs-12 col-sm-2"></label>
+    <div class="col-xs-12 col-sm-8">
+        <button type="submit" class="btn btn-success">{:__('Submit')}</button>
+        <button type="reset" class="btn btn-primary btn-embossed btn-close" onclick="Layer.closeAll();">{:__('Close')}</button>
+    </div>
+</div>
+</form>

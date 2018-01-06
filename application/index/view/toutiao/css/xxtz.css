@@ -1,0 +1,78 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, em, p, font, img, small, strong, center, dl, dt, dd, ol, ul, li, form, label, table, caption, tbody, tr, th, td {margin:0;padding:0;border:0;outline:0;font-size:12px;vertical-align:baseline} 
+ol, ul {list-style:none} :focus {outline:none; } 
+li{list-style: none;}
+table {border-collapse:collapse;border-spacing: 0} 
+caption, th, td { text-align: left; font-weight: normal} 
+strong {font-weight:600} 
+a{font:12px Arial;text-decoration:none;color:#404040;cursor:pointer;} 
+a:hover{text-decoration:underline;color:#FF3300} 
+h1{font-size:16px;font-weight:600;color:#666} .left{float:left} .right{float:right} .clear{clear:both}
+i{font-style: normal;}
+#gaikuang{
+	width: 990px;
+	height: 770px;
+	background: yellow;
+	float: left;
+	
+}
+.xxtz_k{
+	width: 950px;
+	background: pink;
+	margin: 0 auto;
+}
+.xx_t{
+	height: 58px;
+	width: 100%;
+	background: red;
+}
+.xx_t p{
+	line-height: 58px;
+	font-size: 16px;
+	color: #211E1E; 
+}
+.xx_list{
+	width: 950px;
+	background: pink;
+	margin: 0 auto;
+}
+.xx_list li{
+	height: 46px;
+	width: 950px;
+	background: #F0F0F0;
+}
+.ling{
+	height: 100%;
+	width: 47px;
+	background: pink;
+	float: left;
+	line-height: 46px;
+	text-align: center;
+}
+.xx_con{
+	width: 760px;
+	height: 100%;
+	float: left;
+	background: saddlebrown;
+}
+.xx_r{
+	width: 143px;
+	height: 46px;
+	background: red;
+	float: left;
+}
+.xxc{
+	font-size: 14px;
+	color: #211E1E;
+	line-height: 46px;
+	float: left;
+	background: firebrick;
+}
+.time{
+	font-size: 14px;
+	color: #939393;
+	line-height: 47px;
+	text-align: center;
+}
+.xx_list li:nth-last-of-type(odd){
+	background: #f7f7f7;
+}

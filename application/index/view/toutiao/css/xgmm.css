@@ -1,0 +1,199 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, em, p, font, img, small, strong, center, dl, dt, dd, ol, ul, li, form, label, table, caption, tbody, tr, th, td {margin:0;padding:0;border:0;outline:0;font-size:12px;vertical-align:baseline} 
+ol, ul {list-style:none} :focus {outline:none; } 
+table {border-collapse:collapse;border-spacing: 0} 
+caption, th, td { text-align: left; font-weight: normal} 
+strong {font-weight:600} 
+a{font:12px Arial;text-decoration:none;color:#404040;cursor:pointer;} 
+a:hover{text-decoration:underline;color:#FF3300} 
+h1{font-size:16px;font-weight:600;color:#666} .left{float:left} .right{float:right} .clear{clear:both}
+i{font-style: normal;}
+#container{
+	width: 100%;
+	background: #FFFFFF;
+}
+#nav{
+	width: 1200px;
+	/*background: red;*/
+	height: 56px;
+	margin: 0 auto;
+	position: relative;
+}
+.n_conmment{
+	height: 100%;
+	float: left;
+}
+.nav_l{
+	width: 90px;
+}
+.nav_c{
+	width: 903px;
+}
+.nav_r{
+	width: 207px;
+}
+.nav_l img{
+	height: 36px;
+	width: 90px;
+	margin-top: 12px;
+}
+.nav_cc{
+	margin-left: 236px;
+}
+.nav_cc li{
+	float: left;
+	margin-right: 60px;
+	height: 56px;
+	line-height: 56px;
+	font-size: 16px;
+	color: #211E1E;
+}
+.nav_r p{
+	float: left;
+	font-size: 16px;
+	margin-right: 20px;
+	margin-left: 8px;
+	line-height: 56px;
+}
+.nav_r .deng{
+	margin-left: 60px;
+	
+}
+.z_nav{
+	height: 152px;
+	width: 120px;
+	position: absolute;
+	left: 370px;
+	z-index: 9;
+	display: none;
+}
+.z_top{
+	height: 15px;
+	width: 100%;
+	margin-top: 41px;
+}
+.z_top img{
+	height: 8px;
+	width: 11px;
+	margin-left: 47%;
+}
+.z_bottom{
+	height: 95px;
+	width: 100%;
+}
+.tw1{
+	width: 100%;
+	background: #f85959;
+	height: 47.5px;
+	text-align: center;
+	line-height: 47.5px;
+	font-size: 16px;
+	color: #370808;
+}
+.tw1:hover{
+	color: #FFFFFF;
+}
+.z_nav2{
+	height: 247px;
+	width: 120px;
+	position: absolute;
+	left: 713px;
+	z-index: 9;
+	display: none;
+}
+.z_nav3{
+	height: 210px;
+	width: 120px;
+	position: absolute;
+	top: 0px;
+	left: 1013px;
+	z-index: 9;
+	display: none;
+}
+
+
+#con{
+	height: 510px;
+	width: 100%;
+	margin-top: 140px;
+}
+.con_c{
+	height: 485px;
+	width: 1000px;
+	background: url(../img/denglu/忘记密码红色背景.png) no-repeat;
+	background-size: 1000px 485px;
+	margin: 0 auto;
+	
+}
+
+#footer{
+	height: 55px;
+	width: 100%;
+	background: #222123;
+	margin-top: 318px;
+}
+.foot{
+	text-align: center;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 55px;
+}
+.con_head{
+	height: 44px;
+	width: 100%;
+	margin-top: 17px;
+	float: left;
+	line-height: 44px;
+	text-align: center;
+}
+.llzdl{
+	font-size: 22px;
+	color: #ffffff;
+	font-family: "microsoft yahei";
+}
+.xinmm{
+	font-size: 16px;
+	color: #FFFFFF;
+	width: 420px;
+	margin: 0 auto;
+	background: yellow;
+	height: 20px;
+	float: left;
+	margin-left: 290px;
+	
+}
+.shur5{
+	width: 100%;
+	height: 40px;
+	float: left;
+	background: saddlebrown;
+	margin-top: 10px;
+}
+.xin{
+	height: 36px;
+	width: 420px;
+	margin-left: 290px;
+	border: 0;
+	border: 1px solid #CCCCCC;
+	border-radius: 4px;
+}
+.m2{
+	margin-top: 18px;
+}
+.denglu{
+	height: 40px;
+	width: 100%;
+	float: left;
+	margin-top: 70px;
+}
+.dl{
+	height: 40px;
+	width: 280px;
+	background: #DC3932;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 4px;
+	font-size: 18px;
+	color: #FFFFFF;
+}

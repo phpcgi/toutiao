@@ -1,0 +1,112 @@
+<form id="add-form" class="form-horizontal form-ajax" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label for="c-username" class="control-label col-xs-12 col-sm-2">{:__('Username')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-username" required="" class="form-control" name="row[username]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-url" class="control-label col-xs-12 col-sm-2">{:__('Url')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-url" required="" class="form-control" name="row[url]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-openid" class="control-label col-xs-12 col-sm-2">{:__('Openid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-openid" required="" class="form-control" name="row[openid]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-unionid" class="control-label col-xs-12 col-sm-2">{:__('Unionid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-unionid" required="" class="form-control" name="row[unionid]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-password" class="control-label col-xs-12 col-sm-2">{:__('Password')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-password" required="" class="form-control" name="row[password]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-email" class="control-label col-xs-12 col-sm-2">{:__('Email')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-email" required="" class="form-control" name="row[email]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-phone" class="control-label col-xs-12 col-sm-2">{:__('Phone')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-phone" required="" class="form-control" name="row[phone]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-sex" class="control-label col-xs-12 col-sm-2">{:__('Sex')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-sex" class="form-control" name="row[sex]" type="number" value="0">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-headimgurl" class="control-label col-xs-12 col-sm-2">{:__('Headimgurl')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-headimgurl" required="" class="form-control " rows="5" name="row[headimgurl]" cols="50"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-fromtype" class="control-label col-xs-12 col-sm-2">{:__('Fromtype')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-fromtype" class="form-control" name="row[fromtype]" type="number" value="0">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-cdate" class="control-label col-xs-12 col-sm-2">{:__('Cdate')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-cdate" required="" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[cdate]" type="text" value="{:date('Y-m-d H:i:s')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-udate" class="control-label col-xs-12 col-sm-2">{:__('Udate')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-udate" required="" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[udate]" type="text" value="{:date('Y-m-d H:i:s')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-status" class="control-label col-xs-12 col-sm-2">{:__('Status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            {:build_radios('row[status]', ['normal' => __('Normal'),'hidden' => __('Hidden')], 'normal')}
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-logintime" class="control-label col-xs-12 col-sm-2">{:__('Logintime')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-logintime" class="form-control datetimepicker" data-date-format="YYYY-MM-DD" data-use-current="true" name="row[logintime]" type="text" value="{:date('Y-m-d')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-token" class="control-label col-xs-12 col-sm-2">{:__('Token')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-token" required="" class="form-control" name="row[token]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-jointime" class="control-label col-xs-12 col-sm-2">{:__('Jointime')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-jointime" class="form-control datetimepicker" data-date-format="YYYY-MM-DD" data-use-current="true" name="row[jointime]" type="text" value="{:date('Y-m-d')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-salt" class="control-label col-xs-12 col-sm-2">{:__('Salt')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-salt" required="" class="form-control" name="row[salt]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group hide layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

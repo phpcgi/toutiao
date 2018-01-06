@@ -1,0 +1,101 @@
+body{
+	background: #F0F0F0;
+}
+#gcon{
+	min-height: 808px;
+	width: 1200px;
+	/*background: pink;*/
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.gcon_l{
+	min-height: 808px;
+	width: 220px;
+	background: #FFFFFF;
+	float: left;
+}
+.gcon_r{
+	min-height: 808px;
+	width: 950px;
+	margin-left: 30px;
+	float: left;
+	background: #FFFFFF;
+	display: none;
+}
+.gcon_r.active{
+	display: block;
+}
+.wfen.ctive{
+	color: #F85959;
+}
+.gconl{
+	height: 370px;
+	width: 140px;
+	background: #FFFFFF;
+	float: left;
+	margin: 0 0 0 37px;
+}
+.gconl_t{
+	height: 40px;
+	width: 140px;
+	background: #F85959;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+	color: #FFFFFF;
+	margin-top: 20px;
+}
+.gconl_b{
+	width: 122px;
+	height: 180px;
+	background: deepskyblue;
+	margin-left: 18px;
+	margin-top: 30px;
+	background: url(../../img/xmtxy/cebianlan.png) no-repeat left top 6px;
+}
+.wfen{
+	font-size: 16px;
+	color: #211E1E;
+	/*background: red;*/
+	margin-left: 25px;
+	margin-top: 23px;
+	cursor: pointer;
+}
+.wfen:hover{
+	color: #F85959;
+}
+.gr_t{
+	height: 240px;
+	width: 950px;
+	/*background: seagreen;*/
+}
+.gr_t img{
+	height: 240px;
+	width: 950px;
+}
+.gr_b{
+	padding: 40px 40px;
+	font-size: 14px;
+	color: #211E1E;
+	background: #FFFFFF;
+}
+#bot{
+/*	height: 58px;
+*/	width: 100%;
+	/*background: pink;*/
+	float:left;
+}
+.bot{
+	width: 100%;
+	height: 58px;
+	background: #222123;
+	text-align: center;
+	line-height: 58px;
+	margin-top: 130px;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+h2{
+	font-size: 14px!important;
+}

@@ -1,0 +1,8 @@
+http://www.toutiao.com/i6455233612802425358/    500*40*40    ok
+http://www.toutiao.com/i6455244330750706189/    200*100*15   ok
+http://www.toutiao.com/i6455229533405577741/    400*50*20    no
+http://www.toutiao.com/i6455583526401081869/    500*40*40    ok
+http://www.toutiao.com/i6455179448953078285/    500*40*30    no
+http://www.toutiao.com/i6455180567691395598/    500*40*30    no
+
+http://www.toutiao.com/i6454422176928891406/    200 * 100  * 20  0.5   

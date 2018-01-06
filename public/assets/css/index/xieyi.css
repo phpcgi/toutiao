@@ -1,0 +1,72 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, em, p, font, img, small, strong, center, dl, dt, dd, ol, ul, li, form, label, table, caption, tbody, tr, th, td {margin:0;padding:0;border:0;outline:0;font-size:12px;vertical-align:baseline} 
+ol, ul {list-style:none} :focus {outline:none; } 
+table {border-collapse:collapse;border-spacing: 0} 
+caption, th, td { text-align: left; font-weight: normal} 
+strong {font-weight:600} 
+a{font:12px Arial;cursor:pointer;} 
+a:hover{text-decoration:underline;color:#FF3300} 
+h1{font-size:16px;font-weight:600;color:#666} .left{float:left} .right{float:right} .clear{clear:both}
+i{font-style: normal;}
+header{
+	width: 1200px;
+	height: 56px;
+	background:#FFFFFF;
+	margin: 0 auto;
+}
+.container{
+	width: 100%;
+	background:#FFFFFF;
+}
+.nav_l{
+	height: 56px;
+	width: 90px;
+	background: #FFFFFF;
+	float: left;
+}
+.nav_l img{
+	width: 90px;
+	height: 36px;
+	margin-top: 10px;
+}
+.biaoti{
+	height: 40px;
+	width: 1200px;
+	background: #EFEFEF;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+}
+#biaoti{
+	width: 100%;
+	 background:#EFEFEF;
+}
+#content{
+	width: 1000px;
+	/*background: pink;*/
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.content{
+	font-size: 16px;
+	color: #211E1E;
+	font-family: "宋体";
+}
+.content a{
+	font-size: 16px;
+	color: #211E1E;
+	font-family: "宋体";
+	color:blue;
+}
+.content1{
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 20px;
+	border-bottom: 1px dashed #E0DFE3;
+}
+.content2{
+	font-size: 16px;
+	color: #211E1E;
+	font-family: "宋体";
+	line-height: 30px;
+}

@@ -1,0 +1,30 @@
+<?php
+
+return [
+    'id'  =>  'ID',
+    'category_id'  =>  '分类ID(单选)',
+    'category_ids'  =>  '分类ID(多选)',
+    'user_id'  =>  '会员ID',
+    'user_ids'  =>  '多会员ID',
+    'week'  =>  '星期(单选)',
+    'flag'  =>  '标志(多选)',
+    'genderdata'  =>  '性别(单选)',
+    'hobbydata'  =>  '爱好(多选)',
+    'title'  =>  '标题',
+    'content'  =>  '内容',
+    'image'  =>  '图片',
+    'attachfile'  =>  '附件',
+    'keywords'  =>  '关键字',
+    'description'  =>  '描述',
+    'price'  =>  '价格',
+    'views'  =>  '点击',
+    'startdate'  =>  '开始日期',
+    'activitydate'  =>  '活动时间(datetime)',
+    'year'  =>  '年',
+    'times'  =>  '时间',
+    'refreshtime'  =>  '刷新时间(int)',
+    'createtime'  =>  '创建时间',
+    'updatetime'  =>  '更新时间',
+    'weigh'  =>  '权重',
+    'status'  =>  '状态'
+];

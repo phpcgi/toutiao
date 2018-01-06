@@ -1,0 +1,263 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, em, p, font, img, small, strong, center, dl, dt, dd, ol, ul, li, form, label, table, caption, tbody, tr, th, td {margin:0;padding:0;border:0;outline:0;font-size:12px;vertical-align:baseline} 
+ol, ul {list-style:none} :focus {outline:none; } 
+li{list-style: none;}
+table {border-collapse:collapse;border-spacing: 0} 
+caption, th, td { text-align: left; font-weight: normal} 
+strong {font-weight:600} 
+a{font:12px Arial;text-decoration:none;color:#404040;cursor:pointer;} 
+a:hover{text-decoration:underline;color:#FF3300} 
+h1{font-size:16px;font-weight:600;color:#666} .left{float:left} .right{float:right} .clear{clear:both}
+i{font-style: normal;}
+body{
+	background: #F0F0F0;
+}
+#container{
+	width: 100%;
+	background: #FFFFFF;
+}
+#nav{
+	width: 1200px;
+	/*background: red;*/
+	height: 56px;
+	margin: 0 auto;
+	position: relative;
+}
+.n_conmment{
+	height: 100%;
+	float: left;
+}
+.nav_l{
+	width: 90px;
+}
+.nav_c{
+	width: 903px;
+}
+.nav_r{
+	width: 207px;
+}
+.nav_l img{
+	height: 36px;
+	width: 90px;
+	margin-top: 12px;
+}
+.nav_cc{
+	margin-left: 236px;
+}
+.nav_cc li{
+	float: left;
+	margin-right: 60px;
+	height: 56px;
+	line-height: 56px;
+	font-size: 16px;
+	color: #211E1E;
+}
+.nav_r p{
+	float: left;
+	font-size: 16px;
+	margin-right: 20px;
+	margin-left: 8px;
+	line-height: 56px;
+}
+.nav_r .deng{
+	margin-left: 60px;
+	
+}
+.z_nav{
+	height: 152px;
+	width: 120px;
+	position: absolute;
+	left: 370px;
+	z-index: 9;
+	display: none;
+}
+.z_top{
+	height: 15px;
+	width: 100%;
+	margin-top: 41px;
+}
+.z_top img{
+	height: 8px;
+	width: 11px;
+	margin-left: 47%;
+}
+.z_bottom{
+	height: 95px;
+	width: 100%;
+}
+.tw1{
+	width: 100%;
+	background: #f85959;
+	height: 47.5px;
+	text-align: center;
+	line-height: 47.5px;
+	font-size: 16px;
+	color: #370808;
+}
+.tw1:hover{
+	color: #FFFFFF;
+}
+.z_nav2{
+	height: 247px;
+	width: 120px;
+	position: absolute;
+	left: 713px;
+	z-index: 9;
+	display: none;
+}
+.z_nav3{
+	height: 210px;
+	width: 120px;
+	position: absolute;
+	top: 0px;
+	left: 1013px;
+	z-index: 9;
+	display: none;
+}
+#x_banner{
+	height: 260px;
+	width: 100%;
+	background: pink;
+	padding-top: 20px;
+}
+.x_banner{
+	height: 260px;
+	width: 1200px;
+	margin: 0 auto;
+	background: yellowgreen;
+	border-radius: 8px;
+}
+.x_banner img{
+	height: 260px;
+	width: 1200px;
+}
+#newslist{
+	height: 500px;
+	width: 100%;
+	padding-top: 20px;
+	background: yellow;
+}
+.newslist{
+	height: 500px;
+	width: 1200px;
+	margin: 0 auto;
+	background: yellowgreen;
+}
+.newslist_l{
+	height: 500px;
+	width: 820px;
+	background: salmon;
+	float: left;
+}
+.newslist_r{
+	height: 500px;
+	width: 340px;
+	background: seagreen;
+	float: left;
+	margin-left: 40px;
+}
+.newslist_r img{
+	height: 500px;
+	width: 340px;
+}
+.newslist_t{
+	height: 414px;
+	width: 100%;
+	background: olive;
+	padding-top: 22px;
+	border-bottom: 1px solid #efefef;
+}
+.newslist_b{
+	height: 62px;
+	width: 100%;
+	background: seagreen;
+}
+.xinwen{
+	height: 38px;
+	width: 100%;
+	background: salmon;
+	line-height: 38px;
+}
+.xw_l{
+	width: 38px;
+	height: 100%;
+	float: left;
+	background: darkblue;
+	line-height: 38px;
+}
+.xw_l img{
+	height: 8px;
+	width: 6px;
+	margin-left: 18px;
+}
+.xw_c{
+	width: 570px;
+	height: 38px;
+	background: yellow;
+	float: left;
+	}
+.xw_p{
+	width: 560px;
+	font-size: 14px;
+	color: #211E1E;
+	overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+
+}
+.xw_r{
+	width: 181px;
+	height: 38px;
+	float: left;
+	background: seagreen;
+	line-height: 38px;
+}
+.time{
+	font-size: 14px;
+	color: #939393;
+	background: red;
+	float: right;
+}
+.fenye{
+	height: 20px;
+	width: 224px;
+	background: yellow;
+	margin: 20px 0 0 280px;
+	float: left;
+}
+.fenye_l{
+	height: 20px;
+	width: 20px;
+	float: left;
+	background: red;
+}
+.fenye_c{
+	height: 20px;
+	width: 184px;
+	background: pink;
+	float: left;
+}
+.fenye_r{
+	height: 20px;
+	width: 20px;
+	float: left;
+	background: red;
+}
+#bot{
+/*	height: 58px;
+*/	width: 100%;
+	background: pink;
+	float:left;
+}
+.bot{
+	width: 100%;
+	height: 58px;
+	background: #222123;
+	text-align: center;
+	line-height: 58px;
+	margin-top: 168px;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+.nav_cc .meiti{
+	color: #F85959;
+}

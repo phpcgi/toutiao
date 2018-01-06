@@ -1,0 +1,12 @@
+
+
+<form action="{:url('Orderad/uot')}" method="get">
+    {volist name="$array" id="vo"}
+    <input type="checkbox" name="vehicle" value="Car"  /> {$vo.name}
+    {/volist}
+
+    <div class="col-xs-12 col-sm-8">
+        <button type="submit" class="btn btn-success">{:__('Submit')}</button>
+        <button type="reset" class="btn btn-primary btn-embossed btn-close" onclick="Layer.closeAll();">{:__('Close')}</button>
+    </div>
+</form>

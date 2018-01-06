@@ -1,0 +1,109 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, em, p, font, img, small, strong, center, dl, dt, dd, ol, ul, li, form, label, table, caption, tbody, tr, th, td {margin:0;padding:0;border:0;outline:0;font-size:12px;vertical-align:baseline} 
+ol, ul {list-style:none} :focus {outline:none; } 
+li{list-style: none;}
+table {border-collapse:collapse;border-spacing: 0} 
+caption, th, td { text-align: left; font-weight: normal} 
+strong {font-weight:600} 
+a{font:12px Arial;text-decoration:none;color:#404040;cursor:pointer;} 
+a:hover{text-decoration:underline;color:#FF3300} 
+h1{font-size:16px;font-weight:600;color:#666} .left{float:left} .right{float:right} .clear{clear:both}
+i{font-style: normal;}
+#gaikuang{
+	width: 990px;
+	height: 770px;
+	background: yellow;
+	float: left;
+}
+.tttt_k{
+	width: 950px;
+	background: pink;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.tjtth{
+	height: 40px;
+	width: 950px;
+	background: yellowgreen;
+}
+.tt_shu{
+	font-size: 16px;
+	font-weight: bolder;
+	color: #F85959;
+	float: left;
+	line-height: 40px;
+}
+.tt_tj{
+	font-size: 16px;
+	color: #211E1E;
+	line-height: 40px;
+	float: left;
+	background: red;
+	margin-left: 10px;
+}
+.tt_tt{
+	margin-left: 0;
+}
+.t1{
+	margin-top: 30px;
+}
+.shur{
+	float: left;
+	height: 36px;
+	width: 660px;
+	border: 0;
+	background: 0;
+	border: 1px solid #C0C0C0;
+	margin-left: 90px;
+	border-radius: 4px;
+}
+.shur2{
+	margin-left: 60px;
+}
+.yangli{
+	text-decoration: underline;
+	color: #F85959;
+}
+.shur3{
+	margin-left: 27px;
+}
+.shur4{
+	margin-left: 77px;
+}
+.shi{
+	float: left;
+	margin:13px 10px 0 20px ;
+}
+.si{
+	float: left;
+	line-height: 40px;
+	font-size: 14px;
+}
+.ss2{
+	margin-left: 80px;
+}
+.t2{
+	margin-top: 60px;
+}
+.bct{
+	height: 40px;
+	width: 280px;
+	border-radius: 4px;
+	background: #DC3932;
+	text-align: center;
+	line-height: 40px;
+	color: #FFFFFF;
+	margin-left: 275px;
+	float: left;
+	font-size: 16px;
+}
+.bc{
+	height: 40px;
+	width: 86px;
+	float: left;
+	margin-left: 30px;
+}
+.t1 .shur3{
+	
+	background-size: 660px 36px;
+	background: url(../img/xmtxy/upload.png) no-repeat;
+}

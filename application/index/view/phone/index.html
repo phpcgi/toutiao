@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" >
+    <script src="//cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script>
+    <script type="text/javascript" src="__CDN__/assets/js/index/flexible.js" ></script>
+    <script type="text/javascript" src="__CDN__/assets/js/index/webcl.js" ></script>
+    <link rel="stylesheet" href="__CDN__/assets/css/index/webcl.css" />
+    <title></title>
+</head>
+<body>
+<div id="return">
+    <div class="return">
+        <!--<div class="fan_p">
+            <img src="__CDN__/assets/img/xmtxy/daichuli-fanhuijiantou.png" />
+        </div>-->
+        <div class="dcr">待处理任务</div>
+    </div>
+</div>
+<div id="gcl_c">
+
+    {if condition="$info.attachfile"}
+    <div class="gcl_c">
+        <p class="g_shu">|</p>
+        <p class="wen">文稿</p>
+    </div>
+    <div class="gcl_con">
+        <div class="wen_k">
+            <div class="wtu">
+                <img src="__CDN__/assets/img/wendang.png" />
+            </div>
+            <p class="wen_n">项目文稿</p>
+            <!--<p class="wen_n n1">预览</p>-->
+            <p class="wen_n n2">
+                <a download="{$info.attachfile}" href="{$info.attachfile}">下载</a>
+            </p>
+            <p class="wen_n n3"></p>
+        </div>
+    </div>
+
+    {/if}
+    <form id="update-form" role="form" data-toggle="validator" method="POST" action="{:url('phone/update')}">
+        <textarea  name="desc" cols="50">{$info.desc}</textarea>
+        <input name="id" value="{$info.id}" hidden>
+    <div class="sf">
+        {if condition="$phone.for==1"}
+        <div> <button  name="status" type="submit" class="tg xing hong se" value="4">通过</button></div>
+        <div><button  name="status" type="submit" class="tg btg bxing" value="3">不通过</button></div>
+        {else/}
+        <div> <button  name="status" type="submit" class="tg xing hong se" value="3">提交</button></div>
+        {/if}
+    </div>
+        </form>
+
+</div>
+</body>
+</html>

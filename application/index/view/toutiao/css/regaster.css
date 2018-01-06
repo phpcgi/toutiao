@@ -1,0 +1,259 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, em, p, font, img, small, strong, center, dl, dt, dd, ol, ul, li, form, label, table, caption, tbody, tr, th, td {margin:0;padding:0;border:0;outline:0;font-size:12px;vertical-align:baseline} 
+ol, ul {list-style:none} :focus {outline:none; } 
+table {border-collapse:collapse;border-spacing: 0} 
+caption, th, td { text-align: left; font-weight: normal} 
+strong {font-weight:600} 
+a{font:12px Arial;text-decoration:none;color:#404040;cursor:pointer;} 
+a:hover{text-decoration:underline;color:#FF3300} 
+h1{font-size:16px;font-weight:600;color:#666} .left{float:left} .right{float:right} .clear{clear:both}
+i{font-style: normal;}
+body{
+	height: 100%;
+}
+body{
+	background: url(../img/denglu/注册背景.png) no-repeat;
+	background-size: 100% 100%;
+}
+#head{
+	height: 6%;
+	width: 100%;
+}
+.head1{
+	height: 100%;
+	width: 1000px;
+	margin: 0 auto;
+}
+.head_l{
+	height: 100%;
+	width: 9.4%;
+	float: left;
+}
+.head_l img{
+	height: 43.4%;
+	/*33*/
+	width: 100%;
+	margin-top: 27.6%;
+}
+.head_c{
+	height: 100%;
+	width: 63.2%;
+	/*632*/
+	float: left;
+}
+.head_r{
+	height: 100%;
+	width: 27.4%;
+	float: left;
+}
+.yiyou{
+	font-size: 16px;
+	float: left;
+	margin-top: 7.6%;
+	/*40*/
+}
+.fanhui{
+	font-size: 16px;
+	float: left;
+	margin-top: 7.6%;
+	color: #DC3932;
+}
+#content{
+	height: 1020px;
+	width: 100%;
+	margin-top: 3.7%;
+}
+.content{
+	width:900px;
+	margin: 0 auto;
+	background: #FFFFFF;
+	height: 100%;
+}
+.content_h{
+	height: 5.8%;
+	width: 100%;
+	background: #DC3932;
+	border-radius: 8px 8px 0 0;
+	text-align: center;
+	}
+.llz{
+	font-size: 22px;
+	color: #ffffff;
+	margin-top: 2%;
+	float: left;
+	margin-left: 40%;
+}
+.content_c{
+	height: 88.6%;
+	width: 46.6%;
+	margin: 0 auto;
+	margin-top: 2.9%;
+	
+}
+.name{
+	font-size: 16px;
+	color: #211e1e;
+	float: left;
+	margin-left: 20px;
+}
+.name_k{
+	height: 32%;
+	width: 100%;
+	
+}
+.content_n{
+	height: 7.3%;
+	width: 100%;
+}
+.name_s{
+	height: 52%;
+	width: 99%;
+	border: 0;
+	border: 1px solid #C0C0C0;
+	border-radius: 4px;
+	margin-top: 2%;
+}
+.ct{
+	margin-top: 17px;
+}
+.yl{
+	font-size: 14px;
+	color: #DC3932;
+	float: right;
+	margin-top: 1%;
+	/*20*/
+}
+.cy{
+	margin-top: 7%;
+}
+.xuan{
+	float: left;
+	margin-left: 20px;
+}
+.yes{
+	float: left;
+	color: #211E1E;
+}
+.ze,.no,.xuan,.yes{
+	float: left;
+	margin-top: 7px;
+}
+.ze{
+	margin-left: 50px;
+	color: #211E1E;
+}
+.name_i{
+	height: 52%;
+	width: 100%;
+	border: 0;
+	border: 1px solid #C0C0C0;
+	margin-top: 2%;
+}
+.tel{
+	height: 93%;
+	width: 55%;
+	border: 0;
+	border: 1px solid #C0C0C0;
+	border-radius: 4px;
+	float: left;
+}
+.yzm{
+	height: 100%;
+	width: 34%;
+	background: #DC3932;
+	float: left;
+	margin-left: 9%;
+	text-align: center;
+	line-height: 200%;
+	font-size: 16px;
+	color: #FFFFFF;
+	border-radius: 4px;
+}
+.tou{
+	float: left;
+	color: #DC3932;
+}
+.tong{
+	float: left;
+	margin-left: 1.9%;
+	color: #211E1E;
+}
+.xz{
+	height: 72.7%;
+	width: 3.8%;
+	float: left;
+	background: #DC3932;
+	border-radius: 4px;
+	margin-top: 1px;
+}
+.zc{
+	height: 3.9%;
+	width: 100%;
+	background: #DC3932;
+	text-align: center;
+	line-height: 150%;
+	color: #FFFFFF;
+	font-size: 18px;
+	border-radius: 4px;
+	background: url(../../img/denglu/weixuanze.png);
+}
+.xz.xuanze{
+	background: url(../../img/denglu/choose.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.you{
+	display: none;
+	color: red;
+}
+.tmima1,.tmima,.tphone{
+	display: none;
+	color: red;
+}
+.tt{
+	border: 0;
+}
+.ze1{
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,.5);
+	position: absolute;
+	top: 0;left: 0;
+	z-index: 9;
+	display: none;
+}
+.ze1 img{
+	height: 40%;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 10%;
+	
+}
+.ze2{
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,.5);
+	position: absolute;
+	top: 0;left: 0;
+	z-index: 9;
+	display: none;
+}
+.ze2 img{
+	height: 40%;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 10%;
+	
+}
+#footer{
+	margin-top: 62px;
+	height: 55px;
+	width: 100%;
+	background: #222123;
+}
+.foot{
+	text-align: center;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 55px;
+}

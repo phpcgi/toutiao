@@ -1,0 +1,108 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, em, p, font, img, small, strong, center, dl, dt, dd, ol, ul, li, form, label, table, caption, tbody, tr, th, td {margin:0;padding:0;border:0;outline:0;font-size:12px;vertical-align:baseline} 
+ol, ul {list-style:none} :focus {outline:none; } 
+li{list-style: none;}
+table {border-collapse:collapse;border-spacing: 0} 
+caption, th, td { text-align: left; font-weight: normal} 
+strong {font-weight:600} 
+a{font:12px Arial;text-decoration:none;color:#404040;cursor:pointer;} 
+a:hover{text-decoration:underline;color:#FF3300} 
+h1{font-size:16px;font-weight:600;color:#666} .left{float:left} .right{float:right} .clear{clear:both}
+i{font-style: normal;}
+#gaikuang{
+	width: 990px;
+	height: 770px;
+	background: #FFFFFF;
+	float: left;
+}
+.fensi_t{
+	height: 217px;
+	width: 100%;
+	margin-top: 40px;
+}
+.huaxiang{
+	height: 216px;
+	width: 120px;
+	float: left;
+	margin-left: 40px;
+	margin-right: 80px;
+}
+.hx_t{
+	height: 20px;
+	width: 100%;
+}
+.hxt1{
+	font-size: 16px;
+	font-weight: bolder;
+	color: #F85959;
+	float: left;
+}
+.hxt2{
+	font-size: 16px;
+	color: #211E1E;
+	margin-left: 12px;
+}
+.hx_c{
+	height: 118px;
+	width: 118px;
+	float: left;
+	margin-top: 28px;
+	border: 1px solid #CCCCCC;
+	position: relative;
+}
+.hx_c img{
+	height: 49px;
+	width: 46px;
+	margin-top: 20px;
+	margin-left: 35px;
+}
+.hx_b{
+	width: 100%;
+	float: left;
+	margin-top: 24px;
+}
+.shili{
+	font-size: 16px;
+	color: #F9C354;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.fensi_b{
+	height: 224px;
+	width: 100%;
+	margin-top: 26px;
+	float: left;
+}
+.fensib{
+	height:222px;
+	width: 858px;
+	border: 1px solid #CCCCCC;
+	margin-left: 40px;
+}
+.fensib img{
+	height: 222px;
+	width: 858px;
+}
+.hx_c .tuz{
+	height:118px;
+	width: 118px;
+	position: absolute;
+	z-index: 8;
+	top: 0;
+}
+.hx_c .tuz img{
+	height: 118px;
+	width: 118px;
+	margin: 0;
+}
+.chuan{
+opacity: 0;
+cursor: pointer;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+filter: alpha(opacity=0);
+position: absolute;
+top: 0;
+left: 0;
+z-index: 10;
+height: 118px;
+width: 118px;
+}

@@ -1,0 +1,37 @@
+{
+    "name": "karsonzhang/admin",
+    "description": "the fastest admin framework",
+    "type": "project",
+    "keywords": [
+        "admin",
+        "thinkphp"
+    ],
+    "homepage": "http://www.admin.net/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "karson",
+            "email": "karsonzhang@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "topthink/framework": "^5.0",
+        "overtrue/wechat": "~3.1",
+        "endroid/qrcode": "^1.9",
+        "topthink/think-captcha": "^1.0",
+        "phpoffice/phpexcel": "^1.8",
+        "curl/curl": "^1.6",
+        "qiniu/php-sdk": "^7.1",
+        "weiwei/api-doc": "dev-master"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}

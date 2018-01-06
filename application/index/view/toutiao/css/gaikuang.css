@@ -1,0 +1,98 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, em, p, font, img, small, strong, center, dl, dt, dd, ol, ul, li, form, label, table, caption, tbody, tr, th, td {margin:0;padding:0;border:0;outline:0;font-size:12px;vertical-align:baseline} 
+ol, ul {list-style:none} :focus {outline:none; } 
+li{list-style: none;}
+table {border-collapse:collapse;border-spacing: 0} 
+caption, th, td { text-align: left; font-weight: normal} 
+strong {font-weight:600} 
+a{font:12px Arial;text-decoration:none;color:#404040;cursor:pointer;} 
+a:hover{text-decoration:underline;color:#FF3300} 
+h1{font-size:16px;font-weight:600;color:#666} .left{float:left} .right{float:right} .clear{clear:both}
+i{font-style: normal;}
+#gaikuang{
+	width: 990px;
+	height: 770px;
+	background: yellow;
+	float: left;
+}
+.g_head{
+	height: 18px;
+	width:100%;
+	background: yellowgreen;
+	line-height: 18px;
+	margin-top: 40px;
+}
+.g_headl{
+	font-size: 16px;
+	color: #F85959;
+	float: left;
+	margin-left: 40px;
+}
+.g_headr{
+	font-size: 16px;
+	color: #211E1E;
+	float: left;
+	margin-left: 12px;
+}
+.g_jihui{
+	height: 18px;
+	width: 100%;
+	background: yellowgreen;
+	line-height: 18px;
+	margin-top: 20px;
+}
+.g_jh{
+	font-size: 15px;
+	color: #F85959;
+	float: left;
+	margin-left: 52px;
+}
+.g_xuan{
+	height: 16px;
+	width: 16px;
+	background: pink;
+	float: left;
+	margin-top: 3px;
+	background: url(../img/denglu/weixuanze-.png) no-repeat;
+}
+.g_xiang{
+	font-size: 16px;
+	color: #211E1E;
+	float: left;
+	background: cyan;
+	margin-left: 12px;
+}
+.g_ping{
+	margin-top: 30px;
+	float: left;
+	background: red;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.pingtai{
+	float: left;
+	margin-right: 70px;
+	margin-top: 30px;
+}
+.g_ti{
+	height: 40px;
+	width: 280px;
+	background: #F85959;
+	margin-left:335px ;
+	float: left;
+	margin-top: 120px;
+	border-radius: 8px;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.one{
+opacity: 0;
+cursor: pointer;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+filter: alpha(opacity=0);
+background: yellow;
+}
+.on_check{
+	background: url(../img/denglu/choose.png) no-repeat;
+}

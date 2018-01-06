@@ -1,0 +1,70 @@
+<form id="edit-form" class="form-horizontal form-ajax" role="form" data-toggle="validator" method="POST" action="">
+
+    <!--<div class="form-group">
+        <label for="c-city" class="control-label col-xs-12 col-sm-2">{:__('City')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-city" required="" class="form-control" name="row[city]" type="text" value="{$row.city}">
+        </div>
+    </div>-->
+    <div class="form-group">
+        <label for="c-title" class="control-label col-xs-12 col-sm-2">{:__('Title')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-title" required="" class="form-control" name="row[title]" type="text" value="{$row.title}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-content" class="control-label col-xs-12 col-sm-2">{:__('Content')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-content" required="" class="form-control summernote" rows="5" name="row[content]" cols="50">{$row.content}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-c_time" class="control-label col-xs-12 col-sm-2">{:__('C_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-c_time" required="" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[c_time]" type="text" value="{$row.c_time}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-u_time" class="control-label col-xs-12 col-sm-2">{:__('U_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-u_time" required="" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[u_time]" type="text" value="{$row.u_time}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-flag" class="control-label col-xs-12 col-sm-2">{:__('Flag')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-flag" required="" class="form-control" name="row[flag]" type="text" value="{$row.flag}">
+        </div>
+    </div>
+    <!--<div class="form-group">
+        <label for="c-rest" class="control-label col-xs-12 col-sm-2">{:__('Rest')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-rest" required="" class="form-control" name="row[rest]" type="text" value="{$row.rest}">
+        </div>
+    </div>-->
+    <div class="form-group">
+        <label for="c-status" class="control-label col-xs-12 col-sm-2">{:__('Status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            {:build_radios('row[status]', ['normal' => __('Normal'),'hidden' => __('Hidden')], $row.status)}
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-select" class="control-label col-xs-12 col-sm-2">{:__('Select')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-select" required="" class="form-control" name="row[select]" type="text" value="{$row.select}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-delete" class="control-label col-xs-12 col-sm-2">{:__('Delete')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-delete" class="form-control" name="row[delete]" type="number" value="{$row.delete}">
+        </div>
+    </div>
+    <div class="form-group hide layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

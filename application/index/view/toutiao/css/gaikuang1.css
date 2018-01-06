@@ -1,0 +1,149 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, em, p, font, img, small, strong, center, dl, dt, dd, ol, ul, li, form, label, table, caption, tbody, tr, th, td {margin:0;padding:0;border:0;outline:0;font-size:12px;vertical-align:baseline} 
+ol, ul {list-style:none} :focus {outline:none; } 
+li{list-style: none;}
+table {border-collapse:collapse;border-spacing: 0} 
+caption, th, td { text-align: left; font-weight: normal} 
+strong {font-weight:600} 
+a{font:12px Arial;text-decoration:none;color:#404040;cursor:pointer;} 
+a:hover{text-decoration:underline;color:#FF3300} 
+h1{font-size:16px;font-weight:600;color:#666} .left{float:left} .right{float:right} .clear{clear:both}
+i{font-style: normal;}
+#gaikuang{
+	width: 990px;
+	height: 770px;
+	background: yellow;
+	float: left;
+}
+.tu{
+	height: 198px;
+	width: 630px;
+	border: 1px solid #CCCCCC;
+	margin: 0 0 0 40px;
+	float: left;
+}
+.gk_h{
+	height: 200px;
+	width: 100%;
+	background: pink;
+	margin-top: 40px;
+}
+.tu_r{
+	height: 200px;
+	width: 245px;
+	background: deepskyblue;
+	float: left;
+	margin-left: 20px;
+}
+.jt{
+	font-size: 16px;
+	color: #211E1E;
+	margin-top: 50px;
+}
+.jt2{
+	font-size: 16px;
+	color: #F85959;
+	margin-top: 40px;
+}
+.jt3{
+	font-size: 16px;
+	color: #F85959;
+	margin-top: 12px;
+}
+.gk_c{
+	height: 75px;
+	width: 875px;
+	background: yellowgreen;
+	border-top: 1px solid #E5E5E5;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+.gk_shu{
+	font-size: 14px;
+	color: #F85959;
+	line-height: 75px;
+	float: left;
+	
+	font-weight: 900;
+}
+.gk_j{
+	font-size: 14px;
+	line-height: 75px;
+	float: left;
+	margin-left: 12px;
+}
+.gk_b{
+	height: 200px;
+	width: 630px;
+	background: seagreen;
+	border: 1px solid #E5E5E5;
+	margin: 30px 0 0 40px;
+}
+.gkb_b{
+	height: 48px;
+	width: 446px;
+	background: pink;
+	border-bottom: 1px solid #E5E5E5;
+}
+.tut{
+	height: 70px;
+	width: 100%;
+	background: navajowhite;
+	margin-top: 34px;
+}
+.tut img{
+	height: 70px;
+	width: 66px;
+	margin-left: 280px;
+}
+.djs{
+	height: 40px;
+	width: 100%;
+	background: salmon;
+	margin-top: 20px;
+}
+.chuant{
+	height: 40px;
+	width: 140px;
+	font-size: 16px;
+	color: #FFFFFF;
+	background: #F85959;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 240px;
+}
+.gkb_r{
+	width: 168px;
+	height: 48px;
+	background: yellow;
+	float: right;
+}
+.gkb_bl{
+	height: 20px;
+	width: 28px;
+	background: seagreen;
+	float: left;
+	position: relative;
+	top: 15px;
+	float: left;
+}
+.gkb_bl img{
+	height: 20px;
+	width: 28px;
+}
+.gkb_bl span{
+	position: absolute;
+	right: -5px;
+	top: -8px;
+	height: 15px;
+	width: 15px;
+	background: #F85959;
+}
+.gkb_br{
+	height: 30px;
+	width: 80px;
+	background: pink;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}

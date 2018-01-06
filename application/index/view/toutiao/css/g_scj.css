@@ -1,0 +1,194 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, em, p, font, img, small, strong, center, dl, dt, dd, ol, ul, li, form, label, table, caption, tbody, tr, th, td {margin:0;padding:0;border:0;outline:0;font-size:12px;vertical-align:baseline} 
+ol, ul {list-style:none} :focus {outline:none; } 
+li{list-style: none;}
+table {border-collapse:collapse;border-spacing: 0} 
+caption, th, td { text-align: left; font-weight: normal} 
+strong {font-weight:600} 
+a{font:12px Arial;text-decoration:none;color:#404040;cursor:pointer;} 
+a:hover{text-decoration:underline;color:#FF3300} 
+h1{font-size:16px;font-weight:600;color:#666} .left{float:left} .right{float:right} .clear{clear:both}
+i{font-style: normal;}
+#g_head{
+	height: 56px;
+	width: 100%;
+	background: pink;
+}
+.g_head{
+	width: 1200px;
+	height: 100%;
+	background: yellow;
+	margin: 0 auto;
+}
+.n_conmment{
+	height: 100%;
+	float: left;
+}
+.nav_l{
+	width: 90px;
+	background: yellowgreen;
+}
+.nav_l img{
+	height: 36px;
+	width: 90px;
+	margin-top: 12px;
+}
+.g_con{
+	float: left;
+	margin-left: 164px;
+}
+.g_con li{
+	float: left;
+	margin-right: 40px;
+}
+.li_l{
+	height: 56px;
+	width: 15px;
+	background: saddlebrown;
+	float: left;
+}
+.li_l img{
+	height: 15px;
+	width: 15px;
+	margin-top: 20px;
+}
+.li_r{
+	height: 56px;
+	line-height: 56px;
+	float: left;
+	font-size: 16px;
+	color: #211E1E;
+	background: red;
+	margin-left: 10px;
+	
+}
+.login{
+	float: left;
+	background: yellowgreen;
+	margin-left: 18px;
+}
+.log{
+	height: 56px;
+	line-height: 56px;
+	color: #F85959;
+	font-size: 16px;
+}
+
+
+
+.gg_conr{
+	width: 1038px;
+	height: 872px;
+	background: skyblue;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.ggc_t li{
+	float: left;
+	font-size:14px ;
+	color: #FFFFFF;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	background: #F85959;
+	border-right: 1px solid #FFFFFF;
+}
+.cc1{
+	width: 99px;
+}
+.cc2{
+	width: 309px;
+}
+.cc3{
+	width: 99px;
+}
+.cc4{
+	width: 99px;
+}
+.cc5{
+	width: 127px;
+}
+.cc5_p{
+	font-size: 14px;
+	float: left;
+	background: yellowgreen;
+	margin-left: 10px;
+}
+.cc6{
+	width: 99px;
+}
+.cc6_p{
+	font-size: 14px;
+	float: left;
+	background: yellowgreen;
+	margin-left: 30px;
+}
+.cimg{
+	float: left;
+	margin-left: 10px;
+	margin-top: 17px;
+}
+.cc7{
+	width: 99px;
+}
+.cc8{
+	width: 99px;
+	border-right: 0;
+}
+.ggc_t2{
+	width: 1038px;
+	height: 60px;
+	float: left;
+	background: url(../img/xmtxy/guanggaozhu-shouye-line.png) no-repeat;
+}
+.ggc_t2 li{
+	float: left;
+	font-size:14px ;
+	color: #211E1E;
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+	background: yellow;
+}
+.g1{
+	width: 98px;
+	margin-right: 2px;
+}
+.g1 img{
+	height: 20px;
+	width: 22px;
+}
+.g2{
+	width: 308px;
+	margin-right: 1px;
+}
+.touu{
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.g_r{
+	float: left;
+	font-size: 14px;
+	color: #211E1E;
+	width: 243px;
+	text-align: center;
+	background: saddlebrown;
+}
+.g3{
+	width: 100px;
+}
+.g4{
+	width: 100px;
+}
+.g5{
+	width: 128px;
+}
+.g6{
+	width: 100px;
+}
+.g7{
+	width: 100px;
+}
+.g8{
+	width: 100px;
+}

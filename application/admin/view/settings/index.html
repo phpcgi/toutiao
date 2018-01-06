@@ -1,0 +1,186 @@
+<div class="row animated fadeInRight">
+    <div class="col-md-8">
+        <div class="box box-success">
+            <div class="panel-heading">
+            </div>
+            <div class="panel-body">
+                <form id="update-form" role="form" data-toggle="validator" method="POST" action="{:url('settings/update')}">
+                    <div class="box-body">
+                         <label for="username" class="control-label">入榜门槛</label>
+                        <div class="row">
+                            <div class="col-xs-2">
+                                <label></label>
+                                <!--<input type="text" name="row[week]" value="{$admin.nickname}" class="form-control" >-->
+                            </div>
+                            <div class="col-xs-2">
+                                <label>周发文数大于</label>
+                                <input type="text" name="row[week]" value="{$row.A}" class="form-control" >
+                            </div>
+                            <div class="col-xs-2">
+                                <label>月发文数大于</label>
+                                <input type="text" name="row[moon]" value="{$row.B}" class="form-control" >
+                            </div>
+                            <div class="col-xs-2">
+                                <label>粉丝量</label>
+                                <input type="text" name="row[fans]" value="{$row.C}" class="form-control" >
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="box-body">
+                        <label for="username" class="control-label">计算公式</label>
+                        <div class="row">
+                            <div class="col-xs-2">
+                                <label></label>
+                                <!--<input type="text" name="row[cc]" value="{$admin.nickname}" class="form-control" >-->
+                            </div>
+                            <div class="col-xs-2">
+                                <label >权重  %</label>
+                                <!--<input type="text" name="row[cc]" value="{$admin.nickname}" class="form-control" >-->
+                            </div>
+                            <div class="col-xs-2">
+                                <label>因素</label>
+                                <!--<input type="text" name="row[cc]" value="{$admin.nickname}" class="form-control" >-->
+                            </div>
+                            <div class="col-xs-2">
+                                <label>因素权重%</label>
+                                <!--<input type="text" name="row[cc]" value="{$admin.nickname}" class="form-control" >-->
+                            </div>
+                            <div class="col-xs-2">
+                                <label>放大倍数</label>
+                                <!--<input type="text" name="row[cc]" value="{$admin.nickname}" class="form-control" >-->
+                            </div>
+                        </div>
+                        <!--<div class="col-xs-3">
+                           222 <input type="text" class="form-control" placeholder=".col-xs-3">
+                        </div>-->
+                        <div class="box-body">
+                            <div class="col-sm-2">
+                                <label  class="col-sm-2 control-label">传播效果</label>
+                            </div>
+                            <div class="col-sm-2">
+                                    <input type="text" name="row[a]" value="{$row2.A}" class="form-control" >
+                            </div>
+                            <div class="col-sm-2">
+                                <label >R</label></br>
+                                <label >T</label>
+                            </div>
+                            <div class="col-sm-2">
+                                <input type="text" name="row[b1]" value="{$row2.B.0}" class="form-control" >
+                                <input type="text" name="row[b2]" value="{$row2.B.1}" class="form-control" >
+                            </div>
+                            <div class="col-sm-2">
+                                <input type="text" name="row[c1]" value="{$row2.C.0}" class="form-control" >
+                                <input type="text" name="row[c2]" value="{$row2.C.1}" class="form-control" >
+                            </div>
+                            <div class="col-sm-2">
+                                <label ></label>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div class="col-sm-2">
+                                <label  class="col-sm-2 control-label">内容质量</label>
+                            </div>
+                            <div class="col-sm-2">
+                                <input type="text" name="row[nr]" value="{$row3.A}" class="form-control" >
+                            </div>
+                            <div class="col-sm-2">
+                                <label >S</label></br>
+                                <label >C</label></br>
+                                <label >P</label></br>
+                                <label >T</label>
+                            </div>
+                            <div class="col-sm-2">
+                                <input type="text" name="row[nr1]" value="{$row3.B.0}" class="form-control" >
+                                <input type="text" name="row[nr2]" value="{$row3.B.1}" class="form-control" >
+                                <input type="text" name="row[nr3]" value="{$row3.B.2}" class="form-control" >
+                                <input type="text" name="row[nr4]" value="{$row3.B.3}" class="form-control" >
+                            </div>
+                            <div class="col-sm-2">
+                                <input type="text" name="row[nrfa1]" value="{$row3.C.0}" class="form-control" >
+                                <input type="text" name="row[nrfa2]" value="{$row3.C.1}" class="form-control" >
+                                <input type="text" name="row[nrfa3]" value="{$row3.C.2}" class="form-control" >
+                                <input type="text" name="row[nrfa4]" value="{$row3.C.3}" class="form-control" >
+                            </div>
+                            <div class="col-sm-2">
+                                <label ></label>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div class="col-sm-2">
+                                <label  class="col-sm-2 control-label">互动效果</label>
+                            </div>
+                            <div class="col-sm-2">
+                                <input type="text" name="row[hd]" value="{$row4.A}" class="form-control" >
+                            </div>
+                            <div class="col-sm-2">
+                                <label >R</label></br>
+                                <label >T</label>
+                            </div>
+                            <div class="col-sm-2">
+                                <input type="text" name="row[hd1]" value="{$row4.B.0}" class="form-control" >
+                                <input type="text" name="row[hd2]" value="{$row4.B.1}" class="form-control" >
+                            </div>
+                            <div class="col-sm-2">
+                                <input type="text" name="row[hdfd1]" value="{$row4.C.0}" class="form-control" >
+                                <input type="text" name="row[hdfd2]" value="{$row4.C.1}" class="form-control" >
+                            </div>
+                            <div class="col-sm-2">
+                                <label ></label>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div class="col-sm-2">
+                                <label  class="col-sm-2 control-label">粉丝数量</label>
+                            </div>
+                            <div class="col-sm-2">
+                                <input type="text" name="row[fs]" value="{$row5.A}" class="form-control" >
+                            </div>
+                            <div class="col-sm-2">
+                                <label >R</label></br>
+                                <label >T</label>
+                            </div>
+                            <div class="col-sm-2">
+                                <input type="text" name="row[fs1]" value="{$row5.B}" class="form-control" >
+                            </div>
+                            <div class="col-sm-2">
+                                <input type="text" name="row[fsfd1]" value="{$row5.C}" class="form-control" >
+                            </div>
+                            <div class="col-sm-2">
+                                <label ></label>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div class="col-sm-2">
+                                <label  class="col-sm-2 control-label">发文数量</label>
+                            </div>
+                            <div class="col-sm-2">
+                                <input type="text" name="row[wen]" value="{$row6.A}" class="form-control" >
+                            </div>
+                            <div class="col-sm-2">
+                                <label >Z</label>
+                            </div>
+                            <div class="col-sm-2">
+                                <input type="text" name="row[wen1]" value="{$row6.B}" class="form-control" >
+                            </div>
+                            <div class="col-sm-2">
+                                <input type="text" name="row[wenfd1]" value="{$row6.C}" class="form-control" >
+                            </div>
+                            <div class="col-sm-2">
+                                <label ></label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-success">{:__('Submit')}</button>
+                        <button type="reset" class="btn btn-default">{:__('Reset')}</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>

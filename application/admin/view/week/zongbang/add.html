@@ -1,0 +1,100 @@
+<form id="add-form" class="form-horizontal form-ajax" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label for="c-tid" class="control-label col-xs-12 col-sm-2">{:__('Tid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-tid" required="" class="form-control" name="row[tid]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-type" class="control-label col-xs-12 col-sm-2">{:__('Type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-type" required="" class="form-control" name="row[type]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-avatar_url" class="control-label col-xs-12 col-sm-2">{:__('Avatar_url')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-avatar_url" required="" class="form-control " rows="5" name="row[avatar_url]" cols="50"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-name" class="control-label col-xs-12 col-sm-2">{:__('Name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-name" required="" class="form-control" name="row[name]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-sum_fans_count" class="control-label col-xs-12 col-sm-2">{:__('Sum_fans_count')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-sum_fans_count" required="" class="form-control" name="row[sum_fans_count]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-R" class="control-label col-xs-12 col-sm-2">{:__('R')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-R" required="" class="form-control" name="row[R]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-S" class="control-label col-xs-12 col-sm-2">{:__('S')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-S" required="" class="form-control" name="row[S]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-C" class="control-label col-xs-12 col-sm-2">{:__('C')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-C" required="" class="form-control" name="row[C]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-P" class="control-label col-xs-12 col-sm-2">{:__('P')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-P" required="" class="form-control" name="row[P]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-T" class="control-label col-xs-12 col-sm-2">{:__('T')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-T" required="" class="form-control" name="row[T]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-W" class="control-label col-xs-12 col-sm-2">{:__('W')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-W" required="" class="form-control" name="row[W]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-worth" class="control-label col-xs-12 col-sm-2">{:__('Worth')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-worth" required="" class="form-control" name="row[worth]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-sum_publish_num" class="control-label col-xs-12 col-sm-2">{:__('Sum_publish_num')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-sum_publish_num" required="" class="form-control" name="row[sum_publish_num]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-status" class="control-label col-xs-12 col-sm-2">{:__('Status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            {:build_radios('row[status]', ['normal' => __('Normal'),'hidden' => __('Hidden')], 'normal')}
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-time" class="control-label col-xs-12 col-sm-2">{:__('Time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-time" required="" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[time]" type="text" value="{:date('Y-m-d H:i:s')}">
+        </div>
+    </div>
+    <div class="form-group hide layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

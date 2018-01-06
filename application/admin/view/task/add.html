@@ -1,0 +1,130 @@
+<form id="add-form" class="form-horizontal form-ajax" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label for="c-uid" class="control-label col-xs-12 col-sm-2">{:__('Uid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-uid" required="" class="form-control" name="row[uid]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-tid" class="control-label col-xs-12 col-sm-2">{:__('Tid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-tid" required="" class="form-control" name="row[tid]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-DataMonthid" class="control-label col-xs-12 col-sm-2">{:__('DataMonthid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-DataMonthid" required="" class="form-control" name="row[DataMonthid]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-orderid" class="control-label col-xs-12 col-sm-2">{:__('Orderid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-orderid" class="form-control" name="row[orderid]" type="number" value="0">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-type" class="control-label col-xs-12 col-sm-2">{:__('Type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-type" required="" class="form-control" name="row[type]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-title" class="control-label col-xs-12 col-sm-2">{:__('Title')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-title" required="" class="form-control " rows="5" name="row[title]" cols="50"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-url" class="control-label col-xs-12 col-sm-2">{:__('Url')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-url" required="" class="form-control " rows="5" name="row[url]" cols="50"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-url_other" class="control-label col-xs-12 col-sm-2">{:__('Url_other')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-url_other" required="" class="form-control " rows="5" name="row[url_other]" cols="50"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-avatar_url" class="control-label col-xs-12 col-sm-2">{:__('Avatar_url')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-avatar_url" required="" class="form-control " rows="5" name="row[avatar_url]" cols="50"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-name" class="control-label col-xs-12 col-sm-2">{:__('Name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-name" required="" class="form-control" name="row[name]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-sum_fans_count" class="control-label col-xs-12 col-sm-2">{:__('Sum_fans_count')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-sum_fans_count" required="" class="form-control" name="row[sum_fans_count]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-R" class="control-label col-xs-12 col-sm-2">{:__('R')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-R" required="" class="form-control" name="row[R]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-A4" class="control-label col-xs-12 col-sm-2">{:__('A4')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-A4" required="" class="form-control" name="row[A4]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-worth" class="control-label col-xs-12 col-sm-2">{:__('Worth')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-worth" required="" class="form-control" name="row[worth]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-cost" class="control-label col-xs-12 col-sm-2">{:__('Cost')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-cost" required="" class="form-control" name="row[cost]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-status" class="control-label col-xs-12 col-sm-2">{:__('Status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            {:build_radios('row[status]', ['normal' => __('Normal'),'hidden' => __('Hidden')], '1')}
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-puttime" class="control-label col-xs-12 col-sm-2">{:__('Puttime')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-puttime" required="" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[puttime]" type="text" value="{:date('Y-m-d H:i:s')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-time" class="control-label col-xs-12 col-sm-2">{:__('Time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-time" required="" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[time]" type="text" value="{:date('Y-m-d H:i:s')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-productid" class="control-label col-xs-12 col-sm-2">{:__('Productid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-productid" class="form-control" name="row[productid]" type="number" value="1">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-way" class="control-label col-xs-12 col-sm-2">{:__('Way')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-way" class="form-control" name="row[way]" type="number" value="1">
+        </div>
+    </div>
+    <div class="form-group hide layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,57 @@
+<form id="edit-form" class="form-horizontal form-ajax" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label for="c-type" class="control-label col-xs-12 col-sm-2">{:__('Type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            {:build_select('row[type]', $typelist, $row['type'], ['id'=>'c-type','class'=>'form-control selectpicker','required'=>''])}
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-title" class="control-label col-xs-12 col-sm-2">{:__('Title')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-title" required="" class="form-control" name="row[name]" type="text" value="{$row.name}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-fans" class="control-label col-xs-12 col-sm-2">{:__('Fans')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-fans" required="" class="form-control" name="row[fans]" type="text" value="{$row.fans}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-content" class="control-label col-xs-12 col-sm-2">{:__('Content')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-content" required="" class="form-control" rows="5" name="row[content]" cols="50">{$row.content}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-status" class="control-label col-xs-12 col-sm-2">{:__('Status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            {:build_radios('row[status]', ['normal' => __('Normal'),'hidden' => __('Hidden')], $row.status)}
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-image" class="control-label col-xs-12 col-sm-2">图片:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="form-inline">
+                <input id="c-image" class="form-control" size="50" name="row[image]" type="text" value="{$row.image}">
+                <span><button type="button" id="plupload-image" class="btn btn-danger plupload" data-multiple="false" data-input-id="c-image" data-preview-id="p-image"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                <!--<span><button type="button" id="fachoose-image" class="btn btn-primary fachoose" data-multiple="false" data-input-id="c-image"><i class="fa fa-list-ul"></i> {:__('Choose')}</button></span>-->
+                <!--<ul class="row list-inline plupload-preview" id="p-image"><img src="{$row.image}"></ul>-->
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-author" class="control-label col-xs-12 col-sm-2">{:__('Author')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-author" required="" class="form-control" name="row[author]" type="text" value="{$row.author}">
+        </div>
+    </div>
+    <div class="form-group hide layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

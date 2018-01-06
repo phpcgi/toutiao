@@ -1,0 +1,211 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, em, p, font, img, small, strong, center, dl, dt, dd, ol, ul, li, form, label, table, caption, tbody, tr, th, td {margin:0;padding:0;border:0;outline:0;font-size:12px;vertical-align:baseline} 
+ol, ul {list-style:none} :focus {outline:none; } 
+table {border-collapse:collapse;border-spacing: 0} 
+caption, th, td { text-align: left; font-weight: normal} 
+strong {font-weight:600} 
+a{font:12px Arial;text-decoration:none;color:#404040;cursor:pointer;} 
+a:hover{text-decoration:underline;color:#FF3300} 
+h1{font-size:16px;font-weight:600;color:#666} .left{float:left} .right{float:right} .clear{clear:both}
+i{font-style: normal;}
+body{
+	height: 100%;
+}
+body{
+	background: url(../../img/denglu/dl.png) no-repeat;
+	background-size: 100% 100%;
+}
+#login_con{
+	height: 183px;
+	width: 100%;
+}
+#head{
+	height: 32px;
+	line-height: 32px;
+	width: 100%;
+	margin-top: 10px;
+}
+#head .return{
+	font-size: 16px;
+	color: #dc3932;
+	float: right;
+	margin-right: 198px;
+	cursor: pointer;
+}
+#login_con .login_b{
+	height: 243px;
+	width: 348px;
+	margin: 0 auto;
+	background: url(../../img/denglu/logobjjh.png) no-repeat;
+}
+.tty{
+	height: 150px;
+	width: 460px;
+	/*margin-top: 78px;*/
+	float: left;
+	margin-left: -56px;
+	/*background: url(../img/denglu/头条易动图.gif) no-repeat fixed top;
+	background-size: 460px 90px;*/
+}
+.tty img{
+	height: 150px;
+	width: 460px;
+}
+#con{
+	height: 570px;
+	width: 100%;
+}
+.con_c{
+	height: 540px;
+	width: 1000px;
+	background: url(../../img/denglu/wjmmhsbj.png) no-repeat;
+	background-size: 1000px 540px;
+	margin: 0 auto;
+}
+#footer{
+	height: 55px;
+	width: 100%;
+	background: #222123;
+	margin-top: 170px;
+}
+.foot{
+	text-align: center;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 55px;
+}
+.conc_l{
+	width: 424px;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 19px;
+	float: left;
+	margin-left: 285px;
+}
+.wen{
+	width: 424px;
+	height: 46px;
+}
+.wen_c{
+	line-height: 46px;
+	font-size: 16px;
+	color: #FFFFFF;
+	float: left;
+	margin-left: 20px;
+}
+.in_k{
+	height: 38px;
+	width: 422px;
+	border-radius: 4px;
+	border: 1px solid #C0C0C0;
+}
+.tian{
+	height: 36px;
+	width: 400px;
+	border: 0;
+	background: 0;
+	float: left;
+	color: #FFFFFF;
+	-webkit-box-shadow: 0 0 0 1000px #f97570 inset;
+}
+.mima1{
+	width: 350px;
+}
+.zhan{
+	height: 36px;
+	width: 50px;
+	/*background: pink;*/
+	float: left;
+	line-height: 36px;
+	text-align: center;
+	margin-left: 10px;
+}
+.zhan img{
+	height: 10px;
+	width: 21px;
+}
+.mima2{
+	width: 350px;
+}
+.zhan1{
+	height: 36px;
+	width: 50px;
+	/*background: pink;*/
+	float: left;
+	line-height: 36px;
+	text-align: center;
+	margin-left: 10px;
+}
+.zhan1 img{
+	height: 10px;
+	width: 21px;
+}
+
+.tian1{
+	width: 250px;
+	float: left;
+	border-radius: 4px;
+	border: 1px solid #CCCCCC;
+	height: 34px;
+}
+/*.nn{
+	height: 48px;
+	width: 150px;
+	float: left;
+}*/
+.tian2{
+	height: 36px;
+
+	border: 0;
+	background: 0;
+	float: left;
+	color: #FFFFFF;
+	border-radius: 4px;
+	width: 150px;
+	float: right;
+	background: #DC3932;
+	height: 38px;
+	color: #FFFFFF;
+}
+.ink2{
+	border: 0;
+}
+.ti{
+	height: 40px;
+	width: 280px;
+	background: #DC3932;
+	border-radius: 4px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 40px;
+	color: #FFFFFF;
+	font-size: 16px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+.dc{
+	height: 20px;
+	width: 20px;
+	float: left;
+	margin-top: 10px;
+	display: none;
+}
+.tishi{
+	color: red;
+	display: none;
+}
+.youx{
+	color: red;
+	display: none;
+}
+.tmima{
+	color: red;
+	display: none;
+}
+.tmima1{
+	color: red;
+	display: none;
+}
+.yzm{
+	cursor: pointer;
+}

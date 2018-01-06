@@ -1,0 +1,46 @@
+
+
+<form id="update-form" role="form" data-toggle="validator" method="POST" action="{:url('/admin/userad/ad/update')}">
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>名称</th>
+            <th>官网地址</th>
+            <th>手机号</th>
+            <th>是否通过审核</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        {volist name="row" id="vo"  }
+            <tr>
+                <td>{$vo.username}</td>
+                <td>{$vo.url}</td>
+                <td>{$vo.phone}</td>
+                <td>
+                    {$vo.status==2? '通过' : '未通过'}
+                </td>
+                <td>
+                    <div class="form-group">
+                        <div class="col-xs-12 col-sm-8">
+                            通过：
+                            <input type="radio" checked="checked" name="radio[{$vo.uid}]" value="2" />
+                            <br />
+                            拒绝：
+                            <input type="radio" name="radio[{$vo.uid}]" value="0" />
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        <input type="hidden" name="id[]" value="{$vo.uid}">
+        {/volist}
+    </tbody>
+</table>
+<div class="hide layer-footer">
+    <label class="control-label col-xs-12 col-sm-2"></label>
+    <div class="col-xs-12 col-sm-8">
+        <button type="submit" class="btn btn-success">{:__('Submit')}</button>
+        <button type="reset" class="btn btn-primary btn-embossed btn-close" onclick="Layer.closeAll();">{:__('Close')}</button>
+    </div>
+</div>
+</form>

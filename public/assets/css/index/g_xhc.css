@@ -1,0 +1,262 @@
+
+.xhc{
+	color: #f85959;
+}
+
+.gg_conr{
+	width: 940px;
+	max-height: 872px;
+	min-height: 300px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.ggc_t li{
+	float: left;
+	font-size:14px ;
+	color: #FFFFFF;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	background: #F85959;
+	border-right: 1px solid #FFFFFF;
+}
+.cc1{
+	width: 99px;
+}
+.cc2{
+	width: 309px;
+}
+.cc3{
+	width: 99px;
+}
+.cc4{
+	width: 99px;
+}
+.cc5{
+	width: 129px;
+}
+.cc5_p{
+	font-size: 14px;
+	float: left;
+	background: yellowgreen;
+	margin-left: 10px;
+}
+.cc6{
+	width: 99px;
+}
+.cc6_p{
+	font-size: 14px;
+	float: left;
+	background: yellowgreen;
+	margin-left: 30px;
+}
+.cimg{
+	float: left;
+	margin-left: 10px;
+	margin-top: 17px;
+}
+.cc7{
+	width: 99px;
+}
+.cc8{
+	width: 99px;
+	border-right: 0;
+}
+.ggc_t2{
+	width: 937px;
+	height: 60px;
+	float: left;
+	background: url(../../img/xmtxy/xhc.png) no-repeat;
+	background-size: 937px 60px;
+	border-left: 1px solid #E5E5E5;
+	border-right: 1px solid #E5E5E5;
+	border-bottom: 1px solid #E5E5E5;
+}
+.ggc_t2 li{
+	float: left;
+	font-size:14px ;
+	color: #211E1E;
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+}
+.g1{
+	width: 50px;
+	margin-right: 2px;
+}
+.g1 img{
+	height: 20px;
+	width: 22px;
+}
+.g2{
+	width: 256px;
+	margin-right: 1px;
+}
+.touu{
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+	width: 41px;
+	height: 40px;
+}
+.g_r{
+	float: left;
+	font-size: 14px;
+	color: #211E1E;
+	width: 188px;
+	text-align: center;
+}
+.g3{
+	width: 100px;
+}
+.g4{
+	width: 100px;
+}
+.g5{
+	width: 128px;
+}
+.g6{
+	width: 100px;
+}
+.g7{
+	width: 100px;
+}
+.g8{
+	width: 100px;
+	cursor: pointer;
+}
+.g_xuan{
+	height: 16px;
+	width: 16px;
+	background: pink;
+	float: left;
+	margin-top: 23px;
+	margin-left: 18px;
+	background: url(../../img/denglu/weixuanze.png) no-repeat;
+}
+.on_check{
+	background: url(../../img/denglu/choose.png) no-repeat;
+}
+.one{
+opacity: 0;
+cursor: pointer;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+filter: alpha(opacity=0);
+background: yellow;
+float: left;
+	margin-top: 2px;
+	margin-left: 2px;
+}
+.xiak{
+	height: 40px;
+	width: 100%;
+	margin-top: 50px;
+	float: left;
+}
+.xia{
+	height: 40px;
+	width: 280px;
+	background: #F85959;
+	margin: 0 auto;
+	
+	border-radius: 8px;
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+	line-height: 40px;
+	color: #FFFFFF;
+	/*color: red;*/
+}
+
+.shouc{
+	width: 22px;
+	height: 20px;
+	background: gray;
+	margin: 0 auto;
+	margin-top: 15px;
+	background: url(../../img/xmtxy/shoucang.png) no-repeat;
+	background-size:22px 20px ;
+}
+.on1_check{
+	background: url(../../img/xmtxy/shoucangjiadangqian.png) no-repeat;
+	background-size:22px 20px ;
+}
+.xhc_con{
+	max-height: 780px;
+	min-height: 300px;
+	/*height: 780px;*/
+	
+	overflow: scroll;
+	float: left;
+}
+.kgao{
+	min-height: 965px;
+	width: 100%;
+}
+
+	.chao{
+	display: -webkit-box; /*将对象作为弹性伸缩盒子模型显示*/
+    overflow: hidden;
+
+    white-space: normal !important;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+
+    -webkit-line-clamp: 1; /*限制在一个块元素显示的文本的行数*/
+    -webkit-box-orient: vertical;
+}
+
+.tank{
+	width: 100%;
+	height: 100%;
+	/*background: rgba(0,0,0,0.5);*/
+	position: fixed;
+	top: 0;
+	display: none;
+	
+	/*z-index: 9;*/
+}
+.tank_k{
+	height: 180px;
+	width: 300px;
+	/*background: pink;*/
+	margin: 0 auto;
+	box-shadow: 0 0 15px #000000;
+}
+.tan_h{
+	height: 30px;
+	width: 100%;
+	background: #EFEFEF;
+	text-align: center;
+	line-height: 30px
+}
+.tank_c{
+	height: 100px;
+	width: 100%;
+	background: #FFFFFF;
+	float: left;
+}
+.tan_con{
+	/*background: pink;*/
+	margin-top: 20px;
+	text-align: center;
+}
+.tan_b{
+	height: 50px;
+	width: 100%;
+	background: #FFFFFF;
+	float: left;
+}
+.niu{
+	height: 20px;
+	width: 40px;
+	background: #EFEFEF;
+	float: left;
+	border-radius: 4px;
+	margin-left: 80px;
+	/*margin: 0 auto;*/
+	text-align: center;
+	line-height: 20px;
+	border: 1px solid #666;
+	
+}

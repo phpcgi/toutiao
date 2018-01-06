@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/fensihuaxing.css" />
+		
+			<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="css/webuploader.css">
+
+<link rel="stylesheet" type="text/css" href="css/diyUpload.css">
+
+<script type="text/javascript" src="js/webuploader.html5only.min.js"></script>
+
+<script type="text/javascript" src="js/diyUpload.js"></script>
+
+	</head>
+	<body>
+		<div id="gaikuang">
+			<div class="fensi_t">
+				<div class="huaxiang">
+					<div class="hx_t">
+						<p class="hxt1">|</p>
+						<p class="hxt2">性别比例</p>
+					</div>
+					<div class="hx_c">
+						
+						<div id="box">
+
+							<div id="test" ></div>
+
+						</div>
+						
+						<!--<img src="img/xmtxy/fensi-jietu.png" />-->
+					</div>
+					<div class="hx_b">
+						<p class="shili">示例</p>
+					</div>
+				</div>
+				<div class="huaxiang">
+					<div class="hx_t">
+						<p class="hxt1">|</p>
+						<p class="hxt2">年龄分布</p>
+					</div>
+					<div class="hx_c">
+						<div id="box">
+
+							<div id="test1" ></div>
+
+						</div>
+						<!--<img src="img/xmtxy/fensi-jietu.png" />-->
+					</div>
+					<div class="hx_b">
+						<p class="shili">示例</p>
+					</div>
+				</div>
+				<div class="huaxiang">
+					<div class="hx_t">
+						<p class="hxt1">|</p>
+						<p class="hxt2">地域分布</p>
+					</div>
+					<div class="hx_c">
+						<div id="box">
+
+							<div id="test2" ></div>
+
+						</div>
+						<!--<img src="img/xmtxy/fensi-jietu.png" />-->
+					</div>
+					<div class="hx_b">
+						<p class="shili">示例</p>
+					</div>
+				</div>
+				<div class="huaxiang">
+					<div class="hx_t">
+						<p class="hxt1">|</p>
+						<p class="hxt2">终端分布</p>
+					</div>
+					<div class="hx_c">
+						<div id="box">
+
+							<div id="test3" ></div>
+
+						</div>
+						<!--<img src="img/xmtxy/fensi-jietu.png" />-->
+					</div>
+					<div class="hx_b">
+						<p class="shili">示例</p>
+					</div>
+				</div>
+			</div>
+			<div class="fensi_b">
+				<div class="fensib"></div>
+			</div>
+		</div>
+	</body>
+	<script src="js/fensihuaxiang.js"></script>
+	<script>
+		$('#test').diyUpload({
+
+	url:'server/fileupload.php',
+
+	success:function( data ) {
+
+		console.info( data );
+
+	},
+
+	error:function( err ) {
+
+		console.info( err );	
+
+	}
+
+});
+$('#test1').diyUpload({
+
+	url:'server/fileupload.php',
+
+	success:function( data ) {
+
+		console.info( data );
+
+	},
+
+	error:function( err ) {
+
+		console.info( err );	
+
+	}
+
+});
+$('#test2').diyUpload({
+
+	url:'server/fileupload.php',
+
+	success:function( data ) {
+
+		console.info( data );
+
+	},
+
+	error:function( err ) {
+
+		console.info( err );	
+
+	}
+
+});
+$('#test3').diyUpload({
+
+	url:'server/fileupload.php',
+
+	success:function( data ) {
+
+		console.info( data );
+
+	},
+
+	error:function( err ) {
+
+		console.info( err );	
+
+	}
+
+});
+	</script>
+</html>

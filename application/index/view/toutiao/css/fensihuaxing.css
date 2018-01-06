@@ -1,0 +1,85 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, em, p, font, img, small, strong, center, dl, dt, dd, ol, ul, li, form, label, table, caption, tbody, tr, th, td {margin:0;padding:0;border:0;outline:0;font-size:12px;vertical-align:baseline} 
+ol, ul {list-style:none} :focus {outline:none; } 
+li{list-style: none;}
+table {border-collapse:collapse;border-spacing: 0} 
+caption, th, td { text-align: left; font-weight: normal} 
+strong {font-weight:600} 
+a{font:12px Arial;text-decoration:none;color:#404040;cursor:pointer;} 
+a:hover{text-decoration:underline;color:#FF3300} 
+h1{font-size:16px;font-weight:600;color:#666} .left{float:left} .right{float:right} .clear{clear:both}
+i{font-style: normal;}
+#gaikuang{
+	width: 990px;
+	height: 770px;
+	background: yellow;
+	float: left;
+}
+.fensi_t{
+	height: 217px;
+	width: 100%;
+	background: pink;
+	margin-top: 40px;
+}
+.huaxiang{
+	height: 216px;
+	width: 120px;
+	background: yellowgreen;
+	float: left;
+	margin-left: 40px;
+	margin-right: 80px;
+}
+.hx_t{
+	height: 20px;
+	width: 100%;
+	background: forestgreen;
+}
+.hxt1{
+	font-size: 16px;
+	font-weight: bolder;
+	color: #F85959;
+	float: left;
+}
+.hxt2{
+	font-size: 16px;
+	color: #211E1E;
+	margin-left: 12px;
+}
+.hx_c{
+	height: 118px;
+	width: 118px;
+	background: yellow;
+	float: left;
+	margin-top: 28px;
+	border: 1px solid #CCCCCC;
+}
+.hx_c img{
+	height: 49px;
+	width: 46px;
+	/*margin-top: 20px;*/
+	/*margin-left: 35px;*/
+}
+.hx_b{
+	width: 100%;
+	float: left;
+	margin-top: 24px;
+	background: red;
+}
+.shili{
+	font-size: 16px;
+	color: #F9C354;
+	text-decoration: underline;
+}
+.fensi_b{
+	height: 224px;
+	width: 100%;
+	background: red;
+	margin-top: 26px;
+	float: left;
+}
+.fensib{
+	height:222px;
+	width: 858px;
+	border: 1px solid #CCCCCC;
+	background: yellowgreen;
+	margin-left: 40px;
+}
