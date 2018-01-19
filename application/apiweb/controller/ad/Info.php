@@ -149,7 +149,7 @@ class Info extends Api
     }
 
     public function suiji($type){
-        $json =  Genre::getlist($type);
+        $json =  Genre::getlista($type);
         $ret = [];
         foreach ($json as $old){
             $avatar = self::_Apimedia_info($old['tid']);

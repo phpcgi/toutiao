@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:63:"D:\toutiao\public/../application/index\view\toutiao\shouye.html";i:1515657733;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:63:"D:\toutiao\public/../application/index\view\toutiao\shouye.html";i:1516345642;}*/ ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -142,7 +142,7 @@
 						<li class="chanpin">产品</li>
 						<li class="gywm">关于我们</li>
 						<li class="anl">成功案例</li>
-						<li class="renzheng">企业号认证</li>
+						<li class="renzheng">头条号企业认证</li>
 					</ul>
 					<div class="z_nav">
 						<div class="z_top">

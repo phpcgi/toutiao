@@ -47,7 +47,7 @@ var goodObj=ro();
          			+	'<div class="tu2">'
          			+	'<img src="'+ii.avatar+'" />'
          			+	'</div>'
-         			+	'<p class="name2">'+ii.nickname+'</p>'
+         			+	'<p class="name2"><a href=/index/Ttxq?id='+ii.tid+' target="_blank">'+ii.nickname+'</a></p>'
          			+	'</li>'
 			})
          	$('.tuijian').html(str4)

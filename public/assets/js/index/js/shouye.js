@@ -127,7 +127,7 @@ $(function(){
 	})
 		//企业号认证
 	$('.renzheng').click(function(){
-		location.href="/xintuiguang.php"
+		location.href="/renzheng.php"
 	})
 	//logo
 	$('.nav_l img').click(function(){

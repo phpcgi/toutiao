@@ -144,13 +144,13 @@ ul,li {
 }
 .rt{
 	height: 300px;
-	width: 900px;
+	width: 600px;
 	/*background: red;*/
 	float: left;
 }
 .rt_c{
 	height: 150px;
-	width: 180px;
+	width: 200px;
 	/*background: yellowgreen;*/
 	float: left;
 }

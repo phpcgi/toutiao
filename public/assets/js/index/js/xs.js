@@ -93,7 +93,7 @@ $(function(){
 			var ss1=canshu()
 			$.ajax( {  
 	                type : "GET",  
-	                url : "/apiweb/ad/search",  
+	                url : "/apiweb/ad/xs",  
 	                data:ss1,
 	                success : function(msg) {
 						//-------字符串------
@@ -141,7 +141,7 @@ $(function(){
 							$('.lei').css("display","none")
 							$.ajax( {  
 					                type : "GET",  
-					                url : "/apiweb/ad/search",  
+					                url : "/apiweb/ad/xs",  
 					                data: ss2,
 					                success : function(msg) {
 					                	var str3=str(msg.data)
@@ -168,7 +168,7 @@ $(function(){
 			var ss3=canshu()
 				$.ajax( {  
 		                type : "GET",  
-		                url : "/apiweb/ad/search",  
+		                url : "/apiweb/ad/xs",  
 		                data: ss3,
 		                success : function(msg) {
 		                		var str4=str(msg.data)
@@ -193,7 +193,7 @@ $(function(){
 			var ss4=canshu()
 				$.ajax( {  
 		                type : "GET",  
-		                url : "/apiweb/ad/search",  
+		                url : "/apiweb/ad/xs",  
 		                data:ss4,
 		                success : function(msg) {
 		                		var str5=str(msg.data)
@@ -219,7 +219,7 @@ $(function(){
 		var ss5=canshu()
 		$.ajax( {  
                type : "GET",  
-               url : "/apiweb/ad/search",  
+               url : "/apiweb/ad/xs",  
                data: ss5,
                success : function(msg) {
                 		var str6=str(msg.data)
@@ -244,7 +244,7 @@ $(function(){
     			var ss6=canshu()
 			$.ajax( {  
 	                type : "GET",  
-	                url : "/apiweb/ad/search",  
+	                url : "/apiweb/ad/xs",  
 	                data: ss6,
 	                success : function(msg) {
 	                	var str7=str(msg.data)
@@ -305,7 +305,7 @@ $(function(){
 		             var b=api.getCurrent()
 			        	$.ajax( {  
 				                type : "GET",  
-				                url : "/apiweb/ad/search",  
+				                url : "/apiweb/ad/xs",  
 				               data: {name:name,cost:cost,type:type,readnum:readnum,is_dg:cc,sort:dd,start:b},
 				                success : function(msg) {
 				                		var str8=str(msg.data)

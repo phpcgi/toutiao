@@ -28,7 +28,7 @@ class Xs extends Api
     	//取用户ＵＩＤ
 $username = Request::instance()->session('userinfo');
 $uid=$username->uid;
-//取得选中帐号的分类
+//取得选中帐号的分类及其它条件
 //选号车中的帐号
         $ss = Db::table('fa_orderext_ad')
             ->where('uid', '=', $uid)
@@ -36,7 +36,11 @@ $uid=$username->uid;
             ->select();
             $xs='';
 //选择前几个做为条件
-$a=5;            
+$a=5;
+$max_cost=0;//价格
+$min_cost=0;        //价格
+$max_R=0;//阅读量
+$min_R=0;    //阅读量
 for ($i = 0; $i < $a; $i++) {
 	if($ss[$i]['type']=="")
 	 break;
@@ -44,6 +48,14 @@ for ($i = 0; $i < $a; $i++) {
 	  $xs=$xs.$ss[$i]['type'];
 	else
  	  $xs=$xs.','.$ss[$i]['type'];
+ 	if($ss[$i]['cost']>$max_cost)
+ 	  $max_cost=$ss[$i]['cost'];
+ 	if($min_cost>$ss[$i]['cost'])
+ 	  $min_cost=$ss[$i]['cost'];
+ 	if($ss[$i]['R']>$max_R)
+ 	  $max_R=$ss[$i]['R'];
+ 	if($min_R>$ss[$i]['R'])
+ 	  $min_R=$ss[$i]['R']; 	  
 }            
 //收藏夹中的帐号
         $ss1 = Db::table('fa_collector_ad')
@@ -57,18 +69,36 @@ for ($i = 0; $i < $a; $i++) {
 	  $xs=$xs.$ss1[$i]['type'];
 	else
  	  $xs=$xs.','.$ss1[$i]['type'];
+ 	if($ss[$i]['cost']>$max_cost)
+ 	  $max_cost=$ss[$i]['cost'];
+ 	if($min_cost>$ss[$i]['cost'])
+ 	  $min_cost=$ss[$i]['cost'];
+ 	if($min_cost==0)
+ 	  $min_cost=1;
+ 	if($max_cost==0)
+ 	  $max_cost=1; 	  
+ 	if($ss[$i]['R']>$max_R)
+ 	  $max_R=$ss[$i]['R'];
+ 	if($min_R>$ss[$i]['R'])
+ 	  $min_R=$ss[$i]['R']; 	  
+ 	if($min_R==0)
+ 	  $min_R=1; 	 
+ 	if($max_R==0)
+ 	  $max_R=1;  	   	  
 }
-//取得分类完
-//echo $xs;       
+$cost=$min_cost.'_'.$max_cost;//价格
+$R=$min_R.'_'.$max_R;//阅读量
+//取得分类及其它条件完
+     
         $page =13;
         $start = Request::instance()->request('start');
         $data['name'] = Request::instance()->request('name');
         $data['type'] =$xs;
-        $data['readnum'] = Request::instance()->request('readnum');//阅读量
-        $data['cost'] = Request::instance()->request('cost');//价格
+        $data['readnum'] = $R;//阅读量
+        $data['cost'] = $cost;//价格
         $is_dg = Request::instance()->request('is_dg');//攒稿
         $data['sort'] = Request::instance()->request('sort');//从高到低排序
-
+//echo "---------".$R."---------";
         
         if($data['readnum']){
             $readname = explode('_',$data['readnum']);
