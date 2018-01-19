@@ -392,10 +392,11 @@ $(function(){
 	            str+='<div class="gwc" data-gid="'+ii.id+'">'
 	                +		'<input class="one" type="checkbox" name="cb1">'
 	        }
+	        
 	        str+=		'</li>'
 	            +		'<li class="g2">'
 	            +		'<img class="touu" src="'+ii.avatar_url+'" />'
-	            +		'<p class="g_r chao">'+ii.name+'</p>'
+	            +		'<p class="g_r chao"><div id="'+ii.tid+'"></div><a href="http://47.92.49.244/api/linktid/linktid?tid='+ii.tid+'" target="_blank">'+ii.name+'</a></p>'
 	            +		'</li>'
 	            +		'<li class="g3">'+ii.A4+'</li>'
 	            +		'<li class="g4">'+ii.R+'</li>'

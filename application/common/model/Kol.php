@@ -25,7 +25,7 @@ class Kol extends Model
             {
                 $query->where('status', '=', $status);
             }
-        })->order('createtime', 'desc')->limit(6)->select())->toArray();
+        })->order('createtime', 'desc')->limit(10)->select())->toArray();
         return $list;
     }
 }

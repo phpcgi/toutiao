@@ -1,0 +1,333 @@
+---------------------------------------------------------------
+[ 2018-01-12T09:27:41+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] 127.0.0.1/favicon.ico [运行时间：0.043282s][吞吐率：23.10req/s] [内存消耗：1,451.23kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/xintuiguang.php',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-12T09:42:15+08:00 ] 127.0.0.1 127.0.0.1 GET /xintuiguang.php
+[ info ] 127.0.0.1/xintuiguang.php [运行时间：0.034813s][吞吐率：28.72req/s] [内存消耗：1,451.66kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'xintuiguang.php',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-12T09:42:17+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] 127.0.0.1/favicon.ico [运行时间：0.027682s][吞吐率：36.12req/s] [内存消耗：1,450.55kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-12T10:02:33+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] 127.0.0.1/favicon.ico [运行时间：0.031401s][吞吐率：31.85req/s] [内存消耗：1,450.55kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-12T10:18:15+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] 127.0.0.1/favicon.ico [运行时间：0.031048s][吞吐率：32.21req/s] [内存消耗：1,450.55kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-12T12:46:42+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] 127.0.0.1/favicon.ico [运行时间：0.033097s][吞吐率：30.21req/s] [内存消耗：1,450.55kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-12T13:38:58+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] 127.0.0.1/favicon.ico [运行时间：0.034011s][吞吐率：29.40req/s] [内存消耗：1,451.10kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=dpr2n3n8aaj5glepe82muj9gr4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-12T13:56:09+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.051410s][吞吐率：19.45req/s] [内存消耗：3,026.84kb] [文件加载：75]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=dpr2n3n8aaj5glepe82muj9gr4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000516s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\toutiao\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\toutiao\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)[D:\toutiao\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-01-12T13:56:50+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.400327s][吞吐率：2.50req/s] [内存消耗：3,507.88kb] [文件加载：82]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=dpr2n3n8aaj5glepe82muj9gr4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000363s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\toutiao\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\toutiao\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\toutiao\public/../application/index\view\toutiao\shouye.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'roll',
+  4 => 'faocus',
+  5 => 'log',
+  6 => 'kol0',
+  7 => 'kol1',
+  8 => 'kol2',
+  9 => 'kol3',
+  10 => 'name',
+  11 => 'countgenre',
+  12 => 'anli',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010167s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_logo` [ RunTime:0.040130s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_logo` WHERE  (  `status` = 'normal' ) ORDER BY `weigh`  desc LIMIT 21 [ RunTime:0.000836s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_kol` [ RunTime:0.079747s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '娱乐'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.001257s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '健康'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '历史'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '军事'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_newsfocus` [ RunTime:0.019847s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_newsfocus` [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_roll` [ RunTime:0.012316s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_roll` [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_type` [ RunTime:0.090631s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_type` WHERE  `id` IN (3,4,5,6) [ RunTime:0.001095s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_content` [ RunTime:0.031552s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (3) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000907s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (4) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000781s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (5) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000847s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (6) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_genre` [ RunTime:0.038890s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_genre` LIMIT 1 [ RunTime:0.000429s ]
+---------------------------------------------------------------
+[ 2018-01-12T13:56:50+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png [运行时间：0.043576s][吞吐率：22.95req/s] [内存消耗：1,451.80kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=dpr2n3n8aaj5glepe82muj9gr4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-12T13:56:51+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png [运行时间：0.036812s][吞吐率：27.17req/s] [内存消耗：1,451.77kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=dpr2n3n8aaj5glepe82muj9gr4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

@@ -32,6 +32,11 @@ class Rank extends Api
             $list = DataWeek::get(['time'=>$time,'tid'=>$tid]);
 
         }else{
+        $timestamp = strtotime($time);
+        $firstday=date('Y-m-01',strtotime(date('Y',$timestamp).'-'.(date('m',$timestamp)).'-01'));
+        $lastday=date('Y-m-d',strtotime("$firstday +1 month -1 day"));
+        $time= $firstday."~".$lastday;
+    
             $list = DataMonth::get(['time'=>$time,'tid'=>$tid]);
         }
         $data = self::_data($list);

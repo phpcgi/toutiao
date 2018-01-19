@@ -1,0 +1,3771 @@
+---------------------------------------------------------------
+[ 2018-01-17T09:36:37+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] 127.0.0.1/favicon.ico [运行时间：0.058756s][吞吐率：17.02req/s] [内存消耗：1,450.59kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T09:36:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] 127.0.0.1/admin [运行时间：0.180471s][吞吐率：5.54req/s] [内存消耗：2,015.09kb] [文件加载：67]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000630s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\toutiao\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T09:36:49+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/login?url=/admin
+[ info ] 127.0.0.1/admin/index/login?url=/admin [运行时间：0.077704s][吞吐率：12.87req/s] [内存消耗：2,349.77kb] [文件加载：70]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000453s ]
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\toutiao\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\toutiao\public/../application/admin\view\index\login.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T09:36:50+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ info ] 127.0.0.1/admin/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.063284s][吞吐率：15.80req/s] [内存消耗：2,372.62kb] [文件加载：68]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/index/login?url=/admin',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000597s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\toutiao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T09:36:50+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/dailybg
+[ info ] 127.0.0.1/admin/ajax/dailybg [运行时间：0.037064s][吞吐率：26.98req/s] [内存消耗：2,381.30kb] [文件加载：69]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'dailybg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/index/login?url=/admin',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000353s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->dailybg[ D:\toutiao\application\admin\controller\Ajax.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T09:36:51+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/login?url=/admin
+[ info ] 127.0.0.1/admin/index/login?url=/admin [运行时间：0.340480s][吞吐率：2.94req/s] [内存消耗：3,172.69kb] [文件加载：81]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/login?url=/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin',
+  '__token__' => '8297a50696a1e6ee1bb579e517ecc692',
+  'username' => 'admin',
+  'password' => 'toutiaoeasy1@7*',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000410s ]
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\toutiao\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\toutiao\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'code',
+  4 => 'msg',
+  5 => 'data',
+  6 => 'url',
+  7 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001442s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.040038s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.032525s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `logintime`=1516153011,`token`='db83438c-e407-41bd-ae1d-fdf234950a47',`updatetime`=1516153011  WHERE  `id` = 1 [ RunTime:0.091389s ]
+---------------------------------------------------------------
+[ 2018-01-17T09:36:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] 127.0.0.1/admin [运行时间：0.833473s][吞吐率：1.20req/s] [内存消耗：3,509.37kb] [文件加载：83]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/login?url=/admin',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000405s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\toutiao\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\toutiao\public/../application/admin\view\index\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000944s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.201900s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.133143s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.183540s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.033790s ]
+---------------------------------------------------------------
+[ 2018-01-17T09:36:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ info ] 127.0.0.1/admin/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.040881s][吞吐率：24.46req/s] [内存消耗：2,408.75kb] [文件加载：69]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000492s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\toutiao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T09:36:53+08:00 ] 127.0.0.1 127.0.0.1 POST /admin?callback=jQuery21405223102981158334_1516153013473
+[ info ] 127.0.0.1/admin?callback=jQuery21405223102981158334_1516153013473 [运行时间：0.108622s][吞吐率：9.21req/s] [内存消耗：3,518.46kb] [文件加载：84]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery21405223102981158334_1516153013473',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000706s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\toutiao\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\toutiao\public/../application/admin\view\index\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001068s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.008697s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000860s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.011176s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.003076s ]
+---------------------------------------------------------------
+[ 2018-01-17T09:36:54+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/dashboard?addtabs=1
+[ info ] 127.0.0.1/admin/dashboard?addtabs=1 [运行时间：0.588431s][吞吐率：1.70req/s] [内存消耗：3,163.91kb] [文件加载：76]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/dashboard',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000855s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ D:\toutiao\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] D:\toutiao\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'worth_sort',
+  4 => 'sum_publish_num',
+  5 => 'sum_fans_count',
+  6 => 'R',
+  7 => 'W',
+  8 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000909s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.088952s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.008473s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002480s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_data_week` [ RunTime:0.055585s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_data_week` WHERE  `createtime` < 1512230400  AND `name` = '' LIMIT 1 [ RunTime:0.164471s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_data_week` WHERE  `createtime` < 1512835200  AND `name` = '' LIMIT 1 [ RunTime:0.021379s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_data_week` WHERE  `createtime` < 1513440000  AND `name` = '' LIMIT 1 [ RunTime:0.020525s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_data_week` WHERE  `createtime` < 1514044800  AND `name` = '' LIMIT 1 [ RunTime:0.020240s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_data_week` WHERE  `createtime` < 1514649600  AND `name` = '' LIMIT 1 [ RunTime:0.020550s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_data_week` WHERE  `createtime` < 1515254400  AND `name` = '' LIMIT 1 [ RunTime:0.020337s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_data_week` WHERE  `createtime` < 1515859200  AND `name` = '' LIMIT 1 [ RunTime:0.020338s ]
+---------------------------------------------------------------
+[ 2018-01-17T09:36:54+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/libs/AdminLTE/plugins/select2/select2.full.min.js
+[ info ] 127.0.0.1/assets/libs/AdminLTE/plugins/select2/select2.full.min.js [运行时间：0.041464s][吞吐率：24.12req/s] [内存消耗：1,452.29kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'libs',
+    2 => 'AdminLTE',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'plugins' => 'select2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T09:36:54+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/libs/AdminLTE/plugins/jQuery/jquery-2.2.3.min.js
+[ info ] 127.0.0.1/assets/libs/AdminLTE/plugins/jQuery/jquery-2.2.3.min.js [运行时间：0.045634s][吞吐率：21.91req/s] [内存消耗：1,452.18kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'libs',
+    2 => 'AdminLTE',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'plugins' => 'jQuery',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T09:36:54+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/libs/AdminLTE/plugins/daterangepicker/daterangepicker.js
+[ info ] 127.0.0.1/assets/libs/AdminLTE/plugins/daterangepicker/daterangepicker.js [运行时间：0.046142s][吞吐率：21.67req/s] [内存消耗：1,452.34kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'libs',
+    2 => 'AdminLTE',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'plugins' => 'daterangepicker',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T09:36:54+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/libs/AdminLTE/plugins/input-mask/jquery.inputmask.js
+[ info ] 127.0.0.1/assets/libs/AdminLTE/plugins/input-mask/jquery.inputmask.js [运行时间：0.049887s][吞吐率：20.05req/s] [内存消耗：1,452.33kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'libs',
+    2 => 'AdminLTE',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'plugins' => 'input-mask',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T09:36:54+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/libs/AdminLTE/plugins/daterangepicker/daterangepicker.css
+[ info ] 127.0.0.1/assets/libs/AdminLTE/plugins/daterangepicker/daterangepicker.css [运行时间：0.069466s][吞吐率：14.40req/s] [内存消耗：1,452.34kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'libs',
+    2 => 'AdminLTE',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'plugins' => 'daterangepicker',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T09:36:54+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/libs/AdminLTE/plugins/datepicker/datepicker3.css
+[ info ] 127.0.0.1/assets/libs/AdminLTE/plugins/datepicker/datepicker3.css [运行时间：0.086917s][吞吐率：11.51req/s] [内存消耗：1,452.34kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'libs',
+    2 => 'AdminLTE',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'plugins' => 'datepicker',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T09:36:54+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/libs/AdminLTE/plugins/jQuery/jquery-2.2.3.min.js
+[ info ] 127.0.0.1/assets/libs/AdminLTE/plugins/jQuery/jquery-2.2.3.min.js [运行时间：0.026793s][吞吐率：37.32req/s] [内存消耗：1,452.20kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'libs',
+    2 => 'AdminLTE',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'plugins' => 'jQuery',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T09:36:54+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/libs/AdminLTE/plugins/select2/select2.full.min.js
+[ info ] 127.0.0.1/assets/libs/AdminLTE/plugins/select2/select2.full.min.js [运行时间：0.028881s][吞吐率：34.62req/s] [内存消耗：1,452.28kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'libs',
+    2 => 'AdminLTE',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'plugins' => 'select2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T09:36:54+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/libs/AdminLTE/plugins/input-mask/jquery.inputmask.js
+[ info ] 127.0.0.1/assets/libs/AdminLTE/plugins/input-mask/jquery.inputmask.js [运行时间：0.028112s][吞吐率：35.57req/s] [内存消耗：1,452.32kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'libs',
+    2 => 'AdminLTE',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'plugins' => 'input-mask',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T09:36:54+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/libs/AdminLTE/plugins/daterangepicker/daterangepicker.js
+[ info ] 127.0.0.1/assets/libs/AdminLTE/plugins/daterangepicker/daterangepicker.js [运行时间：0.024061s][吞吐率：41.56req/s] [内存消耗：1,452.31kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'libs',
+    2 => 'AdminLTE',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'plugins' => 'daterangepicker',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T09:36:54+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=dashboard&v=1.0.1
+[ info ] 127.0.0.1/admin/ajax/lang?callback=define&controllername=dashboard&v=1.0.1 [运行时间：0.040031s][吞吐率：24.98req/s] [内存消耗：2,404.40kb] [文件加载：68]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000322s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\toutiao\application\admin\controller\Ajax.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T09:37:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/renzheng?addtabs=1
+[ info ] 127.0.0.1/admin/renzheng?addtabs=1 [运行时间：0.119594s][吞吐率：8.36req/s] [内存消耗：2,395.75kb] [文件加载：72]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'renzheng',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/renzheng',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000339s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Renzheng->index[ D:\toutiao\application\admin\controller\Renzheng.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\admin\controller\Renzheng::all()[D:\toutiao\application\admin\controller\Renzheng.php:18]
+---------------------------------------------------------------
+[ 2018-01-17T09:52:51+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] 127.0.0.1/favicon.ico [运行时间：0.032505s][吞吐率：30.76req/s] [内存消耗：1,450.58kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:21:44+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] 127.0.0.1/favicon.ico [运行时间：0.057509s][吞吐率：17.39req/s] [内存消耗：1,450.58kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:36:34+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] 127.0.0.1/favicon.ico [运行时间：0.030914s][吞吐率：32.35req/s] [内存消耗：1,450.58kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:46:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/auth/admin
+[ info ] 127.0.0.1/admin/auth/admin [运行时间：0.127793s][吞吐率：7.83req/s] [内存消耗：1,871.84kb] [文件加载：61]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.admin',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000558s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:46:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1/admin/index/index [运行时间：0.086335s][吞吐率：11.58req/s] [内存消耗：3,509.16kb] [文件加载：83]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000594s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\toutiao\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\toutiao\public/../application/admin\view\index\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001111s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.007133s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000831s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.008003s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001755s ]
+---------------------------------------------------------------
+[ 2018-01-17T11:46:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ info ] 127.0.0.1/admin/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.038973s][吞吐率：25.66req/s] [内存消耗：2,408.82kb] [文件加载：69]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000402s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\toutiao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:46:56+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/index?callback=jQuery21405799888000426607_1516160816738
+[ info ] 127.0.0.1/admin/index/index?callback=jQuery21405799888000426607_1516160816738 [运行时间：0.107269s][吞吐率：9.32req/s] [内存消耗：3,518.77kb] [文件加载：84]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery21405799888000426607_1516160816738',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000508s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\toutiao\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\toutiao\public/../application/admin\view\index\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001194s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.009148s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000948s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.008268s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001798s ]
+---------------------------------------------------------------
+[ 2018-01-17T11:46:57+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/auth/admin?addtabs=1
+[ info ] 127.0.0.1/admin/auth/admin?addtabs=1 [运行时间：0.175375s][吞吐率：5.70req/s] [内存消耗：3,271.37kb] [文件加载：78]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.admin',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/auth/admin',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000653s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/auth/admin.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ D:\toutiao\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] D:\toutiao\public/../application/admin\view\auth\admin\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'groupdata',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000875s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.010407s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000721s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.009917s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.003333s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.011311s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `id` IN ( SELECT `pid` FROM `fa_auth_rule` WHERE  `name` = '/admin/auth/admin/index' ) LIMIT 1 [ RunTime:0.001524s ]
+---------------------------------------------------------------
+[ 2018-01-17T11:46:57+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=auth.admin&v=1.0.1
+[ info ] 127.0.0.1/admin/ajax/lang?callback=define&controllername=auth.admin&v=1.0.1 [运行时间：0.042433s][吞吐率：23.57req/s] [内存消耗：2,405.23kb] [文件加载：69]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/auth/admin?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.admin',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000378s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\toutiao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/auth/admin.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:46:57+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1516160817153
+[ info ] 127.0.0.1/admin/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1516160817153 [运行时间：0.118819s][吞吐率：8.42req/s] [内存消耗：3,287.84kb] [文件加载：78]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://127.0.0.1/admin/auth/admin?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1516160817153',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001341s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/auth/admin.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ D:\toutiao\application\admin\library\traits\Backend.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001770s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.011800s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000769s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.008350s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001790s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.008761s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.001034s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.009151s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_admin` ORDER BY `id`  desc LIMIT 1 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` ORDER BY `id`  desc LIMIT 0,10 [ RunTime:0.000394s ]
+---------------------------------------------------------------
+[ 2018-01-17T11:47:00+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/renzheng?addtabs=1
+[ info ] 127.0.0.1/admin/renzheng?addtabs=1 [运行时间：0.049106s][吞吐率：20.36req/s] [内存消耗：2,395.75kb] [文件加载：72]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'renzheng',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/renzheng',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000394s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Renzheng->index[ D:\toutiao\application\admin\controller\Renzheng.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\admin\controller\Renzheng::all()[D:\toutiao\application\admin\controller\Renzheng.php:18]
+---------------------------------------------------------------
+[ 2018-01-17T11:48:28+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/renzheng
+[ info ] 127.0.0.1/admin/renzheng [运行时间：0.037279s][吞吐率：26.82req/s] [内存消耗：1,844.12kb] [文件加载：61]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'renzheng',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000505s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:48:28+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1/admin/index/index [运行时间：0.088179s][吞吐率：11.34req/s] [内存消耗：3,509.49kb] [文件加载：83]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000415s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\toutiao\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\toutiao\public/../application/admin\view\index\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001110s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.008127s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.007680s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002728s ]
+---------------------------------------------------------------
+[ 2018-01-17T11:48:28+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ info ] 127.0.0.1/admin/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.045623s][吞吐率：21.92req/s] [内存消耗：2,408.82kb] [文件加载：69]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000523s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\toutiao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:48:28+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/index?callback=jQuery214014284512219586532_1516160908690
+[ info ] 127.0.0.1/admin/index/index?callback=jQuery214014284512219586532_1516160908690 [运行时间：0.104224s][吞吐率：9.59req/s] [内存消耗：3,518.77kb] [文件加载：84]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery214014284512219586532_1516160908690',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000536s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\toutiao\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\toutiao\public/../application/admin\view\index\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000781s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.007254s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.009286s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001805s ]
+---------------------------------------------------------------
+[ 2018-01-17T11:48:28+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/renzheng?addtabs=1
+[ info ] 127.0.0.1/admin/renzheng?addtabs=1 [运行时间：0.095123s][吞吐率：10.51req/s] [内存消耗：2,379.43kb] [文件加载：72]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'renzheng',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/renzheng',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001381s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Renzheng->index[ D:\toutiao\application\admin\controller\Renzheng.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: view[D:\toutiao\application\admin\controller\Renzheng.php:18]
+---------------------------------------------------------------
+[ 2018-01-17T11:53:06+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/dashboard?addtabs=1
+[ info ] 127.0.0.1/admin/dashboard?addtabs=1 [运行时间：0.240189s][吞吐率：4.16req/s] [内存消耗：3,163.91kb] [文件加载：76]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/dashboard',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000535s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ D:\toutiao\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] D:\toutiao\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'worth_sort',
+  4 => 'sum_publish_num',
+  5 => 'sum_fans_count',
+  6 => 'R',
+  7 => 'W',
+  8 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001168s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.007099s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.007748s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001750s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_data_week` [ RunTime:0.009522s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_data_week` WHERE  `createtime` < 1512230400  AND `name` = '' LIMIT 1 [ RunTime:0.020352s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_data_week` WHERE  `createtime` < 1512835200  AND `name` = '' LIMIT 1 [ RunTime:0.020741s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_data_week` WHERE  `createtime` < 1513440000  AND `name` = '' LIMIT 1 [ RunTime:0.021915s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_data_week` WHERE  `createtime` < 1514044800  AND `name` = '' LIMIT 1 [ RunTime:0.020940s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_data_week` WHERE  `createtime` < 1514649600  AND `name` = '' LIMIT 1 [ RunTime:0.023406s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_data_week` WHERE  `createtime` < 1515254400  AND `name` = '' LIMIT 1 [ RunTime:0.020334s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_data_week` WHERE  `createtime` < 1515859200  AND `name` = '' LIMIT 1 [ RunTime:0.020790s ]
+---------------------------------------------------------------
+[ 2018-01-17T11:53:06+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/libs/AdminLTE/plugins/daterangepicker/daterangepicker.css
+[ info ] 127.0.0.1/assets/libs/AdminLTE/plugins/daterangepicker/daterangepicker.css [运行时间：0.036743s][吞吐率：27.22req/s] [内存消耗：1,452.34kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'libs',
+    2 => 'AdminLTE',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'plugins' => 'daterangepicker',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:53:06+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/libs/AdminLTE/plugins/jQuery/jquery-2.2.3.min.js
+[ info ] 127.0.0.1/assets/libs/AdminLTE/plugins/jQuery/jquery-2.2.3.min.js [运行时间：0.056023s][吞吐率：17.85req/s] [内存消耗：1,452.20kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'libs',
+    2 => 'AdminLTE',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'plugins' => 'jQuery',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:53:06+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/libs/AdminLTE/plugins/select2/select2.full.min.js
+[ info ] 127.0.0.1/assets/libs/AdminLTE/plugins/select2/select2.full.min.js [运行时间：0.062273s][吞吐率：16.06req/s] [内存消耗：1,452.28kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'libs',
+    2 => 'AdminLTE',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'plugins' => 'select2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:53:06+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/libs/AdminLTE/plugins/daterangepicker/daterangepicker.js
+[ info ] 127.0.0.1/assets/libs/AdminLTE/plugins/daterangepicker/daterangepicker.js [运行时间：0.046573s][吞吐率：21.47req/s] [内存消耗：1,452.34kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'libs',
+    2 => 'AdminLTE',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'plugins' => 'daterangepicker',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:53:06+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/libs/AdminLTE/plugins/input-mask/jquery.inputmask.js
+[ info ] 127.0.0.1/assets/libs/AdminLTE/plugins/input-mask/jquery.inputmask.js [运行时间：0.078424s][吞吐率：12.75req/s] [内存消耗：1,452.32kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'libs',
+    2 => 'AdminLTE',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'plugins' => 'input-mask',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:53:06+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/libs/AdminLTE/plugins/datepicker/datepicker3.css
+[ info ] 127.0.0.1/assets/libs/AdminLTE/plugins/datepicker/datepicker3.css [运行时间：0.086152s][吞吐率：11.61req/s] [内存消耗：1,452.34kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'libs',
+    2 => 'AdminLTE',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'plugins' => 'datepicker',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:53:06+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/libs/AdminLTE/plugins/jQuery/jquery-2.2.3.min.js
+[ info ] 127.0.0.1/assets/libs/AdminLTE/plugins/jQuery/jquery-2.2.3.min.js [运行时间：0.032436s][吞吐率：30.83req/s] [内存消耗：1,452.20kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'libs',
+    2 => 'AdminLTE',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'plugins' => 'jQuery',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:53:07+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/libs/AdminLTE/plugins/select2/select2.full.min.js
+[ info ] 127.0.0.1/assets/libs/AdminLTE/plugins/select2/select2.full.min.js [运行时间：0.024237s][吞吐率：41.26req/s] [内存消耗：1,452.28kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'libs',
+    2 => 'AdminLTE',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'plugins' => 'select2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:53:07+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/libs/AdminLTE/plugins/input-mask/jquery.inputmask.js
+[ info ] 127.0.0.1/assets/libs/AdminLTE/plugins/input-mask/jquery.inputmask.js [运行时间：0.025844s][吞吐率：38.69req/s] [内存消耗：1,452.34kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'libs',
+    2 => 'AdminLTE',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'plugins' => 'input-mask',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:53:07+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/libs/AdminLTE/plugins/daterangepicker/daterangepicker.js
+[ info ] 127.0.0.1/assets/libs/AdminLTE/plugins/daterangepicker/daterangepicker.js [运行时间：0.030175s][吞吐率：33.14req/s] [内存消耗：1,452.34kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'libs',
+    2 => 'AdminLTE',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'plugins' => 'daterangepicker',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:53:07+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=dashboard&v=1.0.1
+[ info ] 127.0.0.1/admin/ajax/lang?callback=define&controllername=dashboard&v=1.0.1 [运行时间：0.037811s][吞吐率：26.45req/s] [内存消耗：2,404.40kb] [文件加载：68]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000368s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\toutiao\application\admin\controller\Ajax.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:53:09+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/renzheng
+[ info ] 127.0.0.1/admin/renzheng [运行时间：0.035244s][吞吐率：28.37req/s] [内存消耗：1,844.05kb] [文件加载：61]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'renzheng',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000340s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:53:09+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1/admin/index/index [运行时间：0.082981s][吞吐率：12.05req/s] [内存消耗：3,509.49kb] [文件加载：83]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000774s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\toutiao\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\toutiao\public/../application/admin\view\index\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000939s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.007696s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.007780s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001668s ]
+---------------------------------------------------------------
+[ 2018-01-17T11:53:09+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ info ] 127.0.0.1/admin/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.044100s][吞吐率：22.68req/s] [内存消耗：2,408.82kb] [文件加载：69]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000325s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\toutiao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:53:09+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/index?callback=jQuery21409369786529970963_1516161189401
+[ info ] 127.0.0.1/admin/index/index?callback=jQuery21409369786529970963_1516161189401 [运行时间：0.101950s][吞吐率：9.81req/s] [内存消耗：3,518.77kb] [文件加载：84]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery21409369786529970963_1516161189401',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000420s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\toutiao\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\toutiao\public/../application/admin\view\index\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000891s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.008399s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.007999s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001737s ]
+---------------------------------------------------------------
+[ 2018-01-17T11:53:09+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/renzheng?addtabs=1
+[ info ] 127.0.0.1/admin/renzheng?addtabs=1 [运行时间：0.095052s][吞吐率：10.52req/s] [内存消耗：2,379.34kb] [文件加载：72]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'renzheng',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/renzheng',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001449s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Renzheng->index[ D:\toutiao\application\admin\controller\Renzheng.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: view[D:\toutiao\application\admin\controller\Renzheng.php:18]
+---------------------------------------------------------------
+[ 2018-01-17T11:53:21+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/renzheng
+[ info ] 127.0.0.1/admin/renzheng [运行时间：0.035793s][吞吐率：27.94req/s] [内存消耗：1,843.79kb] [文件加载：61]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'renzheng',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000560s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:53:21+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1/admin/index/index [运行时间：0.082876s][吞吐率：12.07req/s] [内存消耗：3,509.49kb] [文件加载：83]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000418s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\toutiao\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\toutiao\public/../application/admin\view\index\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000865s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.006953s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.008052s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001785s ]
+---------------------------------------------------------------
+[ 2018-01-17T11:53:21+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ info ] 127.0.0.1/admin/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.043444s][吞吐率：23.02req/s] [内存消耗：2,408.82kb] [文件加载：69]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000411s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\toutiao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:53:21+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/index?callback=jQuery21406121086150681325_1516161201256
+[ info ] 127.0.0.1/admin/index/index?callback=jQuery21406121086150681325_1516161201256 [运行时间：0.100639s][吞吐率：9.94req/s] [内存消耗：3,518.77kb] [文件加载：84]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery21406121086150681325_1516161201256',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000388s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\toutiao\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\toutiao\public/../application/admin\view\index\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000822s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.008037s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.007468s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001938s ]
+---------------------------------------------------------------
+[ 2018-01-17T11:53:21+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/renzheng?addtabs=1
+[ info ] 127.0.0.1/admin/renzheng?addtabs=1 [运行时间：0.086285s][吞吐率：11.59req/s] [内存消耗：2,336.45kb] [文件加载：68]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'renzheng',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/renzheng',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000519s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Renzheng->index[ D:\toutiao\application\admin\controller\Renzheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:53:24+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/monthlist/zongbang?addtabs=1
+[ info ] 127.0.0.1/admin/monthlist/zongbang?addtabs=1 [运行时间：0.213821s][吞吐率：4.68req/s] [内存消耗：3,136.27kb] [文件加载：77]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'monthlist.zongbang',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/monthlist/zongbang',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000417s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/monthlist/zongbang.php
+[ info ] [ RUN ] app\admin\controller\monthlist\Zongbang->index[ D:\toutiao\application\admin\controller\monthlist\Zongbang.php ]
+[ info ] [ VIEW ] D:\toutiao\public/../application/admin\view\monthlist\zongbang\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000841s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.006799s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.009869s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001710s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `id` IN ( SELECT `pid` FROM `fa_auth_rule` WHERE  `name` = '/admin/monthlist/zongbang/index' ) LIMIT 1 [ RunTime:0.000834s ]
+---------------------------------------------------------------
+[ 2018-01-17T11:53:25+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=monthlist.zongbang&v=1.0.1
+[ info ] 127.0.0.1/admin/ajax/lang?callback=define&controllername=monthlist.zongbang&v=1.0.1 [运行时间：0.038060s][吞吐率：26.27req/s] [内存消耗：2,407.34kb] [文件加载：69]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/monthlist/zongbang?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'monthlist.zongbang',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000404s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\toutiao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/monthlist/zongbang.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:53:25+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/monthlist/zongbang/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1516161204989
+[ info ] 127.0.0.1/admin/monthlist/zongbang/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1516161204989 [运行时间：0.266172s][吞吐率：3.76req/s] [内存消耗：3,172.37kb] [文件加载：77]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'monthlist.zongbang',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://127.0.0.1/admin/monthlist/zongbang?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1516161204989',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000403s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/monthlist/zongbang.php
+[ info ] [ RUN ] app\admin\controller\monthlist\Zongbang->index[ D:\toutiao\application\admin\controller\monthlist\Zongbang.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000900s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.007236s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000744s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.007451s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001682s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_data_month` [ RunTime:0.026388s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_data_month` ORDER BY `worth`  desc LIMIT 1 [ RunTime:0.137268s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_data_month` ORDER BY `worth`  desc LIMIT 0,10 [ RunTime:0.027005s ]
+---------------------------------------------------------------
+[ 2018-01-17T11:54:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/renzheng
+[ info ] 127.0.0.1/admin/renzheng [运行时间：0.036090s][吞吐率：27.71req/s] [内存消耗：1,844.89kb] [文件加载：61]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'renzheng',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000453s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:54:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1/admin/index/index [运行时间：0.093129s][吞吐率：10.74req/s] [内存消耗：3,509.49kb] [文件加载：83]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000394s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\toutiao\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\toutiao\public/../application/admin\view\index\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010519s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.007501s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.007879s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001710s ]
+---------------------------------------------------------------
+[ 2018-01-17T11:54:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ info ] 127.0.0.1/admin/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.041585s][吞吐率：24.05req/s] [内存消耗：2,408.82kb] [文件加载：69]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000422s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\toutiao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:54:15+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/index?callback=jQuery214006387580258395431_1516161255564
+[ info ] 127.0.0.1/admin/index/index?callback=jQuery214006387580258395431_1516161255564 [运行时间：0.109160s][吞吐率：9.16req/s] [内存消耗：3,518.77kb] [文件加载：84]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery214006387580258395431_1516161255564',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000496s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\toutiao\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\toutiao\public/../application/admin\view\index\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001461s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.011660s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.011185s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001672s ]
+---------------------------------------------------------------
+[ 2018-01-17T11:54:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/renzheng?addtabs=1
+[ info ] 127.0.0.1/admin/renzheng?addtabs=1 [运行时间：0.101694s][吞吐率：9.83req/s] [内存消耗：2,395.63kb] [文件加载：72]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'renzheng',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/renzheng',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000558s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Renzheng->index[ D:\toutiao\application\admin\controller\Renzheng.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\admin\controller\Renzheng::all()[D:\toutiao\application\admin\controller\Renzheng.php:18]
+---------------------------------------------------------------
+[ 2018-01-17T11:54:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/renzheng
+[ info ] 127.0.0.1/admin/renzheng [运行时间：0.034207s][吞吐率：29.23req/s] [内存消耗：1,844.09kb] [文件加载：61]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'renzheng',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000407s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:54:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1/admin/index/index [运行时间：0.083934s][吞吐率：11.91req/s] [内存消耗：3,509.49kb] [文件加载：83]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000338s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\toutiao\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\toutiao\public/../application/admin\view\index\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000808s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.007551s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000664s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.007591s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001702s ]
+---------------------------------------------------------------
+[ 2018-01-17T11:54:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ info ] 127.0.0.1/admin/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.036739s][吞吐率：27.22req/s] [内存消耗：2,408.82kb] [文件加载：69]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000355s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\toutiao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:54:57+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/index?callback=jQuery21406177086206459266_1516161296843
+[ info ] 127.0.0.1/admin/index/index?callback=jQuery21406177086206459266_1516161296843 [运行时间：0.106808s][吞吐率：9.36req/s] [内存消耗：3,518.77kb] [文件加载：84]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery21406177086206459266_1516161296843',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000468s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\toutiao\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\toutiao\public/../application/admin\view\index\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000816s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.010503s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.008646s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001773s ]
+---------------------------------------------------------------
+[ 2018-01-17T11:54:57+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/renzheng?addtabs=1
+[ info ] 127.0.0.1/admin/renzheng?addtabs=1 [运行时间：0.129676s][吞吐率：7.71req/s] [内存消耗：3,047.54kb] [文件加载：75]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'renzheng',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/renzheng',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000466s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Renzheng->index[ D:\toutiao\application\admin\controller\Renzheng.php ]
+[ info ] [ VIEW ] D:\toutiao\public/../application/admin\view\renzheng\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001057s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.007776s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `id` IN ( SELECT `pid` FROM `fa_auth_rule` WHERE  `name` = '/admin/renzheng/index' ) LIMIT 1 [ RunTime:0.000973s ]
+---------------------------------------------------------------
+[ 2018-01-17T11:54:57+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=renzheng&v=1.0.1
+[ info ] 127.0.0.1/admin/ajax/lang?callback=define&controllername=renzheng&v=1.0.1 [运行时间：0.038165s][吞吐率：26.20req/s] [内存消耗：2,404.31kb] [文件加载：68]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/renzheng?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'renzheng',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000401s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\toutiao\application\admin\controller\Ajax.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:54:57+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/js/backend/renzheng.js?v=1.0.1
+[ info ] 127.0.0.1/assets/js/backend/renzheng.js?v=1.0.1 [运行时间：0.025922s][吞吐率：38.58req/s] [内存消耗：1,452.11kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'js',
+    2 => 'backend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/renzheng?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.0.1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:56:55+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/bootstrap.min.css.map
+[ info ] 127.0.0.1/assets/css/bootstrap.min.css.map [运行时间：0.037950s][吞吐率：26.35req/s] [内存消耗：1,451.16kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:56:55+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/backend.css.map
+[ info ] 127.0.0.1/assets/css/backend.css.map [运行时间：0.047450s][吞吐率：21.07req/s] [内存消耗：1,451.16kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:56:55+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/fastadmin.min.css.map
+[ info ] 127.0.0.1/assets/css/fastadmin.min.css.map [运行时间：0.051721s][吞吐率：19.33req/s] [内存消耗：1,451.16kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T11:56:55+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/skins/skin-green.css.map
+[ info ] 127.0.0.1/assets/css/skins/skin-green.css.map [运行时间：0.065115s][吞吐率：15.36req/s] [内存消耗：1,451.21kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T12:00:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/renzheng
+[ info ] 127.0.0.1/admin/renzheng [运行时间：0.038529s][吞吐率：25.95req/s] [内存消耗：1,844.09kb] [文件加载：61]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'renzheng',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000566s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T12:00:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1/admin/index/index [运行时间：0.088840s][吞吐率：11.26req/s] [内存消耗：3,509.49kb] [文件加载：83]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000392s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\toutiao\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\toutiao\public/../application/admin\view\index\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001166s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.008457s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000683s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.008203s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001785s ]
+---------------------------------------------------------------
+[ 2018-01-17T12:00:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ info ] 127.0.0.1/admin/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.036982s][吞吐率：27.04req/s] [内存消耗：2,408.82kb] [文件加载：69]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000361s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\toutiao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T12:00:08+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/index?callback=jQuery214013784729163324982_1516161608354
+[ info ] 127.0.0.1/admin/index/index?callback=jQuery214013784729163324982_1516161608354 [运行时间：0.107119s][吞吐率：9.34req/s] [内存消耗：3,518.77kb] [文件加载：84]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery214013784729163324982_1516161608354',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000402s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\toutiao\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\toutiao\public/../application/admin\view\index\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000786s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.008556s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000675s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.008236s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002084s ]
+---------------------------------------------------------------
+[ 2018-01-17T12:00:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/renzheng?addtabs=1
+[ info ] 127.0.0.1/admin/renzheng?addtabs=1 [运行时间：0.194195s][吞吐率：5.15req/s] [内存消耗：3,195.27kb] [文件加载：77]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'renzheng',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/renzheng',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000511s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Renzheng->index[ D:\toutiao\application\admin\controller\Renzheng.php ]
+[ info ] [ VIEW ] D:\toutiao\public/../application/admin\view\renzheng\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001336s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.011244s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `id` IN ( SELECT `pid` FROM `fa_auth_rule` WHERE  `name` = '/admin/renzheng/index' ) LIMIT 1 [ RunTime:0.001366s ]
+---------------------------------------------------------------
+[ 2018-01-17T12:00:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=renzheng&v=1.0.1
+[ info ] 127.0.0.1/admin/ajax/lang?callback=define&controllername=renzheng&v=1.0.1 [运行时间：0.040066s][吞吐率：24.96req/s] [内存消耗：2,404.31kb] [文件加载：68]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/renzheng?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'renzheng',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000394s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\toutiao\application\admin\controller\Ajax.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T12:00:08+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/js/backend/renzheng.js?v=1.0.1
+[ info ] 127.0.0.1/assets/js/backend/renzheng.js?v=1.0.1 [运行时间：0.026451s][吞吐率：37.81req/s] [内存消耗：1,452.11kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'js',
+    2 => 'backend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/renzheng?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.0.1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T12:00:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/renzheng
+[ info ] 127.0.0.1/admin/renzheng [运行时间：0.037464s][吞吐率：26.69req/s] [内存消耗：1,844.09kb] [文件加载：61]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'renzheng',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000564s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T12:00:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1/admin/index/index [运行时间：0.080991s][吞吐率：12.35req/s] [内存消耗：3,509.49kb] [文件加载：83]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000416s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\toutiao\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\toutiao\public/../application/admin\view\index\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000914s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.007038s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.008062s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001755s ]
+---------------------------------------------------------------
+[ 2018-01-17T12:00:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ info ] 127.0.0.1/admin/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.044185s][吞吐率：22.63req/s] [内存消耗：2,408.82kb] [文件加载：69]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000360s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\toutiao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T12:00:45+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/index?callback=jQuery214045998117541975647_1516161645494
+[ info ] 127.0.0.1/admin/index/index?callback=jQuery214045998117541975647_1516161645494 [运行时间：0.119398s][吞吐率：8.38req/s] [内存消耗：3,518.77kb] [文件加载：84]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery214045998117541975647_1516161645494',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001662s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\toutiao\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\toutiao\public/../application/admin\view\index\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001110s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.018320s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000747s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.008664s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002555s ]
+---------------------------------------------------------------
+[ 2018-01-17T12:00:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/renzheng?addtabs=1
+[ info ] 127.0.0.1/admin/renzheng?addtabs=1 [运行时间：0.124288s][吞吐率：8.05req/s] [内存消耗：3,195.20kb] [文件加载：77]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'renzheng',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/renzheng',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000771s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Renzheng->index[ D:\toutiao\application\admin\controller\Renzheng.php ]
+[ info ] [ VIEW ] D:\toutiao\public/../application/admin\view\renzheng\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000839s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.007982s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `id` IN ( SELECT `pid` FROM `fa_auth_rule` WHERE  `name` = '/admin/renzheng/index' ) LIMIT 1 [ RunTime:0.000892s ]
+---------------------------------------------------------------
+[ 2018-01-17T12:00:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=renzheng&v=1.0.1
+[ info ] 127.0.0.1/admin/ajax/lang?callback=define&controllername=renzheng&v=1.0.1 [运行时间：0.038028s][吞吐率：26.30req/s] [内存消耗：2,404.31kb] [文件加载：68]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/renzheng?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'renzheng',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000456s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\toutiao\application\admin\controller\Ajax.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T12:00:45+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/js/backend/renzheng.js?v=1.0.1
+[ info ] 127.0.0.1/assets/js/backend/renzheng.js?v=1.0.1 [运行时间：0.024815s][吞吐率：40.30req/s] [内存消耗：1,452.11kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'js',
+    2 => 'backend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/renzheng?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.0.1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T12:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/weeklist/zongbang?addtabs=1
+[ info ] 127.0.0.1/admin/weeklist/zongbang?addtabs=1 [运行时间：0.213672s][吞吐率：4.68req/s] [内存消耗：3,136.59kb] [文件加载：77]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'weeklist.zongbang',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/weeklist/zongbang',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000552s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/weeklist/zongbang.php
+[ info ] [ RUN ] app\admin\controller\weeklist\Zongbang->index[ D:\toutiao\application\admin\controller\weeklist\Zongbang.php ]
+[ info ] [ VIEW ] D:\toutiao\public/../application/admin\view\weeklist\zongbang\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001216s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.007796s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000931s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.011322s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001813s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `id` IN ( SELECT `pid` FROM `fa_auth_rule` WHERE  `name` = '/admin/weeklist/zongbang/index' ) LIMIT 1 [ RunTime:0.000996s ]
+---------------------------------------------------------------
+[ 2018-01-17T12:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=weeklist.zongbang&v=1.0.1
+[ info ] 127.0.0.1/admin/ajax/lang?callback=define&controllername=weeklist.zongbang&v=1.0.1 [运行时间：0.040421s][吞吐率：24.74req/s] [内存消耗：2,407.48kb] [文件加载：69]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/weeklist/zongbang?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'weeklist.zongbang',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000410s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\toutiao\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/weeklist/zongbang.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T12:24:31+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/weeklist/zongbang/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1516163070882
+[ info ] 127.0.0.1/admin/weeklist/zongbang/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1516163070882 [运行时间：0.575790s][吞吐率：1.74req/s] [内存消耗：3,171.48kb] [文件加载：77]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'weeklist.zongbang',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://127.0.0.1/admin/weeklist/zongbang?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=cluvuic215ukl5mmouknhovkf3',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1516163070882',
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000346s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\toutiao\public/../application/admin/lang/zh-cn/weeklist/zongbang.php
+[ info ] [ RUN ] app\admin\controller\weeklist\Zongbang->index[ D:\toutiao\application\admin\controller\weeklist\Zongbang.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000935s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.006994s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000623s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.007900s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001653s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_data_week` [ RunTime:0.009285s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_data_week` ORDER BY `worth`  desc LIMIT 1 [ RunTime:0.361670s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_data_week` ORDER BY `worth`  desc LIMIT 0,10 [ RunTime:0.126481s ]
+---------------------------------------------------------------
+[ 2018-01-17T17:25:35+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] 127.0.0.1/favicon.ico [运行时间：0.035411s][吞吐率：28.24req/s] [内存消耗：1,450.58kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T17:53:41+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] 127.0.0.1/favicon.ico [运行时间：0.032530s][吞吐率：30.74req/s] [内存消耗：1,450.59kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

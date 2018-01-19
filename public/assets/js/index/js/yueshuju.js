@@ -5,7 +5,11 @@ $(function(){
    var b=myDate.toLocaleDateString()
 	var n=myDate.getFullYear();
 	var y=myDate.getMonth();
-	var a=n+'-'+y;
+	if(y==0){
+		var a=n-1+'-12';
+	}else{
+	  var a=n+'-'+y;
+  }
 	$('#search_begindate').val(a)
 	console.log(a)
 	console.log({n,y})
@@ -52,6 +56,7 @@ $('.zqxz2').html('最新数据更新时间: '+b)
 //          			str+='<p class="xtime">'+ii.time+'</p>'
 //          		})
 //          		$('details').html(str)
+
             		$('.sou').click(function(){
 //          			alert("1")
 						var a=$('.aa').val()+"-01"

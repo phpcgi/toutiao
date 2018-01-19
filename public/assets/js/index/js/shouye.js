@@ -125,6 +125,10 @@ $(function(){
 	$('.anl').click(function(){
 		location.href="/index/Anli"
 	})
+		//企业号认证
+	$('.renzheng').click(function(){
+		location.href="/xintuiguang.php"
+	})
 	//logo
 	$('.nav_l img').click(function(){
 		location.href="/index"

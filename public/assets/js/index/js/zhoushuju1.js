@@ -3,11 +3,6 @@ $(function(){
 	$('.summar').click(function(){
 			$('.xxk').toggleClass('xianshi')
 		})
-//		$('.xtime').click(function(){
-//			var time=$(this).html()
-//			$('.summary').html(time)
-//			$('.xxk').removeClass('xianshi')
-//		})
 	var goodObj=ro();
    	var tid=goodObj.tid;
    $.ajax( {  
@@ -32,7 +27,6 @@ $('.zqxz2').html('最新数据更新时间: '+b)
             success : function(msg) {
             		console.log(msg)
             		var str='';
-//          			str+='<summary>选择时间</summary>'
             		$(msg.data).each(function(i,ii){
             			str+='<p class="xtime">'+ii.time+'</p>'
             		})

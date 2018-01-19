@@ -14,7 +14,7 @@ class Month extends Api
         set_time_limit(0);
         $genre_model = model('genre');
         $data_week   = model('DataMonth');
-        $genrelist = $genre_model->where('id','>','1')->select();
+        $genrelist = $genre_model->where('id < 10000')->order("id desc")->select();
 
         $datetime = self::getlastMonthDays();
         foreach ($genrelist as $old){
