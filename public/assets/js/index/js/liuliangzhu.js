@@ -31,6 +31,9 @@ $(function(){
 	$('.zhuye').click(function(){
 		location.href="Index"
 	})
+	$('.zhuyeme').click(function(){
+		location.href="Lliangzu"
+	})	
 	$('.xgmm').click(function(){
 		location.href="Lxgmm"
 	})

@@ -47,11 +47,13 @@ class Genre extends Model
     {
         $list = collection(self::where(function($query) use($type, $status)
         {
+
             if (!is_null($type))
             {
                 $query->where('type', '=', $type);
             $time1=time()-31*24*3600;
-            $query->where('createtime', '<', $time1);                
+            $query->where('createtime', '<', $time1);
+             
             }
             if (!is_null($status))
             {

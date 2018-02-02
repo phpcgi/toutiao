@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:62:"D:\toutiao\public/../application/index\view\toutiao\index.html";i:1515218837;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:62:"D:\toutiao\public/../application/index\view\toutiao\index.html";i:1516781446;}*/ ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -63,7 +63,7 @@
 							<p class="yx">密码</p>
 						</div>
 						<div class="name_r">
-							<input type="password" class="password" />
+							<input type="password" class="password"  id="user" disabled="true" />
 						</div>
 						<div class="zhan">
 							<img src="__CDN__/assets/img/denglu/mmbkj.png" />
@@ -115,6 +115,10 @@
 			}
 			a=!a;
 		})
-	
+	$(function(){
+$(document).click(function(){
+$("#user").attr("disabled",false);
+})
+})
 	</script>
 </html>

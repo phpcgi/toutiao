@@ -16,6 +16,15 @@ body{
 }
 #nav{
 	width: 1200px;
+	
+	/*background: red;*/
+	height: 56px;
+	margin: 0 auto;
+	position: relative;
+}
+#nav1{
+	width: 100%;
+	
 	/*background: red;*/
 	height: 56px;
 	margin: 0 auto;
@@ -43,11 +52,12 @@ body{
 	margin-left: 136px;
 }
 .nav_cc li{
+	font-family: "宋体";
 	float: left;
 	margin-right: 40px;
 	height: 56px;
 	line-height: 56px;
-	font-size: 16px;
+	font-size: 19px;
 	color: #211E1E;
 	cursor: pointer;
 }
@@ -70,11 +80,11 @@ body{
 	height: 202px;
 	width: 120px;
 	position: absolute;
-	left: 370px;
+	left: 25px;
 	z-index: 10;
-	/*background: red;*/
 	display: none;
 	cursor: pointer;
+
 }
 .z_top{
 	height: 15px;
@@ -85,19 +95,23 @@ body{
 	height: 8px;
 	width: 11px;
 	margin-left: 47%;
+	display: none;	
 }
 .z_bottom{
-	height: 95px;
+	height: 115px;
 	width: 100%;
+	background-image: url(/uploads/toubj.png);
+	background-size:100% 100%;	
+	
 }
 .tw1{
 	width: 100%;
-	background: #f85959;
+	
 	height: 47.5px;
 	text-align: center;
 	line-height: 47.5px;
 	font-size: 16px;
-	color: #FFFFFF;
+	color: #f85959;
 	cursor: pointer;
 }
 .tw1:hover{
@@ -116,8 +130,9 @@ body{
 	height: 210px;
 	width: 120px;
 	position: absolute;
-	top: 0px;
-	left: 1000px;
+	
+	top: -64px;
+	
 	z-index: 9;
 	display: none;
 	cursor: pointer;
@@ -144,10 +159,13 @@ body{
 	height: 8px;
 	width: 11px;
 	margin-left: 47%;
+	display: none;	
 }
 .z_bottom4{
-	height: 95px;
+	height: 115px;
 	width: 100%;
+	background-image: url(/uploads/toubj.png);
+	background-size:100% 100%;		
 }
 .tw14{
 	width: 100%;

@@ -62,7 +62,7 @@
 							<p class="yx">密码</p>
 						</div>
 						<div class="name_r">
-							<input type="password" class="password" />
+							<input type="password" class="password"  id="user" disabled="true" />
 						</div>
 						<div class="zhan">
 							<img src="__CDN__/assets/img/denglu/mmbkj.png" />
@@ -114,6 +114,10 @@
 			}
 			a=!a;
 		})
-	
+	$(function(){
+$(document).click(function(){
+$("#user").attr("disabled",false);
+})
+})
 	</script>
 </html>

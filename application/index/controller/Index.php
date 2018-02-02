@@ -44,7 +44,7 @@ class Index extends Frontend
         }
         $anli = self::anlititle();
 
-        $genre = round(self::genre()*1.5);
+        $genre = round(self::genre()*1);
         $this->assign('countgenre',$genre);
         $this->assign('anli',$anli);
         return $this->view->fetch('toutiao/shouye');

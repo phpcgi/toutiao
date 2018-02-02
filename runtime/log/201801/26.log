@@ -1,0 +1,2306 @@
+---------------------------------------------------------------
+[ 2018-01-26T10:15:45+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.439623s][吞吐率：2.27req/s] [内存消耗：3,701.16kb] [文件加载：84]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000578s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\toutiao\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\toutiao\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\toutiao\public/../application/index\view\toutiao\shouye.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'roll',
+  4 => 'faocus',
+  5 => 'log',
+  6 => 'kol0',
+  7 => 'kol1',
+  8 => 'kol2',
+  9 => 'kol3',
+  10 => 'name',
+  11 => 'countgenre',
+  12 => 'anli',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001352s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_logo` [ RunTime:0.055760s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_logo` WHERE  (  `status` = 'normal' ) ORDER BY `weigh`  desc LIMIT 21 [ RunTime:0.000902s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_kol` [ RunTime:0.025451s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '娱乐'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000731s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '健康'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '历史'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '军事'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_newsfocus` [ RunTime:0.085307s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_newsfocus` [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_roll` [ RunTime:0.030023s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_roll` [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_type` [ RunTime:0.055118s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_type` WHERE  `id` IN (3,4,5,6) [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_content` [ RunTime:0.074130s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (3) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.001027s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (4) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000863s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (5) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000854s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (6) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_genre` [ RunTime:0.028369s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_genre` LIMIT 1 [ RunTime:0.000386s ]
+---------------------------------------------------------------
+[ 2018-01-26T10:15:46+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png [运行时间：0.043204s][吞吐率：23.15req/s] [内存消耗：1,451.80kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T10:15:47+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png [运行时间：0.032586s][吞吐率：30.69req/s] [内存消耗：1,451.75kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T10:15:47+08:00 ] 127.0.0.1 127.0.0.1 GET /1406.jpg
+[ info ] 127.0.0.1/1406.jpg [运行时间：0.110598s][吞吐率：9.04req/s] [内存消耗：1,451.55kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '1406.jpg',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T10:15:47+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] 127.0.0.1/favicon.ico [运行时间：0.055715s][吞吐率：17.95req/s] [内存消耗：1,451.53kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T10:15:55+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.135059s][吞吐率：7.40req/s] [内存消耗：3,509.14kb] [文件加载：82]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000534s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\toutiao\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\toutiao\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\toutiao\public/../application/index\view\toutiao\shouye.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'roll',
+  4 => 'faocus',
+  5 => 'log',
+  6 => 'kol0',
+  7 => 'kol1',
+  8 => 'kol2',
+  9 => 'kol3',
+  10 => 'name',
+  11 => 'countgenre',
+  12 => 'anli',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000936s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_logo` [ RunTime:0.007912s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_logo` WHERE  (  `status` = 'normal' ) ORDER BY `weigh`  desc LIMIT 21 [ RunTime:0.000838s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_kol` [ RunTime:0.007866s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '娱乐'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '健康'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.001326s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '历史'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '军事'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_newsfocus` [ RunTime:0.007709s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_newsfocus` [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_roll` [ RunTime:0.008574s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_roll` [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_type` [ RunTime:0.007433s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_type` WHERE  `id` IN (3,4,5,6) [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_content` [ RunTime:0.008058s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (3) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (4) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (5) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (6) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_genre` [ RunTime:0.009517s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_genre` LIMIT 1 [ RunTime:0.000418s ]
+---------------------------------------------------------------
+[ 2018-01-26T10:15:55+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png [运行时间：0.030648s][吞吐率：32.63req/s] [内存消耗：1,451.80kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T10:15:55+08:00 ] 127.0.0.1 127.0.0.1 GET /1406.jpg
+[ info ] 127.0.0.1/1406.jpg [运行时间：0.042774s][吞吐率：23.38req/s] [内存消耗：1,451.58kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '1406.jpg',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T10:15:55+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png [运行时间：0.044636s][吞吐率：22.40req/s] [内存消耗：1,451.75kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T10:16:21+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.141356s][吞吐率：7.07req/s] [内存消耗：3,701.59kb] [文件加载：84]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000560s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\toutiao\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\toutiao\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\toutiao\public/../application/index\view\toutiao\shouye.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'roll',
+  4 => 'faocus',
+  5 => 'log',
+  6 => 'kol0',
+  7 => 'kol1',
+  8 => 'kol2',
+  9 => 'kol3',
+  10 => 'name',
+  11 => 'countgenre',
+  12 => 'anli',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001037s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_logo` [ RunTime:0.007643s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_logo` WHERE  (  `status` = 'normal' ) ORDER BY `weigh`  desc LIMIT 21 [ RunTime:0.000885s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_kol` [ RunTime:0.008962s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '娱乐'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '健康'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000605s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '历史'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000687s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '军事'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000605s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_newsfocus` [ RunTime:0.008209s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_newsfocus` [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_roll` [ RunTime:0.008760s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_roll` [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_type` [ RunTime:0.008305s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_type` WHERE  `id` IN (3,4,5,6) [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_content` [ RunTime:0.009416s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (3) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (4) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (5) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (6) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_genre` [ RunTime:0.008234s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_genre` LIMIT 1 [ RunTime:0.000467s ]
+---------------------------------------------------------------
+[ 2018-01-26T10:16:21+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png [运行时间：0.032715s][吞吐率：30.57req/s] [内存消耗：1,451.80kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T10:16:21+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png [运行时间：0.041447s][吞吐率：24.13req/s] [内存消耗：1,451.77kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T10:16:46+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.150231s][吞吐率：6.66req/s] [内存消耗：3,701.62kb] [文件加载：84]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000355s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\toutiao\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\toutiao\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\toutiao\public/../application/index\view\toutiao\shouye.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'roll',
+  4 => 'faocus',
+  5 => 'log',
+  6 => 'kol0',
+  7 => 'kol1',
+  8 => 'kol2',
+  9 => 'kol3',
+  10 => 'name',
+  11 => 'countgenre',
+  12 => 'anli',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010660s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_logo` [ RunTime:0.008127s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_logo` WHERE  (  `status` = 'normal' ) ORDER BY `weigh`  desc LIMIT 21 [ RunTime:0.000847s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_kol` [ RunTime:0.007824s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '娱乐'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '健康'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '历史'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000862s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '军事'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_newsfocus` [ RunTime:0.007814s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_newsfocus` [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_roll` [ RunTime:0.008560s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_roll` [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_type` [ RunTime:0.008441s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_type` WHERE  `id` IN (3,4,5,6) [ RunTime:0.000543s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_content` [ RunTime:0.008871s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (3) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (4) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (5) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (6) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_genre` [ RunTime:0.008361s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_genre` LIMIT 1 [ RunTime:0.000369s ]
+---------------------------------------------------------------
+[ 2018-01-26T10:16:46+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png [运行时间：0.033274s][吞吐率：30.05req/s] [内存消耗：1,451.80kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T10:16:46+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png [运行时间：0.037968s][吞吐率：26.34req/s] [内存消耗：1,451.77kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T10:17:10+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.146262s][吞吐率：6.84req/s] [内存消耗：3,701.70kb] [文件加载：84]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000506s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\toutiao\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\toutiao\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\toutiao\public/../application/index\view\toutiao\shouye.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'roll',
+  4 => 'faocus',
+  5 => 'log',
+  6 => 'kol0',
+  7 => 'kol1',
+  8 => 'kol2',
+  9 => 'kol3',
+  10 => 'name',
+  11 => 'countgenre',
+  12 => 'anli',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001033s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_logo` [ RunTime:0.009535s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_logo` WHERE  (  `status` = 'normal' ) ORDER BY `weigh`  desc LIMIT 21 [ RunTime:0.001004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_kol` [ RunTime:0.008240s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '娱乐'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '健康'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '历史'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '军事'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_newsfocus` [ RunTime:0.008919s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_newsfocus` [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_roll` [ RunTime:0.007767s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_roll` [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_type` [ RunTime:0.009800s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_type` WHERE  `id` IN (3,4,5,6) [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_content` [ RunTime:0.007716s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (3) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (4) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (5) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (6) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000602s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_genre` [ RunTime:0.008565s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_genre` LIMIT 1 [ RunTime:0.000402s ]
+---------------------------------------------------------------
+[ 2018-01-26T10:17:10+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png [运行时间：0.039624s][吞吐率：25.24req/s] [内存消耗：1,451.80kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T10:17:10+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png [运行时间：0.036709s][吞吐率：27.24req/s] [内存消耗：1,451.77kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T10:37:48+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] 127.0.0.1/favicon.ico [运行时间：0.037626s][吞吐率：26.58req/s] [内存消耗：1,451.09kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T13:52:39+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] 127.0.0.1/favicon.ico [运行时间：0.030156s][吞吐率：33.16req/s] [内存消耗：1,451.09kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:28:30+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.137339s][吞吐率：7.28req/s] [内存消耗：3,701.72kb] [文件加载：84]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000560s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\toutiao\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\toutiao\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\toutiao\public/../application/index\view\toutiao\shouye.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'roll',
+  4 => 'faocus',
+  5 => 'log',
+  6 => 'kol0',
+  7 => 'kol1',
+  8 => 'kol2',
+  9 => 'kol3',
+  10 => 'name',
+  11 => 'countgenre',
+  12 => 'anli',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001035s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_logo` [ RunTime:0.009284s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_logo` WHERE  (  `status` = 'normal' ) ORDER BY `weigh`  desc LIMIT 21 [ RunTime:0.000874s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_kol` [ RunTime:0.008552s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '娱乐'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '健康'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '历史'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '军事'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_newsfocus` [ RunTime:0.007804s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_newsfocus` [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_roll` [ RunTime:0.008111s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_roll` [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_type` [ RunTime:0.008049s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_type` WHERE  `id` IN (3,4,5,6) [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_content` [ RunTime:0.008972s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (3) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (4) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (5) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000544s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (6) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_genre` [ RunTime:0.008188s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_genre` LIMIT 1 [ RunTime:0.000307s ]
+---------------------------------------------------------------
+[ 2018-01-26T15:28:30+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png [运行时间：0.039545s][吞吐率：25.29req/s] [内存消耗：1,451.80kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:28:30+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png [运行时间：0.070043s][吞吐率：14.28req/s] [内存消耗：1,451.77kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:28:58+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.236429s][吞吐率：4.23req/s] [内存消耗：3,701.72kb] [文件加载：84]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000563s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\toutiao\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\toutiao\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\toutiao\public/../application/index\view\toutiao\shouye.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'roll',
+  4 => 'faocus',
+  5 => 'log',
+  6 => 'kol0',
+  7 => 'kol1',
+  8 => 'kol2',
+  9 => 'kol3',
+  10 => 'name',
+  11 => 'countgenre',
+  12 => 'anli',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000951s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_logo` [ RunTime:0.008119s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_logo` WHERE  (  `status` = 'normal' ) ORDER BY `weigh`  desc LIMIT 21 [ RunTime:0.000856s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_kol` [ RunTime:0.008176s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '娱乐'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '健康'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '历史'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000663s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '军事'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000616s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_newsfocus` [ RunTime:0.008298s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_newsfocus` [ RunTime:0.000488s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_roll` [ RunTime:0.092631s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_roll` [ RunTime:0.001064s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_type` [ RunTime:0.014782s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_type` WHERE  `id` IN (3,4,5,6) [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_content` [ RunTime:0.008301s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (3) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (4) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000600s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (5) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (6) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_genre` [ RunTime:0.007991s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_genre` LIMIT 1 [ RunTime:0.000348s ]
+---------------------------------------------------------------
+[ 2018-01-26T15:28:58+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png [运行时间：0.034569s][吞吐率：28.93req/s] [内存消耗：1,451.80kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:28:58+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png [运行时间：0.039489s][吞吐率：25.32req/s] [内存消耗：1,451.77kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:29:10+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.145748s][吞吐率：6.86req/s] [内存消耗：3,701.70kb] [文件加载：84]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000518s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\toutiao\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\toutiao\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\toutiao\public/../application/index\view\toutiao\shouye.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'roll',
+  4 => 'faocus',
+  5 => 'log',
+  6 => 'kol0',
+  7 => 'kol1',
+  8 => 'kol2',
+  9 => 'kol3',
+  10 => 'name',
+  11 => 'countgenre',
+  12 => 'anli',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000972s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_logo` [ RunTime:0.008025s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_logo` WHERE  (  `status` = 'normal' ) ORDER BY `weigh`  desc LIMIT 21 [ RunTime:0.000888s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_kol` [ RunTime:0.007870s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '娱乐'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '健康'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '历史'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '军事'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_newsfocus` [ RunTime:0.007872s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_newsfocus` [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_roll` [ RunTime:0.008844s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_roll` [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_type` [ RunTime:0.009166s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_type` WHERE  `id` IN (3,4,5,6) [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_content` [ RunTime:0.009354s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (3) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000623s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (4) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000569s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (5) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (6) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_genre` [ RunTime:0.007767s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_genre` LIMIT 1 [ RunTime:0.000421s ]
+---------------------------------------------------------------
+[ 2018-01-26T15:29:10+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png [运行时间：0.045277s][吞吐率：22.09req/s] [内存消耗：1,451.80kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:29:10+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png [运行时间：0.044978s][吞吐率：22.23req/s] [内存消耗：1,451.77kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:29:28+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/js/index/js/maps/swiper.min.js.map
+[ info ] 127.0.0.1/assets/js/index/js/maps/swiper.min.js.map [运行时间：0.030381s][吞吐率：32.92req/s] [内存消耗：1,451.52kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'js',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'maps',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:31:44+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.242527s][吞吐率：4.12req/s] [内存消耗：3,509.13kb] [文件加载：82]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000551s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\toutiao\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\toutiao\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\toutiao\public/../application/index\view\toutiao\shouye.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'roll',
+  4 => 'faocus',
+  5 => 'log',
+  6 => 'kol0',
+  7 => 'kol1',
+  8 => 'kol2',
+  9 => 'kol3',
+  10 => 'name',
+  11 => 'countgenre',
+  12 => 'anli',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010308s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_logo` [ RunTime:0.008295s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_logo` WHERE  (  `status` = 'normal' ) ORDER BY `weigh`  desc LIMIT 21 [ RunTime:0.000857s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_kol` [ RunTime:0.007438s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '娱乐'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '健康'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '历史'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '军事'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_newsfocus` [ RunTime:0.007830s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_newsfocus` [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_roll` [ RunTime:0.096032s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_roll` [ RunTime:0.001094s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_type` [ RunTime:0.013127s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_type` WHERE  `id` IN (3,4,5,6) [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_content` [ RunTime:0.009663s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (3) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.001332s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (4) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.001205s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (5) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000665s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (6) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_genre` [ RunTime:0.008545s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_genre` LIMIT 1 [ RunTime:0.000340s ]
+---------------------------------------------------------------
+[ 2018-01-26T15:31:44+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png [运行时间：0.040048s][吞吐率：24.97req/s] [内存消耗：1,451.80kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:31:44+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png [运行时间：0.039270s][吞吐率：25.46req/s] [内存消耗：1,451.77kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:31:45+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/js/index/js/maps/swiper.min.js.map
+[ info ] 127.0.0.1/assets/js/index/js/maps/swiper.min.js.map [运行时间：0.045962s][吞吐率：21.76req/s] [内存消耗：1,451.53kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'js',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'maps',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:55:15+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.243184s][吞吐率：4.11req/s] [内存消耗：3,701.70kb] [文件加载：84]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000514s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\toutiao\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\toutiao\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\toutiao\public/../application/index\view\toutiao\shouye.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'roll',
+  4 => 'faocus',
+  5 => 'log',
+  6 => 'kol0',
+  7 => 'kol1',
+  8 => 'kol2',
+  9 => 'kol3',
+  10 => 'name',
+  11 => 'countgenre',
+  12 => 'anli',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001035s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_logo` [ RunTime:0.008823s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_logo` WHERE  (  `status` = 'normal' ) ORDER BY `weigh`  desc LIMIT 21 [ RunTime:0.000869s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_kol` [ RunTime:0.008507s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '娱乐'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '健康'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '历史'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '军事'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_newsfocus` [ RunTime:0.008147s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_newsfocus` [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_roll` [ RunTime:0.092077s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_roll` [ RunTime:0.001471s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_type` [ RunTime:0.019757s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_type` WHERE  `id` IN (3,4,5,6) [ RunTime:0.000664s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_content` [ RunTime:0.012257s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (3) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (4) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (5) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (6) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000566s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_genre` [ RunTime:0.009069s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_genre` LIMIT 1 [ RunTime:0.000374s ]
+---------------------------------------------------------------
+[ 2018-01-26T15:55:15+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png [运行时间：0.038802s][吞吐率：25.77req/s] [内存消耗：1,451.80kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:55:15+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png [运行时间：0.040062s][吞吐率：24.96req/s] [内存消耗：1,451.77kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:55:15+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png [运行时间：0.045590s][吞吐率：21.93req/s] [内存消耗：1,451.80kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:55:15+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/js/index/js/maps/swiper.min.js.map
+[ info ] 127.0.0.1/assets/js/index/js/maps/swiper.min.js.map [运行时间：0.046589s][吞吐率：21.46req/s] [内存消耗：1,451.52kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'js',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mu81gptgrcqr8cndkljhuuh704',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'maps',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:55:26+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.646120s][吞吐率：1.55req/s] [内存消耗：3,509.04kb] [文件加载：82]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000402s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\toutiao\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\toutiao\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\toutiao\public/../application/index\view\toutiao\shouye.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'roll',
+  4 => 'faocus',
+  5 => 'log',
+  6 => 'kol0',
+  7 => 'kol1',
+  8 => 'kol2',
+  9 => 'kol3',
+  10 => 'name',
+  11 => 'countgenre',
+  12 => 'anli',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009960s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_logo` [ RunTime:0.081506s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_logo` WHERE  (  `status` = 'normal' ) ORDER BY `weigh`  desc LIMIT 21 [ RunTime:0.001094s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_kol` [ RunTime:0.113341s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '娱乐'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000707s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '健康'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000724s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '历史'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '军事'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_newsfocus` [ RunTime:0.082968s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_newsfocus` [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_roll` [ RunTime:0.077707s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_roll` [ RunTime:0.000700s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_type` [ RunTime:0.069749s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_type` WHERE  `id` IN (3,4,5,6) [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_content` [ RunTime:0.059389s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (3) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (4) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (5) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000569s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (6) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000602s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_genre` [ RunTime:0.071389s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_genre` LIMIT 1 [ RunTime:0.000407s ]
+---------------------------------------------------------------
+[ 2018-01-26T15:55:26+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png [运行时间：0.043601s][吞吐率：22.94req/s] [内存消耗：1,451.80kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ei6p2i7dqvb8b3p1o52ujv6sl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:55:26+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/js/index/js/maps/swiper.min.js.map
+[ info ] 127.0.0.1/assets/js/index/js/maps/swiper.min.js.map [运行时间：0.032704s][吞吐率：30.58req/s] [内存消耗：1,451.52kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'js',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ei6p2i7dqvb8b3p1o52ujv6sl5',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'maps',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:55:28+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png [运行时间：0.047726s][吞吐率：20.95req/s] [内存消耗：1,451.77kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ei6p2i7dqvb8b3p1o52ujv6sl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:55:43+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.150932s][吞吐率：6.63req/s] [内存消耗：3,509.13kb] [文件加载：82]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ei6p2i7dqvb8b3p1o52ujv6sl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000552s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\toutiao\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\toutiao\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\toutiao\public/../application/index\view\toutiao\shouye.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'roll',
+  4 => 'faocus',
+  5 => 'log',
+  6 => 'kol0',
+  7 => 'kol1',
+  8 => 'kol2',
+  9 => 'kol3',
+  10 => 'name',
+  11 => 'countgenre',
+  12 => 'anli',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001270s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_logo` [ RunTime:0.008274s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_logo` WHERE  (  `status` = 'normal' ) ORDER BY `weigh`  desc LIMIT 21 [ RunTime:0.000841s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_kol` [ RunTime:0.010764s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '娱乐'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '健康'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '历史'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '军事'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000600s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_newsfocus` [ RunTime:0.009918s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_newsfocus` [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_roll` [ RunTime:0.009792s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_roll` [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_type` [ RunTime:0.007742s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_type` WHERE  `id` IN (3,4,5,6) [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_content` [ RunTime:0.011244s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (3) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000677s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (4) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (5) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (6) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_genre` [ RunTime:0.009124s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_genre` LIMIT 1 [ RunTime:0.000420s ]
+---------------------------------------------------------------
+[ 2018-01-26T15:55:43+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png [运行时间：0.027880s][吞吐率：35.87req/s] [内存消耗：1,451.80kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ei6p2i7dqvb8b3p1o52ujv6sl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:55:43+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png [运行时间：0.038207s][吞吐率：26.17req/s] [内存消耗：1,451.77kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ei6p2i7dqvb8b3p1o52ujv6sl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:55:56+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.133146s][吞吐率：7.51req/s] [内存消耗：3,509.13kb] [文件加载：82]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ei6p2i7dqvb8b3p1o52ujv6sl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000557s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\toutiao\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\toutiao\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\toutiao\public/../application/index\view\toutiao\shouye.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'roll',
+  4 => 'faocus',
+  5 => 'log',
+  6 => 'kol0',
+  7 => 'kol1',
+  8 => 'kol2',
+  9 => 'kol3',
+  10 => 'name',
+  11 => 'countgenre',
+  12 => 'anli',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000930s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_logo` [ RunTime:0.007957s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_logo` WHERE  (  `status` = 'normal' ) ORDER BY `weigh`  desc LIMIT 21 [ RunTime:0.000867s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_kol` [ RunTime:0.008195s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '娱乐'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '健康'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '历史'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '军事'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_newsfocus` [ RunTime:0.007920s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_newsfocus` [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_roll` [ RunTime:0.007573s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_roll` [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_type` [ RunTime:0.008442s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_type` WHERE  `id` IN (3,4,5,6) [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_content` [ RunTime:0.009183s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (3) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000799s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (4) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (5) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (6) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_genre` [ RunTime:0.008217s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_genre` LIMIT 1 [ RunTime:0.000399s ]
+---------------------------------------------------------------
+[ 2018-01-26T15:55:56+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png [运行时间：0.034703s][吞吐率：28.82req/s] [内存消耗：1,451.80kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ei6p2i7dqvb8b3p1o52ujv6sl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:55:57+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png [运行时间：0.041664s][吞吐率：24.00req/s] [内存消耗：1,451.77kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ei6p2i7dqvb8b3p1o52ujv6sl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:56:30+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.144336s][吞吐率：6.93req/s] [内存消耗：3,509.13kb] [文件加载：82]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ei6p2i7dqvb8b3p1o52ujv6sl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000392s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\toutiao\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\toutiao\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\toutiao\public/../application/index\view\toutiao\shouye.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'roll',
+  4 => 'faocus',
+  5 => 'log',
+  6 => 'kol0',
+  7 => 'kol1',
+  8 => 'kol2',
+  9 => 'kol3',
+  10 => 'name',
+  11 => 'countgenre',
+  12 => 'anli',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000956s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_logo` [ RunTime:0.010684s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_logo` WHERE  (  `status` = 'normal' ) ORDER BY `weigh`  desc LIMIT 21 [ RunTime:0.000834s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_kol` [ RunTime:0.009025s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '娱乐'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '健康'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '历史'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '军事'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_newsfocus` [ RunTime:0.009595s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_newsfocus` [ RunTime:0.000546s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_roll` [ RunTime:0.008929s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_roll` [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_type` [ RunTime:0.010267s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_type` WHERE  `id` IN (3,4,5,6) [ RunTime:0.000542s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_content` [ RunTime:0.009242s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (3) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (4) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (5) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000623s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (6) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_genre` [ RunTime:0.008915s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_genre` LIMIT 1 [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2018-01-26T15:56:30+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png [运行时间：0.035230s][吞吐率：28.38req/s] [内存消耗：1,451.80kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ei6p2i7dqvb8b3p1o52ujv6sl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:56:30+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png [运行时间：0.035762s][吞吐率：27.96req/s] [内存消耗：1,451.77kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ei6p2i7dqvb8b3p1o52ujv6sl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:56:44+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.147657s][吞吐率：6.77req/s] [内存消耗：3,509.13kb] [文件加载：82]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ei6p2i7dqvb8b3p1o52ujv6sl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000498s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\toutiao\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\toutiao\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\toutiao\public/../application/index\view\toutiao\shouye.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'roll',
+  4 => 'faocus',
+  5 => 'log',
+  6 => 'kol0',
+  7 => 'kol1',
+  8 => 'kol2',
+  9 => 'kol3',
+  10 => 'name',
+  11 => 'countgenre',
+  12 => 'anli',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000914s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_logo` [ RunTime:0.007534s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_logo` WHERE  (  `status` = 'normal' ) ORDER BY `weigh`  desc LIMIT 21 [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_kol` [ RunTime:0.008969s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '娱乐'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '健康'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '历史'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '军事'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.001112s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_newsfocus` [ RunTime:0.008746s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_newsfocus` [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_roll` [ RunTime:0.009680s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_roll` [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_type` [ RunTime:0.008995s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_type` WHERE  `id` IN (3,4,5,6) [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_content` [ RunTime:0.009431s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (3) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (4) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (5) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (6) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000870s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_genre` [ RunTime:0.009600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_genre` LIMIT 1 [ RunTime:0.000413s ]
+---------------------------------------------------------------
+[ 2018-01-26T15:56:44+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png [运行时间：0.029246s][吞吐率：34.19req/s] [内存消耗：1,451.80kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ei6p2i7dqvb8b3p1o52ujv6sl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:56:44+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png [运行时间：0.037827s][吞吐率：26.44req/s] [内存消耗：1,451.77kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ei6p2i7dqvb8b3p1o52ujv6sl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:56:47+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.162846s][吞吐率：6.14req/s] [内存消耗：3,509.13kb] [文件加载：82]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ei6p2i7dqvb8b3p1o52ujv6sl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\toutiao\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000511s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\toutiao\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\toutiao\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\toutiao\public/../application/index\view\toutiao\shouye.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'roll',
+  4 => 'faocus',
+  5 => 'log',
+  6 => 'kol0',
+  7 => 'kol1',
+  8 => 'kol2',
+  9 => 'kol3',
+  10 => 'name',
+  11 => 'countgenre',
+  12 => 'anli',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009755s ] mysql:dbname=wwwdb;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_logo` [ RunTime:0.009999s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_logo` WHERE  (  `status` = 'normal' ) ORDER BY `weigh`  desc LIMIT 21 [ RunTime:0.000852s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_kol` [ RunTime:0.009235s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '娱乐'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '健康'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000780s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '历史'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000605s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_kol` WHERE  (  `type` = '军事'  AND `status` = 'normal' ) ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_newsfocus` [ RunTime:0.010478s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_newsfocus` [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_roll` [ RunTime:0.008002s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_roll` [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_type` [ RunTime:0.011059s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_type` WHERE  `id` IN (3,4,5,6) [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cp_content` [ RunTime:0.011438s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (3) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000682s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (4) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (5) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cp_content` WHERE  (  `type` IN (6) ) ORDER BY createtime desc LIMIT 6 [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_genre` [ RunTime:0.011807s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_genre` LIMIT 1 [ RunTime:0.000312s ]
+---------------------------------------------------------------
+[ 2018-01-26T15:56:47+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%A8%B1%E4%B9%90%EF%BC%8D%E5%BD%A9.png [运行时间：0.041837s][吞吐率：23.90req/s] [内存消耗：1,451.80kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ei6p2i7dqvb8b3p1o52ujv6sl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:56:47+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png
+[ info ] 127.0.0.1/assets/img/shouye/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png [运行时间：0.041284s][吞吐率：24.22req/s] [内存消耗：1,451.77kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'shouye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ei6p2i7dqvb8b3p1o52ujv6sl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T16:24:25+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/js/index/js/maps/swiper.min.js.map
+[ info ] 127.0.0.1/assets/js/index/js/maps/swiper.min.js.map [运行时间：0.039576s][吞吐率：25.27req/s] [内存消耗：1,451.52kb] [文件加载：51]
+[ info ] [ LANG ] D:\toutiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'js',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ei6p2i7dqvb8b3p1o52ujv6sl5',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'maps',
+)
+[ info ] [ LOG ] INIT File

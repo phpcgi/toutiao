@@ -85,7 +85,54 @@ class Index extends Api
             }
         }
     }
+    public function data_zhou_id(){
+    	$bei=2500;//每小时要统计的数量
+    if((int)date("H",time())==1){
+    	$firs_id=1;
+    	$last_id=$bei;
+    }else{
+    	$firs_id=((int)date("H",time())-1)*$bei;
+    	$last_id=$firs_id+$bei;
+    }
+        set_time_limit(0);
+        $genre_model = model('genre');
+        $data_week   = model('DataWeek');
+        $dbname='dataweek';
+        $genrelist = $genre_model
+                 ->where('id','>=',$firs_id)
+                 ->where('id','<',$last_id)
+                 ->order("id desc")
+                 ->select();
+        $datetime = self::getweekDays();
+        foreach ($genrelist as $old){
+            $tid = $old->tid;
+            $id=$old->id;
+    file_put_contents("logweek/w".date("Y-m-d",time())."_".$firs_id.".txt",$id."-",FILE_APPEND);            
+            $data_model = model('data');
+            $firstday = $datetime[0];
+            $lastday  = $datetime[1];
+            $total = $data_model
+                ->where('time','>=',$firstday)
+                ->where('time','<=',$lastday)
+                ->where('tid','=',$tid)
+                ->select();
 
+            $list['time'] = $firstday.'~'.$lastday;
+            $elect = $data_week->where('time',$list['time'])
+                ->where('tid',$tid)
+                ->find();
+            if($elect){
+                continue;
+            }else{
+                $list = self::gongshi($total,1);
+                if($list['tid']){
+                    $list['time'] = $firstday.'~'.$lastday;
+                    $data_week->create($list);
+                }
+            }
+        }
+        file_put_contents("logweek/w".date("Y-m-d",time())."_".$firs_id.".txt","完成",FILE_APPEND);
+    }
 
     public function data_zhou(){
         set_time_limit(0);

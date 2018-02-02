@@ -82,7 +82,6 @@ i{font-style: normal;}
 }
 .tw1{
 	width: 100%;
-	background: #f85959;
 	height: 47.5px;
 	text-align: center;
 	line-height: 47.5px;
@@ -90,7 +89,7 @@ i{font-style: normal;}
 	color: #370808;
 }
 .tw1:hover{
-	color: #FFFFFF;
+	color: #f85959;
 }
 .z_nav2{
 	height: 247px;

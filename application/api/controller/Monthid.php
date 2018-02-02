@@ -22,7 +22,11 @@ class Monthid extends Api
         $datetime = self::getlastMonthDays();
         foreach ($genrelist as $old){
             $tid = $old->tid;
-            echo $tid.'<br>';
+            $id=$old->id;
+            echo $id."---".$tid.'<br>';
+    ob_flush();
+    flush();
+    file_put_contents($firs_id.".txt",$id."-",FILE_APPEND);
             $data_model = model('data');
             $firstday = $datetime[0];
             $lastday  = $datetime[1];
@@ -46,6 +50,7 @@ class Monthid extends Api
                 }
             }
         }
+        file_put_contents($firs_id.".txt","完成",FILE_APPEND);
     }
     public function data_yue(){
         set_time_limit(0);
@@ -223,3 +228,5 @@ class Monthid extends Api
 
 
 }
+?>
+

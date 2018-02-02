@@ -8,7 +8,7 @@ $(function(){
             		var str="";
             			str+='<div class="tj">'
             				+	'<a href="Zhoushuju?&tid='+msg.data.tid+'" class="zsj">'
-            				+	'<p class="zsjj">周数据</p>'
+            				+	'<p class="zsjj yanse">周数据</p>'
             				+	'</a>'
             				+	'<a href="Yshuju?&tid='+msg.data.tid+'" class="zsj">'
             				+		'<p class="zsjj">月数据</p>'

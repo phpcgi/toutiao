@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:62:"D:\toutiao\public/../application/index\view\toutiao\ggzdl.html";i:1515128415;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:62:"D:\toutiao\public/../application/index\view\toutiao\ggzdl.html";i:1516780940;}*/ ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -66,7 +66,7 @@
 							<p class="yx">密码</p>
 						</div>
 						<div class="name_r">
-							<input type="password" class="password" />
+							<input type="password" class="password" id="user" disabled="true" />
 							
 						</div>
 						<div class="zhan">
@@ -107,6 +107,7 @@
 	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
 	<script type="text/javascript" src="__CDN__/assets/js/index/js/ggzdl.js" ></script>
 	<script>
+
 		var a=true;
 		
 		$('.zhan').click(function(){
@@ -119,6 +120,10 @@
 			}
 			a=!a;
 		})
-	
+$(function(){
+$(document).click(function(){
+$("#user").attr("disabled",false);
+})
+})
 	</script>
 </html>

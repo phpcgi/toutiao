@@ -1,9 +1,11 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:63:"D:\toutiao\public/../application/index\view\toutiao\shouye.html";i:1516345642;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:63:"D:\toutiao\public/../application/index\view\toutiao\shouye.html";i:1517280666;}*/ ?>
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<title>头条易 - 让你的投放更EASY</title>
+		<link rel="shortcut icon" href="http://toutiaoeasy.cn/favicon.ico" />
+
 		<link rel="stylesheet" href="__CDN__/assets/css/index/shouye.css" />
 		<link rel="stylesheet" href="__CDN__/assets/css/index/icommon.css" />
 		<!--<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>-->
@@ -128,14 +130,44 @@
 
 	</head>
 	<body>
-		<div id="container" class="co">
+		<div id="container" class="co" style="height:65px;">
 			<!-------------------------------------------nav------------------------------------------->
 			<div id="nav">
 				<div class="nav_l n_conmment">
-					<img src="__CDN__/assets/img/shouye/logo1.png"/>
+					<img src="__CDN__/assets/img/shouye/logo3.png" style="width:305px"/>
 				</div>
-				<div class="nav_c n_conmment">
-					<ul class="nav_cc">
+				<div class="nav_c n_conmment" >
+					
+					</div>
+					<div class="nav_r n_conmment">
+					<?php if($name): ?>
+					<p class="deng"><?php echo $name; ?></p>
+					<?php else: ?>
+					<p class="deng">登录</p>
+					<?php endif; ?>
+					<p class="shu1">|</p>
+					<p class="zhu">注册</p>
+					<div class="z_nav4">
+						<div class="z_top4">
+							<img src="__CDN__/assets/img/shouye/xtsj.png" />
+						</div>
+						<div class="z_bottom4">							
+							<p class="baow tw1 llzzc">广告主注册</p>
+							<p class="tout tw1 ggzzc">流量主注册</p>
+							<!--<p class="tout tw1">退出登陆</p>-->
+						</div>
+					</div>
+					
+				</div>
+				</div>
+				
+			</div>
+			</div>
+			<div id="nav1">
+		<div id="container" class="co" style="height:100px;">
+			<div id="nav">
+				<div class="nav_c n_conmment" style="height:50px;margin-left:2px">
+					<ul class="nav_cc" style="margin-left:0px;">
 						<li class="zhuye se">首页</li>
 						<li class="bangd">榜单</li>
 						<li class="xmtxy">新媒体学院</li>
@@ -182,7 +214,7 @@
 					</div>
 					<!--未登陆状态-->
 					<?php else: ?>
-					<div class="z_nav3">
+					<div class="z_nav3" style="display:block;left: 1000px;">
 						<div class="z_top">
 							<img src="__CDN__/assets/img/shouye/xtsj.png" />
 						</div>
@@ -194,28 +226,11 @@
 					</div>
 					<?php endif; ?>
 				</div>
-				<div class="nav_r n_conmment">
-					<?php if($name): ?>
-					<p class="deng"><?php echo $name; ?></p>
-					<?php else: ?>
-					<p class="deng">登录</p>
-					<?php endif; ?>
-					<p class="shu1">|</p>
-					<p class="zhu">注册</p>
-					<div class="z_nav4">
-						<div class="z_top4">
-							<img src="__CDN__/assets/img/shouye/xtsj.png" />
-						</div>
-						<div class="z_bottom4">							
-							<p class="baow tw1 llzzc">广告主注册</p>
-							<p class="tout tw1 ggzzc">流量主注册</p>
-							<!--<p class="tout tw1">退出登陆</p>-->
-						</div>
-					</div>
-				</div>
+				
 			</div>
-			</div>
-		
+			 	
+		</div>
+	</div>
 			<!---------------------------------------------banner--------------------------------------------------->
 			<div class="banner_b">
 			<div class="swiper-container swiper-container-horizontal">
@@ -268,24 +283,30 @@
 		</div>
 		<!-----------------------------------------------媒体数量------------------------------------------------>
 		<div id="rz">
-			<div class="mtsl">
+			<div class="mtsl">			
 				<div class="mtsl_t">
 					<p class="num">累计入驻自媒体数量:<?php echo $countgenre; ?></p>
 				</div>
-				<div class="mtsl_b">
-						<div class="accordion">
-							<ul>
-								<li>
-									<div class="intro">
-										<p>娱乐</p>
-									</div>
-									<div class="bg-img">
-										<div style="width: 900px;height: 300px;background: #EFEFEF;">
+
+
+						<ul class="moviecon_h1">
+							<li onclick="btn(1)">娱乐</li>
+							<li onclick="btn(2)">健康</li>
+							<li onclick="btn(3)">历史</li>
+							<li onclick="btn(4)">军事</li>
+						</ul>
+
+<br><br>
+	
+
+									<div class="bg-img" id="box1" style="display:;">
+										<div style="width: 1200px;height: 350px;">
 											<div class="lf">
-												<img src="__CDN__/assets/img/shouye/娱乐－彩.png" />
+												<img src="__CDN__/uploads/yl.png" height="354" />
 											</div>
 											<div class="rt">
 												<?php if(is_array($kol0) || $kol0 instanceof \think\Collection || $kol0 instanceof \think\Paginator): $i = 0; $__LIST__ = $kol0;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
+												<a href=/index/Ggzdl>
 												<div class="rt_c">
 													<div class="rtc_t">
 														<div class="rtc_l">
@@ -298,26 +319,22 @@
 													</div>
 													<div class="rtc_b">
 														<p class="jies"><?php echo $vo['content']; ?></p>
-														<p class="hz">合作</p>
 													</div>
 												</div>
+												</a>
 												<?php endforeach; endif; else: echo "" ;endif; ?>
 											</div>
 											
 										</div>
 									</div>
-								</li>
-								<li>
-									<div class="intro">
-										<p>健康</p>
-									</div>
-									<div class="bg-img">
-										<div style="width: 900px;height: 300px;background: #EFEFEF;">
+									<div class="bg-img" id="box2" style="display:none;">
+										<div style="width: 1200px;height: 300px;">
 											<div class="lf">
-												<img src="__CDN__/assets/img/shouye/jiankang.png" />
+												<img src="__CDN__/uploads/jk.png" />
 											</div>
 											<div class="rt">
 												<?php if(is_array($kol1) || $kol1 instanceof \think\Collection || $kol1 instanceof \think\Paginator): $i = 0; $__LIST__ = $kol1;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
+												<a href=/index/Ggzdl>
 												<div class="rt_c">
 													<div class="rtc_t">
 														<div class="rtc_l">
@@ -330,26 +347,22 @@
 													</div>
 													<div class="rtc_b">
 														<p class="jies"><?php echo $vo['content']; ?></p>
-														<p class="hz">合作</p>
 													</div>
 												</div>
+											</a>
 												<?php endforeach; endif; else: echo "" ;endif; ?>
 											</div>
 											
 										</div>
 									</div>
-								</li>
-								<li>
-									<div class="intro">
-										<p>历史</p>
-									</div>
-									<div class="bg-img">
-										<div style="width: 900px;height: 300px;background: #EFEFEF;">
+									<div class="bg-img" id="box3" style="display:none;">
+										<div style="width: 1200px;height: 300px;">
 											<div class="lf">
-												<img src="__CDN__/assets/img/shouye/lishi.png" />
+												<img src="__CDN__/uploads/ls.png" />
 											</div>
 											<div class="rt">
 												<?php if(is_array($kol2) || $kol2 instanceof \think\Collection || $kol2 instanceof \think\Paginator): $i = 0; $__LIST__ = $kol2;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
+												<a href=/index/Ggzdl>
 												<div class="rt_c">
 													<div class="rtc_t">
 														<div class="rtc_l">
@@ -362,26 +375,25 @@
 													</div>
 													<div class="rtc_b">
 														<p class="jies"><?php echo $vo['content']; ?></p>
-														<p class="hz">合作</p>
+														
 													</div>
 												</div>
 												<?php endforeach; endif; else: echo "" ;endif; ?>
+											</a>
 											</div>
 											
 										</div>
 									</div>
-								</li>
-								<li>
-									<div class="intro">
-										<p>军事</p>
-									</div>
-									<div class="bg-img">
-										<div style="width: 900px;height: 300px;background: #EFEFEF;">
+									
+											
+									<div class="bg-img" id="box4" style="display:none;">
+										<div style="width: 1200px;height: 300px;">
 											<div class="lf">
-												<img src="__CDN__/assets/img/shouye/junshi.png" />
+												<img src="__CDN__/uploads/js.png" />
 											</div>
 											<div class="rt">
 											<?php if(is_array($kol3) || $kol3 instanceof \think\Collection || $kol3 instanceof \think\Paginator): $i = 0; $__LIST__ = $kol3;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
+											<a href=/index/Ggzdl>
 											<div class="rt_c">
 												<div class="rtc_t">
 													<div class="rtc_l">
@@ -394,28 +406,65 @@
 												</div>
 												<div class="rtc_b">
 													<p class="jies"><?php echo $vo['content']; ?></p>
-													<p class="hz">合作</p>
 												</div>
 											</div>
+										</a>
 											<?php endforeach; endif; else: echo "" ;endif; ?>
 										</div>
 											
 										</div>
-									</div>
-								</li>
-								
-			
-							</ul>
-						</div>
-
-				</div>
+									</div>		
+<script type="text/javascript">
+var box1=document.getElementById('box1');
+var box2=document.getElementById('box2');
+var box3=document.getElementById('box3');
+var box4=document.getElementById('box4');
+function btn(a){ 
+	if(a==1){
+		box1.style.display='';
+		box2.style.display='none';
+		box3.style.display='none';
+		box4.style.display='none';	
+ }
+ if(a==2){
+		box1.style.display='none';
+		box2.style.display='';
+		box3.style.display='none';
+		box4.style.display='none';
+}
+ if(a==3){
+		box1.style.display='none';
+		box2.style.display='none';
+		box3.style.display='';
+		box4.style.display='none';
+}
+ if(a==4){
+		box1.style.display='none';
+		box2.style.display='none';
+		box3.style.display='none';
+		box4.style.display='';
+}
+}
+</script>						
 			</div>
 		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
 			<!-----------------------------------------成功案例（line是边框特效）-------------------------------------->
 			<div class="moviex">
 				<div class="movie">
 					<div class="movie_h">
-						<p class="anli">成功案例</p>
+						<p class="anli">•成功案例</p>
 					</div>
 					<div class="movie_b">
 						<ul class="moviecon_h">
@@ -505,7 +554,7 @@
 		<div id="hezuo">
 			<div class="hezuo">
 				<div class="hezuo_t">
-					<p class="hezuo_p">合作伙伴</p>
+					<p class="hezuo_p">•合作伙伴</p>
 				</div>
 				<div class="hezuo_c">
 				</div>
@@ -520,7 +569,7 @@
 				</ul>
 			</div>
 		</div>
-		<!-------------------------------------联系我们----------------------------------------->
+		<!-------------------------------------联系我们----------------------------------------
 		<div id="lianx">
 			<div class="lianx">
 				<div class="lianx_t">
@@ -581,6 +630,8 @@
 				<img src="__CDN__/assets/img/shouye/kewm.png" />
 			</div>
 		</div>
+		----->
+			<img src="__CDN__/uploads/20181261.jpg" style="width:100%;">
 	</body>
 	<script>
     var swiper = new Swiper('.swiper-container', {
@@ -612,6 +663,14 @@
 		$('.moviecon_h li').click(function(){
 			$(this).addClass('anlibs').siblings().removeClass('anlibs')
 			$('.moviecon_b').eq( $(this).index() ).addClass('anlixian').siblings().removeClass('anlixian');
+		})
+	</script>
+	
+		<script>
+		$('.moviecon_h1 li:first-of-type').addClass('anlibs')
+		$('.moviecon_h1 li').click(function(){
+			$(this).addClass('anlibs').siblings().removeClass('anlibs')
+			//$('.moviecon_b').eq( $(this).index() ).addClass('anlixian').siblings().removeClass('anlixian');
 		})
 	</script>
 </html>
