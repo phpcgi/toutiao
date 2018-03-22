@@ -69,4 +69,38 @@ class Tid extends Api
         $json = \GuzzleHttp\json_decode($data);
         return $json;
     }
+    
+        // 同步写入分类表fa_genre
+    public function tid1(){
+    	$genre_model = model('genre1');
+        $list = $genre_model
+      ->where('id','>',1)
+     // ->where('id','<',20071)
+      ->order("id desc")
+      ->select();
+
+        foreach($list as $old){
+        	$params['id'] =$old->id;
+            $tid = $old->tid;
+
+                $type = self::Word($tid);
+                if(!isset($type->classification)){
+                    continue;
+                }
+                $typename =$type->classification;
+
+                if($typename){
+                    //$data['name'] = $old['username'];
+                   // $data['tid'] = $old['kol_id'];
+                    $data['type'] = $typename;
+                   // $data['status'] = 'normal';
+                    $genre_model->where('id','=',$params['id'])->update($data);
+                }
+            echo $params['id'].'==='.$data['type'].'<br>';
+    ob_flush();
+    flush();
+            
+        }
+        exit();
+    }
 }

@@ -18,6 +18,7 @@ class Articles extends Api
         $query = json_encode($array);
         $curl = new Curl();
         $curl->get('http://ocean.tarsocial.com/api/search/toutiao/articles?access_token=EZ6JOcuvrvdeKZmaBv48M7VVRQl4Wj&query='.$query.'&page_num='.$next.'&page_size=10');
+        echo 'http://ocean.tarsocial.com/api/search/toutiao/articles?access_token=EZ6JOcuvrvdeKZmaBv48M7VVRQl4Wj&query='.$query.'&page_num='.$next.'&page_size=10';
         $data = $curl->response;
         $json = \GuzzleHttp\json_decode($data,true);
 

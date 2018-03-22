@@ -20,7 +20,7 @@ class DataMonth extends Model
             if (!is_null($name))
             {
                 $query->where('name', 'like', '%'.$name.'%');
-            }
+            }    
             if (!is_null($type))
             {
                 $query->where('type', 'in', $type);

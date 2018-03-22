@@ -1,7 +1,24 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:63:"D:\toutiao\public/../application/index\view\toutiao\shouye.html";i:1517280666;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:63:"D:\toutiao\public/../application/index\view\toutiao\shouye.html";i:1518331798;}*/ ?>
 <!DOCTYPE html>
 <html>
 	<head>
+				<script type="text/javascript"> 
+     
+        var sUserAgent = navigator.userAgent.toLowerCase(); 
+        var bIsIpad = sUserAgent.match(/ipad/i) == "ipad"; 
+        var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os"; 
+        var bIsMidp = sUserAgent.match(/midp/i) == "midp"; 
+        var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4"; 
+        var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb"; 
+        var bIsAndroid = sUserAgent.match(/android/i) == "android"; 
+        var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce"; 
+        var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile"; 
+        if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM ){ 
+          window.location.href="/index/Indexn";
+        } 
+       
+          
+</script>
 		<meta charset="UTF-8">
 		<title>头条易 - 让你的投放更EASY</title>
 		<link rel="shortcut icon" href="http://toutiaoeasy.cn/favicon.ico" />
@@ -152,8 +169,8 @@
 							<img src="__CDN__/assets/img/shouye/xtsj.png" />
 						</div>
 						<div class="z_bottom4">							
-							<p class="baow tw1 llzzc">广告主注册</p>
-							<p class="tout tw1 ggzzc">流量主注册</p>
+							<p class="baow tw1 llzzc" style=" width: 105px;">广告主注册</p>
+							<p class="tout tw1 ggzzc" style=" width: 105px;">流量主注册</p>
 							<!--<p class="tout tw1">退出登陆</p>-->
 						</div>
 					</div>
@@ -214,7 +231,7 @@
 					</div>
 					<!--未登陆状态-->
 					<?php else: ?>
-					<div class="z_nav3" style="display:block;left: 1000px;">
+					<div class="z_nav3" style="display:none;left: 1000px;">
 						<div class="z_top">
 							<img src="__CDN__/assets/img/shouye/xtsj.png" />
 						</div>
@@ -464,7 +481,7 @@ function btn(a){
 			<div class="moviex">
 				<div class="movie">
 					<div class="movie_h">
-						<p class="anli">•成功案例</p>
+						<p class="anli">成功案例</p>
 					</div>
 					<div class="movie_b">
 						<ul class="moviecon_h">
@@ -554,7 +571,7 @@ function btn(a){
 		<div id="hezuo">
 			<div class="hezuo">
 				<div class="hezuo_t">
-					<p class="hezuo_p">•合作伙伴</p>
+					<p class="hezuo_p">合作伙伴</p>
 				</div>
 				<div class="hezuo_c">
 				</div>
@@ -619,7 +636,7 @@ function btn(a){
 		</div>
 		<div id="bot">
 			<div class="bot">北京头条易科技有限公司 | 京ICP备16042456号-1</div>
-		</div>
+		</div>----->
 		<div class="ewm">
 		
 			<div class="ke">

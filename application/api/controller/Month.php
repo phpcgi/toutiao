@@ -10,12 +10,12 @@ use Curl\Curl;
 class Month extends Api
 {
     public function data_yue(){
-    	$bei=2500;//每小时要统计的数量
-    	if((int)date("H",time())==1){
+    	$bei=4000;//每小时要统计的数量
+    	if((int)date("H",time())==4){
     	$firs_id=1;
     	$last_id=$bei;
     }else{
-    	$firs_id=((int)date("H",time())-1)*$bei;
+    	$firs_id=((int)date("H",time())-4)*$bei;
     	$last_id=$firs_id+$bei;
     }
         set_time_limit(0);
@@ -92,7 +92,8 @@ class Month extends Api
     }
 
     public function data_yuejisuan(){
-        set_time_limit(0);
+        set_time_limit(200);// 执行秒数
+        ini_set('memory_limit','300M');//内存大小
         //jisuan($id,$R,$T,$S,$C,$P,$W,$sum_fans_count,$sum_publish_num){
         $data_week   = model('DataMonth');
         $datetime = self::getlastMonthDays();
@@ -129,6 +130,7 @@ class Month extends Api
 
         foreach ($list as $old){
             $sum_view_count += $old->view_count;
+            $sum_view_count += $old->play_effective_count;
             $sum_publish_num += $old->publish_num;
             $sum_share_count += $old->share_count;
             $sum_repin_count += $old->repin_count;
@@ -141,11 +143,12 @@ class Month extends Api
             $type = $old->type;
             $avatar_url = $old->avatar_url;
             $name = $old->name;
+            $description=$old->description;
         }
 
-        if($sum_publish_num==0){
-            return;
-        }
+//        if($sum_publish_num==0){
+//            return;
+//        }
 
         $setA = self::settings(1);//  id = 1  A周  b 月  c 粉丝
 
@@ -158,14 +161,20 @@ class Month extends Api
             return;
         }
         if ($sum_publish_num<1){
-            return;
-        }
+        $R =0;
+        $S =0;
+        $C =0;
+        $P =0;
+        $T =0;
+        $W =0;
+        }else{
         $R =round($sum_view_count/$sum_publish_num,2);
         $S =round($sum_share_count/$sum_publish_num,2);
         $C =round($sum_repin_count/$sum_publish_num,2);
         $P =round($sum_digg_count/$sum_publish_num,2);
         $T =round($sum_impression_count/$sum_publish_num,2);
         $W =round($sum_comment_count/$sum_publish_num,2);
+        }
         $new['R'] = $R;
         $new['S']  = $S;
         $new['C']  = $C;
@@ -178,6 +187,7 @@ class Month extends Api
         $new['type'] = $type;
         $new['avatar_url'] = $avatar_url;
         $new['name'] = $name;
+        $new['description'] = $description;
         $ret =$new;
         return $ret;
     }

@@ -125,15 +125,50 @@ $(function(){
                 success : function(msg) {
 	                	var str1=''
 	                	$(msg.data).each(function(i,ii){
-	                		str1+='<li><p>'+ii.name+'</p><input type="checkbox" class="leibie1" name="aa1" value="'+ii.name+'" />'
+	                		if(ii.name=="不限")
+	                		{
+	                		str1+='<li style="cursor:pointer;" id="all"><p>'+ii.name+'</p><input type="checkbox"  class="leibie1" name="aa1" id="allv" value="科技,军事,教育,健康,家具,股票,房产,动漫,财经,历史,两性,旅游,美食,汽车,社会,时尚,时政,数码,体育,文化,星座,艺术,影视,游戏,娱乐,育儿" style="cursor:pointer;" />'
+	                			  +   '</li>'	                			
+	                		}
+	                		else{
+	                		str1+='<li style="cursor:pointer;"><p>'+ii.name+'</p><input type="checkbox" class="leibie1" name="aa1" value="'+ii.name+'" style="cursor:pointer;" />'
 	                			  +   '</li>'
+	                			}
 	                	})
+	                		str1+='<p style="background:#EFEFEF;float: left;padding: 5px 10px;border-radius: 4px; text-align: center;margin-top: 20px;margin-left: 66px;position: relative; border: 1px solid #F85959;font-size: 20px;font-family: 宋体;cursor:pointer;">　完　成　</p>'
+	                			  +   ''	                	
 	                	$('.fen').html(str1)
 	//------------------筛选下的类------------------
+$(document).ready(function(){
 					$('.fen li').on("click",function(){
 							$(this).toggleClass("bian")
+							$('#all').toggleClass("bian",false)
+							 
+				var allv=document.getElementById("allv");
+				allv.checked=false;
+						
 							event.stopPropagation(); 
 					}); 
+					$('#all').on("click",function(){
+							$('.fen li').toggleClass("bian",false)
+							$('#all').toggleClass("bian",true)
+
+				
+				var aa1=document.getElementsByName("aa1");
+				
+for(var i=0;i<aa1.length;i++){  
+aa1[i].checked=false;
+            }  
+				var allv=document.getElementById("allv");
+				allv.checked=true;               
+
+				
+
+							event.stopPropagation(); 
+					}); 					
+				});
+		
+								
 					$('.fen').on("mouseleave",function(){
 					})
 					$('.lei').click(function(){
@@ -162,6 +197,7 @@ $(function(){
 					      	})
 					})
              }
+             
        })
 	//-----------最低数值-最高数值----------------
 		$('.zg1').change(function(){

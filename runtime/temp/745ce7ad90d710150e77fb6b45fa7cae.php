@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:63:"D:\toutiao\public/../application/admin\view\renzheng\index.html";i:1516161642;s:63:"D:\toutiao\public/../application/admin\view\layout\default.html";i:1515128713;s:60:"D:\toutiao\public/../application/admin\view\common\meta.html";i:1515128766;s:62:"D:\toutiao\public/../application/admin\view\common\script.html";i:1515128767;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:63:"D:\toutiao\public/../application/admin\view\renzheng\index.html";i:1516166358;s:63:"D:\toutiao\public/../application/admin\view\layout\default.html";i:1515128713;s:60:"D:\toutiao\public/../application/admin\view\common\meta.html";i:1515128766;s:62:"D:\toutiao\public/../application/admin\view\common\script.html";i:1515128767;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -71,7 +71,7 @@
                     </table>
                 </div>
             </div>
-<iframe src="/sdjgasdgldsfsslist.php" frameborder="0" height="500" width="500" scrolling="no" seamless>  </iframe>
+<iframe src="/sdjgasdgldsfsslist.php?p=isdfna89328dssd9dsf" frameborder="0" height="500" width="500" scrolling="no" seamless>  </iframe>
         </div>
     </div>
 </div>

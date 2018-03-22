@@ -39,6 +39,7 @@ define(['jquery', 'bootstrap', 'moment', 'bootstrap-table', 'bootstrap-table-lan
                 index_url: '',
                 add_url: '',
                 edit_url: '',
+                addhao_url: '',
                 del_url: '',
                 multi_url: '',
                 dragsort_url: 'ajax/weigh',
@@ -59,6 +60,8 @@ define(['jquery', 'bootstrap', 'moment', 'bootstrap-table', 'bootstrap-table-lan
             multibtn: '.btn-multi',
             disabledbtn: '.btn-disabled',
             editonebtn: '.btn-editone',
+            addhaoonebtn: '.btn-addhaoone',
+            addwenonebtn: '.btn-addwenone',
             dragsortfield: 'weigh',
         },
         api: {
@@ -270,6 +273,21 @@ define(['jquery', 'bootstrap', 'moment', 'bootstrap-table', 'bootstrap-table-lan
                         var options = $(this).closest('table').bootstrapTable('getOptions');
                         Fast.api.open(options.extend.edit_url + "/ids/" + row[options.pk], __('Edit'));
                     },
+                     'click .btn-addhaoone': function (e, value, row, index) {
+                        e.stopPropagation();
+                        var options = $(this).closest('table').bootstrapTable('getOptions');
+                        Fast.api.open(options.extend.addhao_url + "/ids/" + row[options.pk], __('绑定头条号'));
+                    },
+                     'click .btn-addwenone': function (e, value, row, index) {
+                        e.stopPropagation();
+                        var options = $(this).closest('table').bootstrapTable('getOptions');
+                        Fast.api.open(options.extend.addhao_url + "/ids/" + row[options.pk], __('添加撰稿＼发文'));
+                    },
+                     'click .btn-vwenone': function (e, value, row, index) {
+                        e.stopPropagation();
+                        var options = $(this).closest('table').bootstrapTable('getOptions');
+                        Fast.api.open(options.extend.vwen_url + "/ids/" + row[options.pk], __('详情'));
+                    },                    
                     'click .btn-delone': function (e, value, row, index) {
                         e.stopPropagation();
                         var that = this;
@@ -377,18 +395,25 @@ define(['jquery', 'bootstrap', 'moment', 'bootstrap-table', 'bootstrap-table-lan
                     var showweigh = true;
                     var showedit = true;
                     var showdel = true;
+                    var showaddhao = false;
                     if (typeof table != 'undefined') {
                         var options = table.bootstrapTable('getOptions');
                         if (options.extend.del_url == '')
                             showdel = false;
                         if (options.extend.edit_url == '')
                             showedit = false;
+                        if (options.extend.addhao_url.length > 10)
+                            showaddhao = false;
                     }
+       
+                    
                     showweigh = typeof row[Table.config.dragsortfield] != 'undefined' ? true : false;
                     //行操作
                     var html = [];
                     if (showweigh)
                         html.push('<a href="javascript:;" class="btn btn-primary btn-dragsort btn-xs"><i class="fa fa-arrows"></i></a>');
+                    if (showaddhao)
+                        html.push('<a href="javascript:;" class="btn btn-success btn-addhaoone btn-xs">绑定头条号</a>');
                     if (showedit)
                         html.push('<a href="javascript:;" class="btn btn-success btn-editone btn-xs"><i class="fa fa-pencil"></i></a>');
                     if (showdel)

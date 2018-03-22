@@ -10,19 +10,51 @@
 		
 	</head>
 	<body>
-		<div id="container">
-		<div id="nav">
+			<div id="container" class="co" style="height:65px;">
+			<!-------------------------------------------nav------------------------------------------->
+			<div id="nav">
 				<div class="nav_l n_conmment">
-					<img src="__CDN__/assets/img/shouye/logo1.png"/>
+					<img src="__CDN__/assets/img/shouye/logo3.png" style="width:305px"/>
 				</div>
-				<div class="nav_c n_conmment">
-					<ul class="nav_cc">
+				<div class="nav_c n_conmment" >
+					
+					</div>
+					<div class="nav_r n_conmment">
+					{if condition="$name"}
+					<p class="deng">{$name}</p>
+					{else/}
+					<p class="deng">登录</p>
+					{/if}
+					<p class="shu1">|</p>
+					<p class="zhu">注册</p>
+					<div class="z_nav4">
+						<div class="z_top4">
+							<img src="__CDN__/assets/img/shouye/xtsj.png" />
+						</div>
+						<div class="z_bottom4">							
+							<p class="baow tw1 llzzc" style=" width: 105px;">广告主注册</p>
+							<p class="tout tw1 ggzzc" style=" width: 105px;">流量主注册</p>
+							<!--<p class="tout tw1">退出登陆</p>-->
+						</div>
+					</div>
+					
+				</div>
+				</div>
+				
+			</div>
+			
+			<div id="nav1">
+		<div id="container" class="co" style="height:50px;">
+			<div id="nav">
+				<div class="nav_c n_conmment" style="height:50px;margin-left:2px">
+					<ul class="nav_cc" style="margin-left:0px;">
 						<li class="zhuye">首页</li>
-						<li class="bangd">榜单</li>
+						<li class="bangd se">榜单</li>
 						<li class="xmtxy">新媒体学院</li>
 						<li class="chanpin">产品</li>
 						<li class="gywm">关于我们</li>
 						<li class="anl">成功案例</li>
+						<li class="renzheng">头条号企业认证<img src="__CDN__/assets/img/shouye/1006.png" style="height:35px" /></li>
 					</ul>
 					<div class="z_nav">
 						<div class="z_top">
@@ -54,43 +86,31 @@
 						</div>
 						<div class="z_bottom5">
 							<p class="tout tw15 ggz">返回我的主页</p>
+							<!--
+							<p class="tout tw15 ggz">进入广告组</p>
+							<p class="baow tw15 llz">进入流量组</p>-->
 							<p class="tout tw15 tuichu">退出登录</p>
 						</div>
 					</div>
 					<!--未登陆状态-->
 					{else /}
-					<div class="z_nav3">
+					<div class="z_nav3" style="display:none;left: 1000px;">
 						<div class="z_top">
 							<img src="__CDN__/assets/img/shouye/xtsj.png" />
 						</div>
 						<div class="z_bottom">
+							<!--<p class="tout tw1">返回我的主页</p>-->
 							<p class="baow tw1 ggzdl">广告主登录</p>
 							<p class="tout tw1 llzdl">流量主登录</p>
 						</div>
 					</div>
 					{/if}
 				</div>
-				<div class="nav_r n_conmment">
-					{if condition="$name"}
-					<p class="deng">{$name}</p>
-					{else/}
-					<p class="deng">登录</p>
-					{/if}
-					<p class="shu1">|</p>
-					<p class="zhu">注册</p>
-					<div class="z_nav4">
-						<div class="z_top4">
-							<img src="__CDN__/assets/img/shouye/xtsj.png" />
-						</div>
-						<div class="z_bottom4">
-							<p class="tout tw1 ggzzc">流量主注册</p>
-							<p class="baow tw1 llzzc">广告主注册</p>
-							<!--<p class="tout tw1">退出登陆</p>-->
-						</div>
-					</div>
-				</div>
+				
 			</div>
-			</div>
+			 	
+		</div>
+	</div>
 		
 		<div class="bw">
 			<p class="b_shu">|</p>

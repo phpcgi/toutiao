@@ -8,7 +8,7 @@ a:hover{text-decoration:underline;color:#FF3300}
 h1{font-size:16px;font-weight:600;color:#666} .left{float:left} .right{float:right} .clear{clear:both}
 i{font-style: normal;}
 body{
-	font-family: "微软雅黑";
+	font-family: "黑体";
 }
 #container{
 	width: 100%;
@@ -22,6 +22,7 @@ body{
 	margin: 0 auto;
 	position: relative;
 }
+
 #nav1{
 	width: 100%;
 	
@@ -182,13 +183,14 @@ body{
 	cursor: pointer;
 }
 .z_nav5{
-	height: 210px;
-	width: 120px;
+	height: 160px;
+	width: 150px;
 	position: absolute;
-	top: 0px;
-	left: 1013px;
+	margin-top: -90px;
+	left: 1000px;
 	z-index: 9;
 	display: none;
+
 }
 .nav_r{
 	position: relative;
@@ -197,6 +199,7 @@ body{
 	height: 15px;
 	width: 100%;
 	margin-top: 41px;
+	display: none;
 }
 .z_top5 img{
 	height: 8px;
@@ -204,31 +207,26 @@ body{
 	margin-left: 47%;
 }
 .z_bottom5{
-	height: 95px;
+	height: 115px;
 	width: 100%;
+	margin-top: 80px;
+		background-image: url(/uploads/toubj.png);
+	background-size:100% 100%;
 }
-.tw15{
-	width: 100%;
-	background: #f85959;
-	height: 47.5px;
-	text-align: center;
-	line-height: 47.5px;
-	font-size: 16px;
-	color: #370808;
-	cursor: pointer;
-}
+
 .tw15 {
 	width: 100%;
-	background: #f85959;
+
 	height: 47.5px;
 	text-align: center;
 	line-height: 47.5px;
 	font-size: 16px;
-	color: #370808;
+	color: #f85959;
 	cursor: pointer;
+	
 }
 .tw15:hover{
-	color: #FFFFFF;
+	color: #000000;
 }
 .nav_cc .se{
 	color: #F85959;

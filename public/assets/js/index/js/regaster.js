@@ -82,7 +82,26 @@ $(function(){
 		}
 		
 	})
-	
+			$(".phone").keyup(function(){
+		var num=$(".phone").val()
+		var reg1=/^1[0-9]{10}/;//验证手机号或者邮箱
+		var testNum = num;  
+		if(!reg1.test(testNum)) {  
+		   $('.yzm').css("backgroundColor","#efefef")
+		   $('.yzm').css("color","#000")		
+		   document.getElementById("nn").disabled = true;
+	     $('.tphone').css("display","block")
+	     d=0;
+		}else{
+		d=1;
+		$('.tphone').css("display","none")
+		document.getElementById("nn").disabled = false;
+
+		   $('.yzm').css("backgroundColor","#dc3932")
+		   $('.yzm').css("color","#fff")		   
+		}
+		
+	})
 	//-----------展示阳历----------------
 	$('.yl1').click(function(){
 		$('.ze1').css("display","block")

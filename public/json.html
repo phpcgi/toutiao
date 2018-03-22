@@ -1,0 +1,23 @@
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+
+ <div id="dd1"></div>
+<script type="text/javascript">
+	var dd={};
+	dd.access_token='qxWDGYVzJUNuTxihUdrX9Hutcp1Eon';
+	dd.page_num=1;
+	dd.page_size=10;
+	dd.category="军事";
+$.ajax({
+ type: "GET",
+ url: "http://ocean.tarsocial.com/api/toutiao/hot/issues?access_token=qxWDGYVzJUNuTxihUdrX9Hutcp1Eon&page_num=2&page_size=5&category=%E8%A7%86%E9%A2%91&start_time=2017-12-12T11:03:25",//利用ajax请求后台的并返回值
+ //data:dd,
+ success: function (result) {//result为后台返回的值,是json字符串的形式
+ // alert(result);
+ var obj = JSON.parse(result.data);//解析json字符串为json对象形式
+ $("#dd1").html(obj.articles.gid);
+
+ },
+
+ });
+	
+</script> 	

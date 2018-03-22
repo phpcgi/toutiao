@@ -272,15 +272,6 @@ echo $info['link'].'<br><br>';
     }
 
     public function gongshi($list=array(),$daytype){
-        /*
-         * R:  平均阅读量 = 总阅读数/篇数
-            S:  平均分享量 = 总分享量/篇数
-            C:  平均收藏量 = 总收藏量/篇数
-            P:  平均点赞量 = 总点赞量/篇数
-            T:  平均推荐量 = 总推荐量/篇数
-            W:  平均评论量 = 总评论量/篇数
-            X:  粉丝总量
-            Z:  发文篇数 */
         $sum_view_count= '';//总阅读量
         $sum_share_count= '';//总分享量
         $sum_repin_count= '';//总收藏量
@@ -296,6 +287,7 @@ echo $info['link'].'<br><br>';
 
         foreach ($list as $old){
             $sum_view_count += $old->view_count;
+            $sum_view_count += $old->play_effective_count;
             $sum_publish_num += $old->publish_num;
             $sum_share_count += $old->share_count;
             $sum_repin_count += $old->repin_count;
@@ -308,19 +300,15 @@ echo $info['link'].'<br><br>';
             $type = $old->type;
             $avatar_url = $old->avatar_url;
             $name = $old->name;
+            $description=$old->description;
         }
 
-        if($sum_publish_num==0){
-            return;
-        }
+//        if($sum_publish_num==0){
+//            return;
+//        }
 
         $setA = self::settings(1);//  id = 1  A周  b 月  c 粉丝
 
-        if($daytype==1){
-            if($sum_publish_num<$setA['A']){
-                return;
-            }
-        }
         if ($daytype==2){
             if($sum_publish_num<$setA['B'][0]){
                 return;
@@ -330,14 +318,20 @@ echo $info['link'].'<br><br>';
             return;
         }
         if ($sum_publish_num<1){
-            return;
-        }
+        $R =0;
+        $S =0;
+        $C =0;
+        $P =0;
+        $T =0;
+        $W =0;
+        }else{
         $R =round($sum_view_count/$sum_publish_num,2);
         $S =round($sum_share_count/$sum_publish_num,2);
         $C =round($sum_repin_count/$sum_publish_num,2);
         $P =round($sum_digg_count/$sum_publish_num,2);
         $T =round($sum_impression_count/$sum_publish_num,2);
         $W =round($sum_comment_count/$sum_publish_num,2);
+        }
         $new['R'] = $R;
         $new['S']  = $S;
         $new['C']  = $C;
@@ -350,6 +344,7 @@ echo $info['link'].'<br><br>';
         $new['type'] = $type;
         $new['avatar_url'] = $avatar_url;
         $new['name'] = $name;
+        $new['description'] = $description;
         $ret =$new;
         return $ret;
     }

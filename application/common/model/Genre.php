@@ -61,7 +61,7 @@ class Genre extends Model
             }
         })->order('createtime', 'desc')->limit(4)->select())->toArray();
         return $list;
-    }    
+    }
     public static function getAllTid($status = 'normal')
     {
         $list = collection(self::where(function($query) use( $status)

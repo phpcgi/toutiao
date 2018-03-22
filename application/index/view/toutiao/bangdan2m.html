@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>爆文榜</title>
+		<link rel="shortcut icon" href="http://toutiaoeasy.cn/favicon.ico" />		
+    		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+    
+		<link rel="stylesheet" href="__CDN__/assets/css/index/icommonm.css" />
+		<link rel="stylesheet" href="__CDN__/assets/css/index/nshouye.css" />
+		
+		
+		<link rel="stylesheet" href="__CDN__/assets/css/index/bangdan2m.css" />
+		
+		 <link rel="stylesheet" type="text/css" href="__CDN__/assets/css/index/pagination.css" media="screen">
+
+
+		
+	</head>
+	<body class="ui-mobile-viewport ui-overlay-a" style="height:500px;">
+			<header class="clearfix "  style=" width: 100%; height:100px; ">
+			<a href="/index/indexn"><img src="__CDN__/assets/img/shouye/aaa2.png" style="  margin-top: 12px;"/></a>
+   				
+					{if condition="$name"}
+					<!--已登陆状态-->
+					<div class="z_nav5">
+						
+						<div class="z_bottom5">
+							<p class="tout tw15 ggz">返回我的主页</p>
+							<!--
+							<p class="tout tw15 ggz">进入广告组</p>
+							<p class="baow tw15 llz">进入流量组</p>-->
+							<p class="tout tw15 tuichu">退出登录</p>
+						</div>
+					</div>
+					<!--未登陆状态-->
+					{else /}
+					<div class="z_nav3 " >
+					
+
+					</div>
+					{/if}
+			
+				<div class="nav_r n_conmment" style="width:60px;">
+					{if condition="$name"}
+					<p class="deng">{$name}</p>
+					{else/}
+					<p class="baow tw1 ggzdlm" style="    margin-top: 10px;">登录</p>
+					{/if}
+					<p class="shu1">|</p>
+				
+					<div class="z_nav4">
+						<div class="z_top4">
+							<img src="__CDN__/assets/img/shouye/xtsj.png" />
+						</div>
+						
+					</div>
+				</div>
+		 </header>
+		
+		
+		<div class="bw" style="  margin-top: 95px;">
+			<p class="b_shu">|</p>
+			<p class="bwbb">爆文榜</p>
+		</div>
+		<div id="list" >
+			<div class="list_l">
+		<!------------------------------头部-------------------------------->
+				<ul class="list_t">
+					<li class="list_tl tl1">排序</li>
+					<!--<li class="list_tl tl2">头条号</li>-->
+					<li class="list_tl tl3">标题</li>
+					<li class="list_tl tl4" >阅读量</li>
+					
+				</ul>
+		<!------------------------------内容------------------------------>
+		<div class="bw_con" style="width:561px">
+				
+	</div>
+			
+			</div>
+			
+
+		</div>
+		
+		<div class="zongye" style="display: none;"></div>
+		<div class="meiye" style="display: none;"></div>
+	</body>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+	
+	<script src="__CDN__/assets/js/index/js/jquery.pagination.js"></script>
+	<script type="text/javascript" src="__CDN__/assets/js/index/js/bangdan2m.js" ></script>
+	<script type="text/javascript" src="__CDN__/assets/js/index/js/shouye.js" ></script>
+	
+	 
+</html>

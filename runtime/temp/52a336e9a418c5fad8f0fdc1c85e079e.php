@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:65:"D:\toutiao\public/../application/index\view\toutiao\regaster.html";i:1517192547;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:65:"D:\toutiao\public/../application/index\view\toutiao\regaster.html";i:1517808034;}*/ ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -146,7 +146,7 @@
 						<div class="name_i tt">
 							<input type="text" class="tel phone"/>
 							<!--<div class="yzm">点击获取验证码</div>-->
-							<input type="button" id="nn" class="yzm"  value="免费获取验证码"/>
+							<input type="button" id="nn" class="yzm"  value="免费获取验证码" disabled="true" style="background:#efefef;color:#000000;" />
 						</div> 
 					</div>
 					<div class="content_n ct">

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<link rel="shortcut icon" href="http://toutiaoeasy.cn/favicon.ico" />		
+    		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+    
+		<link rel="stylesheet" href="__CDN__/assets/css/index/icommonm.css" />
+		<link rel="stylesheet" href="__CDN__/assets/css/index/nshouye.css" />
+		<link rel="stylesheet" href="__CDN__/assets/css/index/bangdanm.css" />
+		<link rel="stylesheet" type="text/css" href="__CDN__/assets/css/index/pagination.css" media="screen">
+		<style>
+			.zuo_k{
+				width: 120px;
+				height: 50px;
+			}
+			.leixing{
+				/*float: left;*/
+			}
+			
+		</style>
+		</head>
+	<body class="ui-mobile-viewport ui-overlay-a" style="height:1300px" >
+		<header class="clearfix "  style=" width: 100%; height:100px; ">
+			<a href="/index/indexn"><img src="__CDN__/assets/img/shouye/aaa2.png" style="  margin-top: 12px;"/></a>
+   				
+					{if condition="$name"}
+					<!--已登陆状态-->
+					<div class="z_nav5">
+						
+						<div class="z_bottom5">
+							<p class="tout tw15 ggz">返回我的主页</p>
+							<!--
+							<p class="tout tw15 ggz">进入广告组</p>
+							<p class="baow tw15 llz">进入流量组</p>-->
+							<p class="tout tw15 tuichu">退出登录</p>
+						</div>
+					</div>
+					<!--未登陆状态-->
+					{else /}
+					<div class="z_nav3 " >
+					
+
+					</div>
+					{/if}
+			
+				<div class="nav_r n_conmment" style="width:60px;">
+					{if condition="$name"}
+					<p class="deng">{$name}</p>
+					{else/}
+					<p class="baow tw1 ggzdlm" style="    margin-top: 10px;">登录</p>
+					{/if}
+					<p class="shu1">|</p>
+				
+					<div class="z_nav4">
+						<div class="z_top4">
+							<img src="__CDN__/assets/img/shouye/xtsj.png" />
+						</div>
+						
+					</div>
+				</div>
+		 </header>
+		<ul id="navn" style="  margin-top: 95px;">
+			<div class="leixing leixing1">
+			<div class="navn_l">
+				<div class="zuo_k">
+					<p class="n_shu" style="    margin-top: 18px;">|</p>
+					<p class="lei" style="    margin-top: 21px;">领域: </p>
+				</div>
+				
+			</div>
+			<div class="navn_r">
+		
+			</div>
+		</div>
+		
+		<div class="leixing leixing2">
+			<div class="navn_l">
+				<div class="zuo_k">
+					<p class="n_shu">|</p>
+					<p class="lei" style="    margin-top: 1px;">类别: </p>
+				</div>
+				
+			</div>
+			<div class="navn_p">
+				<li>传播价值榜
+					<input type="radio" class="leibie1" name="aa" value="1" />
+				</li>
+				<li>内容质量榜
+					<input type="radio" class="leibie1" name="aa" value="2" />
+				</li>
+				<li>互动效果榜
+					<input type="radio" class="leibie1" name="aa" value="3" />
+				</li>
+				<li>粉丝数量榜
+					<input type="radio" class="leibie1" name="aa" value="4" />
+				</li>
+				
+			</div>
+		</div>
+		
+		
+		</ul>
+		<div class="daoh">
+			<ul class="bang">
+				<li class="zbang zbang1 se1">周榜
+					<input type="radio" value="1"  class="zhou" name="bang" />
+				</li>
+				<li class="zbang zbang2">月榜
+					<input type="radio" value="2"  class="zhou" name="bang" />
+				</li>
+
+			</ul>
+		</div>
+		<div id="list">
+			<div class="list_l">
+		<!------------------------------头部-------------------------------->
+				<ul class="list_t">
+					<li class="list_tl t1">排序</li>
+					<li class="list_tl t2">头条号</li>
+					<li class="list_tl t3">粉丝量</li>
+					<li class="list_tl t4">平均阅读量</li>
+					<!--
+					<li class="list_tl t5">平均分享量</li>
+					<li class="list_tl t6">平均收藏量</li>
+					<li class="list_tl t7">平均点赞量</li>
+					<li class="list_tl t8">平均评论量</li>
+					-->
+					<li class="list_tl t9">指数</li>
+				</ul>
+		<!------------------------------内容------------------------------>
+				<div class="ttb_con" style="   width: 641px;">
+				
+				</div>
+				<div class="m_kuang">
+					<div class="M-box1"></div>
+				</div>				
+			</div>
+			
+		</div>
+		
+		<div class="zongye" style="display: none;"></div>
+		<div class="meiye" style="display: none;"></div>
+	</body>
+		<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+	<script src="__CDN__/assets/js/index/js/jquery.pagination.js"></script>
+	<script type="text/javascript" src="__CDN__/assets/js/index/js/shouye.js" ></script>
+	<script type="text/javascript" src="__CDN__/assets/js/index/js/bangdan.js" ></script>
+
+	<script>
+		 $('.M-box1').pagination({
+                    totalData:100,
+                    showData:5,
+                    coping:true,
+                    callback:function(api){
+                    	var b=api.getCurrent()
+                    	alert(b)
+				        var data = {
+				            page: api.getCurrent(),
+				            name: 'mss',
+				            say: 'oh'
+				        };
+//				        $.getJSON('http://localhost:3000/data.json',data,function(json){
+//				            console.log(json);
+//				        });
+   					 }
+                });
+	</script>
+    
+</html>

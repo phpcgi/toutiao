@@ -23,7 +23,6 @@ class Monthid extends Api
         foreach ($genrelist as $old){
             $tid = $old->tid;
             $id=$old->id;
-            echo $id."---".$tid.'<br>';
     ob_flush();
     flush();
     file_put_contents($firs_id.".txt",$id."-",FILE_APPEND);
@@ -49,6 +48,7 @@ class Monthid extends Api
                     $data_week->create($list);
                 }
             }
+            echo "{".$list['R']."}".$id."---".$tid.'<br>';
         }
         file_put_contents($firs_id.".txt","完成",FILE_APPEND);
     }
@@ -124,6 +124,7 @@ class Monthid extends Api
 
         foreach ($list as $old){
             $sum_view_count += $old->view_count;
+            $sum_view_count += $old->play_effective_count;
             $sum_publish_num += $old->publish_num;
             $sum_share_count += $old->share_count;
             $sum_repin_count += $old->repin_count;
@@ -136,11 +137,12 @@ class Monthid extends Api
             $type = $old->type;
             $avatar_url = $old->avatar_url;
             $name = $old->name;
+            $description=$old->description;
         }
 
-        if($sum_publish_num==0){
-            return;
-        }
+//        if($sum_publish_num==0){
+//            return;
+//        }
 
         $setA = self::settings(1);//  id = 1  A周  b 月  c 粉丝
 
@@ -153,14 +155,20 @@ class Monthid extends Api
             return;
         }
         if ($sum_publish_num<1){
-            return;
-        }
+        $R =0;
+        $S =0;
+        $C =0;
+        $P =0;
+        $T =0;
+        $W =0;
+        }else{
         $R =round($sum_view_count/$sum_publish_num,2);
         $S =round($sum_share_count/$sum_publish_num,2);
         $C =round($sum_repin_count/$sum_publish_num,2);
         $P =round($sum_digg_count/$sum_publish_num,2);
         $T =round($sum_impression_count/$sum_publish_num,2);
         $W =round($sum_comment_count/$sum_publish_num,2);
+        }
         $new['R'] = $R;
         $new['S']  = $S;
         $new['C']  = $C;
@@ -173,6 +181,7 @@ class Monthid extends Api
         $new['type'] = $type;
         $new['avatar_url'] = $avatar_url;
         $new['name'] = $name;
+        $new['description'] = $description;
         $ret =$new;
         return $ret;
     }

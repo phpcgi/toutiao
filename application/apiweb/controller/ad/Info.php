@@ -37,6 +37,8 @@ class Info extends Api
         $curl = new Curl();
 
         $url= 'https://ocean.tarsocial.com/api/toutiao/accounts/'.$id.'?access_token=EZ6JOcuvrvdeKZmaBv48M7VVRQl4Wj&fields=nickname&fields=classification&fields=rank&fields=score&fields=word_cloud&fields=classification_prob&fields=description';
+        $url=
+        'https://ocean.tarsocial.com/api/toutiao/accounts/'.$id.'?access_token=EZ6JOcuvrvdeKZmaBv48M7VVRQl4Wj&fields=nickname&fields=clssification&fields=rank&fields=score&fields=word_cloud&fields=similarity&fields=classification_prob&fields=description';
         $curl->get($url);
         $data = $curl->response;
         $j = \GuzzleHttp\json_decode($data,true);
@@ -126,6 +128,8 @@ class Info extends Api
         }
         $curl = new Curl();
         $url= 'https://ocean.tarsocial.com/api/toutiao/accounts/'.$id.'?access_token=EZ6JOcuvrvdeKZmaBv48M7VVRQl4Wj&fields=nickname&fields=classification&fields=rank&fields=score&fields=word_cloud&fields=classification_prob&fields=description';
+        $url=
+        'https://ocean.tarsocial.com/api/toutiao/accounts/'.$id.'?access_token=EZ6JOcuvrvdeKZmaBv48M7VVRQl4Wj&fields=nickname&fields=clssification&fields=rank&fields=score&fields=word_cloud&fields=similarity&fields=classification_prob&fields=description';
 
         $curl->get($url);
         $data = $curl->response;

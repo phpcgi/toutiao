@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> </title>
+         <!--自适应 -->
+		<link rel="shortcut icon" href="http://toutiaoeasy.cn/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+    
+    <link rel="stylesheet" href="__CDN__/assets/css/index/icommon.css" />
+   
+		<link rel="stylesheet" href="__CDN__/assets/css/index/xmtxym.css" />
+		 <link rel="stylesheet" href="__CDN__/assets/css/index/nshouye.css" />
+		
+		<link rel="stylesheet" type="text/css" href="__CDN__/assets/css/index/pagination.css" media="screen">
+		<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+		<script type="text/javascript" src="__CDN__/assets/js/index/js/shouye.js" ></script>
+		<style>
+			@media  screen and (min-width: 1000px) {
+				body{
+					height: 1080px;
+					/*width: 1920px;*/
+				}
+			}
+			
+		</style>
+	</head>
+	<body>
+		
+			<body class="ui-mobile-viewport ui-overlay-a" style="height:1150px" ">
+	<header class="clearfix "  style=" width: 100%; height:100px; ">
+			<a href="/index/indexn"><img src="__CDN__/assets/img/shouye/aaa2.png" style="  margin-top: 12px;"/></a>
+   				
+					{if condition="$name"}
+					<!--已登陆状态-->
+					<div class="z_nav5">
+						
+						<div class="z_bottom5">
+							<p class="tout tw15 ggz">返回我的主页</p>
+							<!--
+							<p class="tout tw15 ggz">进入广告组</p>
+							<p class="baow tw15 llz">进入流量组</p>-->
+							<p class="tout tw15 tuichu">退出登录</p>
+						</div>
+					</div>
+					<!--未登陆状态-->
+					{else /}
+					<div class="z_nav3 " >
+					
+
+					</div>
+					{/if}
+			
+				<div class="nav_r n_conmment" style="width:60px;">
+					{if condition="$name"}
+					<p class="deng">{$name}</p>
+					{else/}
+					<p class="baow tw1 ggzdlm" style="    margin-top: 10px;">登录</p>
+					{/if}
+					<p class="shu1">|</p>
+				
+					<div class="z_nav4">
+						<div class="z_top4">
+							<img src="__CDN__/assets/img/shouye/xtsj.png" />
+						</div>
+						
+					</div>
+				</div>
+		 </header>
+		
+		<!-----------------------------------------banner------------------------------------->
+		<div id="naaa" algin="center" style="margin-top: 80px;" >
+		<div class="na"  align="center" width: 641px; style="
+    padding-top: 30px;
+    margin-bottom: -20px;
+" > 
+                	<table width="641" height="55" border="1">
+                
+					<tr> 
+						<td >
+							<a href="/index/Xmtxym"><h1 style="   padding-left: 20px;">讲堂</h1></a>
+						           </td>
+						<td align="right">
+							<h1 style="text-align:right;padding-right: 30px;">最新课堂预告</h1>
+						</td >					
+					</tr>
+                    </table>
+                 </div>
+               </div>
+		
+		<div id="newslist" style="padding-top:10px;">
+		<div class="newslist_r" style=" width: 641px; height: 840px;">
+					<img src="{$info.image}" />
+				</div>
+		</div>
+		
+	</body>
+	<script src="__CDN__/assets/js/index/js/jquery.pagination.js"></script>
+	<!--<script src="__CDN__/assets/js/index/js/xmtxy.js"></script>-->
+	<script type="text/javascript" src="__CDN__/assets/js/index/js/xmtxy.js" ></script>
+
+	<script>
+		
+	</script>
+</html>

@@ -1,0 +1,213 @@
+<div id="tishi"></div><br><br>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+绑定头条号：头条号名：<input id="toutiao1" required=""  name="tid" type="text">
+<button type="button" value='添加' style="background-color:#db3932;font-size: 16px;color: white;height:35px;width:180px;border: none;margin-left:20px;border-radius: 5px;" onclick="toutiao()">添加头条号</button>
+<br><br><br>
+添加头条号价格：<div id="toutiao"></div>
+<select name="lei" id="lei">
+<option value="撰稿">撰稿</option>
+<option value="发文">发文</option>
+</select>
+<select name="leixing" id="leixing">
+	<option value="">不选择</option>
+<option value="悟空问答">悟空问答</option>
+<option value="微头条">微头条</option>
+</select>
+价格：<input id="jg" required=""  name="jg" type="text">
+<button type="button" value='添加' style="background-color:#db3932;font-size: 16px;color: white;height:35px;width:80px;border: none;margin-left:20px;border-radius: 5px;" onclick="tid()">添加</button>
+<br />
+<div id="xui"></div>
+<form id="edit-form" class="form-horizontal form-ajax" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label for="c-name" class="control-label col-xs-12 col-sm-2">绑定头条号：</label>
+        <div class="col-xs-12 col-sm-8">
+           <div id="tid1"></div> <input id="tidjg" required="" class="form-control" name="row[tid]" value="{$row.tid}" type="hidden">
+        </div>
+    </div>
+
+    <div class="form-group hide layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>
+<script>
+	var tid1=document.getElementById("tid1");
+	tid1.innerHTML='';
+		var tishi=document.getElementById("tishi");
+	tishi.innerHTML='{$row.tishi}';
+	var tou=new Array();
+	tou='{$row.tid}'.split("|");
+	t=tou.splice(tou.length-1,1)
+for(j = 0,len=tou.length; j < len; j++) {
+tid1.innerHTML+='头条号：'+tou[j] + '<a href="#" onclick="xui('+j+')">修改</a>　<a href="#" onclick="fuzhi('+j+')">复制</a>　<a href="#" onclick="del('+j+')">删除</a><br />';
+}	
+var tidjg=document.getElementById("tidjg");
+tidjg.value='{$row.tid}';
+
+	var posttid='';
+	
+function tid(){
+	var lei=document.getElementById("lei");
+	var leixing=document.getElementById("leixing");
+var jg=document.getElementById("jg");
+var tid1=document.getElementById("tid1");
+var tidjg=document.getElementById("tidjg");
+if(jg.value!='')
+{
+	var posttid='';
+var x1=new Array();
+cx1=x1.push(tou[count-1]);
+cx=x1.push(lei.value+leixing.value+':'+jg.value);
+cc=tou.splice(count-1,1,x1)
+tid1.innerHTML='';
+for(j = 0,len=tou.length; j < len; j++) {
+tid1.innerHTML+='头条号：'+tou[j] + '<a href="#" onclick="xui('+j+')">修改</a>　<a href="#" onclick="fuzhi('+j+')">复制</a>　<a href="#" onclick="del('+j+')">删除</a><br />';
+posttid+=tou[j]+'|';
+}
+}
+tidjg.value=posttid;
+}
+
+function toutiao(){
+var toutiao=document.getElementById("toutiao");
+var toutiao1=document.getElementById("toutiao1");
+var tid1=document.getElementById("tid1");
+var tidjg=document.getElementById("tidjg");
+if(toutiao1.value!='')
+{
+	$.ajax({
+url:"/admin/jiesuan/Zhanghao/so", 
+type:"GET", 
+data:"name="+$("#toutiao1").val(), 
+success: function(m)
+{
+	$("#tishi").html(m); 
+if(m == 'b')
+	{
+	var posttid='';
+toutiao.innerHTML = toutiao1.value;
+var x1=new Array();
+cx1=x1.push(toutiao1.value);
+count=tou.push(x1);
+tid1.innerHTML='';
+for(j = 0,len=tou.length; j < len; j++) {
+tid1.innerHTML+='头条号：'+tou[j] + '<a href="#" onclick="xui('+j+')">修改</a>　<a href="#" onclick="fuzhi('+j+')">复制</a>　<a href="#" onclick="del('+j+')">删除</a><br />';
+posttid+=tou[j]+'|';
+}
+$("#tishi").html('添加头条号完成！'); 
+}else{
+$("#tishi").html('无此头条号！请重新输入！'); 
+}
+
+}
+});
+
+}
+tidjg.value=posttid;
+}
+
+function xui(id){
+	var xui=document.getElementById("xui");
+	var toutiao=document.getElementById("toutiao");
+	
+		var tt=new Array();
+	tt=tou[id].split(",");
+	count=id+1;
+	toutiao.innerHTML = tt[0];
+	xui.innerHTML='头条号：'+tt[0]+'<br>';
+for(j = 1,len=tt.length; j < len; j++) {
+xui.innerHTML+='<input id="xuixui'+j+'" name="xuig" value="'+tt[j] + '" type="text"><br>';
+}
+	xui.innerHTML+='<a href="#" onclick="xui1('+id+')">确认修改</a>';
+	
+}
+
+
+function xui1(id){
+var controls=document.getElementsByName("xuig");
+	var xui1=document.getElementById("xui");
+	var tidjg=document.getElementById("tidjg");
+var posttid='';
+		var tt=new Array();
+	tt=tou[id].split(",");
+var x1=new Array();
+cx1=x1.push(tt[0]);
+for(var i=0;i<controls.length;i++)//这里是length还是count记不清了
+{
+ //   controls[i].style.display="none";
+ //   xui1.innerHTML+=controls[i].value+'-----';
+    cx=x1.push(controls[i].value);
+}
+cc=tou.splice(id,1,x1)
+tid1.innerHTML='';
+for(j = 0,len=tou.length; j < len; j++) {
+tid1.innerHTML+='头条号：'+tou[j] + '<a href="#" onclick="xui('+j+')">修改</a>　<a href="#" onclick="fuzhi('+j+')">复制</a>　<a href="#" onclick="del('+j+')">删除</a><br />';
+posttid+=tou[j]+'|';
+}
+tidjg.value=posttid;
+xui1.innerHTML='';
+}
+
+
+
+
+
+function fuzhi(id){
+	var xui=document.getElementById("xui");
+	var toutiao=document.getElementById("toutiao");
+	
+		var tt=new Array();
+	tt=tou[id].split(",");
+	xui.innerHTML='复制头条号：'+tt[0]+'<br>';
+xui.innerHTML+='<input id="xuixui'+j+'" name="xuig" value="" type="text"><br>';
+
+	xui.innerHTML+='<a href="#" onclick="fuzhi1('+id+')">确认复制</a>';
+	
+}
+
+function fuzhi1(id){
+var controls=document.getElementsByName("xuig");
+	var xui1=document.getElementById("xui");
+	var tidjg=document.getElementById("tidjg");
+var posttid='';
+if(controls[0].value){
+var x1=new Array();
+cx=x1.push(controls[0].value);
+	var tt=new Array();
+	tt=tou[id].split(",");
+for(j = 1,len=tt.length; j < len; j++) {
+	cx=x1.push(tt[j]);
+}
+cc=tou.push(x1)
+tid1.innerHTML='';
+for(j = 0,len=tou.length; j < len; j++) {
+tid1.innerHTML+='头条号：'+tou[j] + '<a href="#" onclick="xui('+j+')">修改</a>　<a href="#" onclick="fuzhi('+j+')">复制</a>　<a href="#" onclick="del('+j+')">删除</a><br />';
+posttid+=tou[j]+'|';
+}
+tidjg.value=posttid;
+xui1.innerHTML='';
+}
+}
+
+
+
+function del(id){
+var controls=document.getElementsByName("xuig");
+	var xui1=document.getElementById("xui");
+	var tidjg=document.getElementById("tidjg");
+var posttid='';
+
+cc=tou.splice(id,1)
+tid1.innerHTML='';
+for(j = 0,len=tou.length; j < len; j++) {
+tid1.innerHTML+='头条号：'+tou[j] + '<a href="#" onclick="xui('+j+')">修改</a>　<a href="#" onclick="fuzhi('+j+')">复制</a>　<a href="#" onclick="del('+j+')">删除</a><br />';
+posttid+=tou[j]+'|';
+}
+tidjg.value=posttid;
+xui1.innerHTML='';
+}
+</script>

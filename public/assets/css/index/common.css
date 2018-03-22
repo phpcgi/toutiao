@@ -99,18 +99,7 @@ body{
 	height: 95px;
 	width: 100%;
 }
-.tw1{
-	width: 260;
-	background: #f85959;
-	height: 50.5px;
-	line-height: 50.5px;
-	font-size: 14px;
-	color: #370808;
-	border-bottom:1px solid #fa8b8b ;
-	color: #FFFFFF;
-	padding: 0 20px;
 
-}
 .tw1:hover{
 	color: #FFFFFF;
 }
@@ -135,13 +124,13 @@ body{
 }
 .z_nav3{
 	height: 210px;
-	width: 120px;
+	width: 240px;
 	position: absolute;
 	top: 0px;
-	left: 0px;
+	margin-left: -50px;
 	z-index: 199;
 	display: none;
-	/*background: saddlebrown;*/
+	/*background: saddlebrown;*/		
 }
 .login{
 	float: left;
@@ -153,24 +142,28 @@ body{
 	height: 15px;
 	width: 100%;
 	margin-top: 41px;
+		display: none;	
 }
 .z_top img{
 	height: 8px;
 	width: 11px;
 	margin-left: 47%;
+
 }
 .z_bottom{
-	height: 95px;
+	height: 195px;
 	width: 100%;
+		margin-top: 80px;
+		background-image: url(/uploads/toubj.png);
+	background-size:100% 100%;
 }
 .tw1{
-	width: 100%;
-	background: #f85959;
+	width: 240px;
 	height: 47.5px;
 	text-align: center;
 	line-height: 47.5px;
 	font-size: 16px;
-	color: #FFFFFF;
+	color: #f85959;
 	cursor: pointer;
 }
 .tw1:hover{

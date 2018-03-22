@@ -1,6 +1,25 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		
+		<script type="text/javascript"> 
+     
+        var sUserAgent = navigator.userAgent.toLowerCase(); 
+        var bIsIpad = sUserAgent.match(/ipad/i) == "ipad"; 
+        var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os"; 
+        var bIsMidp = sUserAgent.match(/midp/i) == "midp"; 
+        var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4"; 
+        var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb"; 
+        var bIsAndroid = sUserAgent.match(/android/i) == "android"; 
+        var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce"; 
+        var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile"; 
+        if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM ){ 
+          window.location.href="/index/Ggzm";
+        } 
+       
+          
+</script>
+
 		<meta charset="UTF-8">
 		<title></title>
 		<link rel="stylesheet" href="__CDN__/assets/css/index/common.css" />
@@ -136,7 +155,7 @@
 							<p class="zhi">至</p>
 							<input type="text" placeholder="最高数值" class="zd zd2 zg1" />
 						</div>
-						<p class="ss s3">不限</p>
+						<p class="ss s3">提交</p>
 					</div>
 					<div class="ll2">
 						<p class="lei_shu">|</p>
@@ -148,7 +167,7 @@
 							<p class="zhi">至</p>
 							<input type="text" placeholder="最高价格" class="zd zd2 zg2" />
 						</div>
-						<p class="ss s3">不限</p>
+						<p class="ss s3">提交</p>
 					</div>
 					<div class="ll2">
 						<p class="lei_shu">|</p>

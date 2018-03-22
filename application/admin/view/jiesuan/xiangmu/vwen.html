@@ -1,0 +1,192 @@
+
+<div id="tishi"></div><br><br>
+
+<style>
+td{
+	font-size:14px;
+	color:#000000;
+	font-family:微软雅黑;
+  height:30px;
+	}
+</style>
+<table id="editfawen" cellspacing="30" width="100%" style="display:none;">
+	<tr>
+		<td align="right" colspan="2" width="66%">
+			类型：<select name="lei" id="lei"  onchange="lei1()">
+				<option value="">不选择</option>
+<option value="撰稿">撰稿</option>
+<option value="发文">发文</option>
+</select>
+			<select name="leixing" id="leixing" onchange="lei2()">
+<option value="">不选择</option>
+<option value="悟空问答">悟空问答</option>
+<option value="微头条">微头条</option>
+</select><input id="fawen" required=""  name="fawen" type="text">
+		</td><td align="right" width="33%">
+			标题：<input id="title" required=""  name="title" type="text">
+		</td>
+	</tr>
+		<tr>
+			<td align="right">
+			头条号：<input id="toutiao" required=""  name="toutiao" type="text">
+		</td>
+		<td align="right">
+			链接：<input id="url" required=""  name="url" type="text">
+		</td>
+				<td align="right">
+			名称：<input id="nname" required=""  name="nname" type="text">
+		</td>
+	</tr>
+	<tr>
+
+		<td align="right">
+			价格：<input id="price" required=""  name="price" type="text">
+		</td><td align="right">
+			备注：<input id="bz" required=""  name="bz" type="text">
+		</td>
+		<td align="right">
+					<button type="button" id="tianjia" value='检索' style="background-color:#db3932;font-size: 16px;color: white;height:25px;width:80px;border: none;margin-left:20px;border-radius: 5px;" onclick="editf()" >修改</button>
+		</td>
+<input id="id" required="" class="form-control" name="id" value="" type="hidden">
+<input id="xid" required="" class="form-control" name="xid" value="" type="hidden">
+	</tr>
+</table>
+
+
+<table width="100%">
+<tr><td>
+	公司名和个人名称
+	</td><td>
+		标题
+	</td><td>
+		头条号
+	</td><td>
+		链接
+	</td><td>
+		平台类型
+	</td><td>
+		价格
+	</td><td>
+		备注
+	</td><td>
+		操作
+	</td></tr>
+{volist name="data" id="vo"  }
+<tr id="{$vo.id}"><td>
+	{$vo.nname}
+	</td><td>
+		{$vo.title}
+	</td><td>
+		{$vo.toutiao}
+	</td><td>
+		{$vo.link}
+	</td><td>
+		{$vo.show}
+	</td><td>
+		{$vo.price}
+	</td><td>
+		{$vo.bz}
+	</td><td>
+		<a href="#" onclick="edit({$vo.id})">修改</a>　<a href="#" onclick="del({$vo.id})">删除</a>
+	</td></tr>
+
+
+
+{/volist}
+
+</table>
+
+
+<script>
+	      	 function lei1(){
+      		//alert(toutiao);
+      		$("#fawen").val($("#lei").val()+$("#leixing").val());
+      	}
+      	 function lei2(){
+      		//alert(toutiao);
+      		$("#fawen").val($("#lei").val()+$("#leixing").val());
+      	} 
+		function del(id){
+$.ajax({
+url:"/admin/jiesuan/Xiangmu/delfawen", 
+type:"GET", 
+data:"ids="+id, 
+success: function(m)
+{ 
+	if(m == 'a')
+	{
+		$("#tishi").html("删除失败！已确认不能删除！");
+}
+else{
+	$("#tishi").html("删除成功！");
+	$("#"+id).remove();
+
+}
+
+}
+});
+}
+		function edit(id){
+$.ajax({
+url:"/admin/jiesuan/Xiangmu/editfawen", 
+type:"GET", 
+data:"ids="+id, 
+success: function(m)
+{
+	if(m == 'a')
+	{
+		$("#tishi").html("已确认不能修改！");
+		$("#editfawen").attr("style","display:none");
+}
+else{
+	$("#tishi").html("");
+	$("#editfawen").attr("style","display:");
+	$("#price").val(m.price)
+	$("#nname").val(m.nname)
+	$("#url").val(m.link)
+	$("#fawen").val(m.show)
+	$("#title").val(m.title)
+	$("#toutiao").val(m.toutiao)
+	$("#bz").val(m.bz)
+	$("#id").val(m.id)
+	$("#xid").val(m.xid)
+}
+
+}
+});
+}
+		function editf(){
+if($("#nname").val()!='' && $("#price").val()!='') 
+{  			
+						var obj={};
+			obj.id=$("#id").val();
+			obj.xid=$("#xid").val();
+			obj.show=$("#fawen").val();
+			obj.title=$("#title").val();
+			obj.link=$("#url").val();
+			obj.nname=$("#nname").val(); 
+			obj.toutiao=$("#toutiao").val();    
+			obj.price=$("#price").val();   	 	
+			obj.bz=$("#bz").val(); 
+$.ajax({
+url:"/admin/jiesuan/Xiangmu/editf", 
+type:"GET", 
+data:obj, 
+success: function(m)
+{
+$("#tishi").html(m);
+	$("#editfawen").attr("style","display:none");
+}
+});
+}
+else
+	{
+	alert("必须填写名称和价格！");	
+	}
+}
+
+	
+	
+	
+	
+</script>	

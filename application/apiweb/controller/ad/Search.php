@@ -27,6 +27,7 @@ class Search extends Api
         $page =13;
         $start = Request::instance()->request('start');
         $data['name'] = Request::instance()->request('name');
+        $data['description'] = Request::instance()->request('description');
         $data['type'] = Request::instance()->request('type');
         $data['readnum'] = Request::instance()->request('readnum');//阅读量
         $data['cost'] = Request::instance()->request('cost');//价格
@@ -77,7 +78,6 @@ class Search extends Api
             $new['is_coll'] =self::iscollector($old['tid']);
             $new['is_buy'] =self::isextid($old['id']);
             $new['name'] = $old['name'];
-
             $new['type'] = $old['type'];
             $new['avatar_url'] = $old['avatar_url'];
             $new['A4'] = $old['sum_fans_count'];

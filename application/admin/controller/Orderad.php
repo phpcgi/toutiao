@@ -45,6 +45,7 @@ class Orderad extends Backend
 
             $listc = $this->model
                 ->where([$where,'del'=>1])
+                ->order('createtime desc')
                 ->order($sort, $order)
                 ->limit($offset, $limit)
                 ->select();

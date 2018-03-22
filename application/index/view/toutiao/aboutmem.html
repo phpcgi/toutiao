@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="__CDN__/assets/css/index/aboutmem.css" />
+		<link rel="stylesheet" href="__CDN__/assets/css/index/icommonm.css" />
+		
+		<link rel="stylesheet" href="__CDN__/assets/css/index/nshouye.css" />
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+		
+		<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+		<script type="text/javascript" src="__CDN__/assets/js/index/js/aboutme.js" ></script>
+	<script type="text/javascript" src="__CDN__/assets/js/index/js/shouye.js" ></script>
+
+	</head>
+	<body  class="ui-mobile-viewport ui-overlay-a" style="height:1300px" ">
+		
+			<header class="clearfix "  style=" width: 100%; height:100px; ">
+			<a href="/index/indexn"><img src="__CDN__/assets/img/shouye/aaa2.png" style="  margin-top: 12px;"/></a>
+   				
+					{if condition="$name"}
+					<!--已登陆状态-->
+					<div class="z_nav5">
+						
+						<div class="z_bottom5">
+							<p class="tout tw15 ggz">返回我的主页</p>
+							<!--
+							<p class="tout tw15 ggz">进入广告组</p>
+							<p class="baow tw15 llz">进入流量组</p>-->
+							<p class="tout tw15 tuichu">退出登录</p>
+						</div>
+					</div>
+					<!--未登陆状态-->
+					{else /}
+					<div class="z_nav3 " >
+					
+
+					</div>
+					{/if}
+			
+				<div class="nav_r n_conmment" style="width:60px;">
+					{if condition="$name"}
+					<p class="deng">{$name}</p>
+					{else/}
+					<p class="baow tw1 ggzdlm" style="    margin-top: 10px;">登录</p>
+					{/if}
+					<p class="shu1">|</p>
+				
+					<div class="z_nav4">
+						<div class="z_top4">
+							<img src="__CDN__/assets/img/shouye/xtsj.png" />
+						</div>
+						
+					</div>
+				</div>
+		 </header>
+				
+				<div class="naaa" align="center" width: 641px;  >
+			<img   src="__CDN__/assets/img/shouye/log2.png" style="width: 641px;  margin-top: 95px; height: 1779px;" />
+			</div>
+			
+		
+		<!----------------------------------------关于我们左侧------------------------------------------>
+		
+		<!---------------------------------------------footer--------------------------------------------->
+		
+	</body>
+</html>
